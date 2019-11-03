@@ -1,5 +1,6 @@
 ---
 title: "IODS course project"
+author: "Ville Aro"
 output:
   html_document:
     theme: cosmo

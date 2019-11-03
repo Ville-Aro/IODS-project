@@ -2,3 +2,21 @@
 # About the project
 
 *Write a short description about the course and add a link to your GitHub repository here. This is an R Markdown (.Rmd) file so you can use R Markdown syntax.*
+
+**How are you feeling right now?**
+
+*Feeling well, maybe a bit tired as it is already sunday evening. Just finished the datacamp trainings which were actually quite fun.*
+
+**What do you expect to learn?** 
+
+*Expect to learn the basics of r, and to be able to use r more independently in the future instead of SPSS. Basic understanding of coding, its possibilities and utilities for work/personal life.*
+
+**Where did you hear about the course?**
+
+*My Brother messaged me about this course and said it could be useful and interesting. I work full time and I'm also doing my thesis. To this point I have been using SPSS, but maybe I can try some analysis with r aswell for the data.*
+
+
+LINK: https://github.com/Ville-Aro/IODS-project
+
+# Header1 {#anchor}
+
