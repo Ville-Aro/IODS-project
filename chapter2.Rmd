@@ -1,19 +1,27 @@
 # Exercise 2
 
-install.packages("dplyr")
-install.packages("ggplot2")
-install.packages("GGally")
+
+
+```{r}
+install.packages("dplyr", repos="http://cran.us.r-project.org")
+install.packages("ggplot2", repos="http://cran.us.r-project.org")
+install.packages("GGally", repos="http://cran.us.r-project.org")
 library(ggplot2)
 library(GGally)
 library(dplyr)
+```
+
 
 # 1 Reading the data
 
-harjoitusdata <- read.table("data/Create_learning2014.R", header=TRUE)
 
+```{r}
+harjoitusdata <- read.table("data/Create_learning2014.R", header=TRUE)
 summary(harjoitusdata$Age)
 
 str(harjoitusdata)
+```
+
 
 ## Describing the data
 The dataset has been collected during 12/2014-1/2015. The data consists of 166 observations and has 7 variables, which are
@@ -22,12 +30,19 @@ The dataset has been collected during 12/2014-1/2015. The data consists of 166 o
 
 ## 2 Graphical overview of the data
 
+```{r}
 summary(harjoitusdata)
 ggpairs(harjoitusdata, lower = list(combo = wrap("facethist", bins = 20)))
+```
 
-"From the correlation picture we can see that the strongest correlations is between the global attitude towards statistics and total points. This correleation is positive. Lowest correlation is between deep learning and total Points."
+
+"From the correlation picture we can see that the strongest correlations is between the global attitude towards statistics and total points. This correleation is positive. Lowest correlation is between deep learning and total Points.
+
+
 
 ## 3 & 4 Regression model 
+
+```{r}
 
 m1 <- lm(Points ~ Attitude + stra + Age, data = harjoitusdata)
 
@@ -40,6 +55,9 @@ summary(m2)
 m3 <- lm(Points ~ Attitude, data = harjoitusdata)
 
 summary(m3)
+```
+
+
 
 "From the model 1 (m1) we can see that only Attitude had a very strong statistical significance in explaining the Points total variable (p<0,001). From the model we can see that a higher attitude towards statistical learning is connected to higher exam points. The other variables did not have signicicant impact to total points. Also from the model 2 (m2) you can see a model with other variables and also deep learning or surf learning did not have statistical significance to total points as neither did age or strategical learning, as we can see from model 1 (m1). Also tested in a separate model gender did not have a statistical significance towards points total
 
@@ -51,8 +69,12 @@ In model 3 i only have the attitude as the explanatory variable. This model has 
 
 ## 5 Model diagnostic
 
+```{r}
 par(mfrow = c(2,2))
 
 plot(m3, which = c(1, 2, 5))
+```
+
+
 
 "From the picture **Normal Q-Q** we can see that the model is normally distributed. From the picture **Residual vs Fitted** we can see how much the data points vary from the residual (which is the expecetd outcome based on the model) **Residuals vs Leverage** helps us identify influential data points. From these we can see that there are few influential data points in the left down section of the picture."
