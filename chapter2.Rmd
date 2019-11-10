@@ -6,6 +6,7 @@ install.packages("GGally")
 library(ggplot2)
 library(GGally)
 library(dplyr)
+
 # 1 Reading the data
 
 harjoitusdata <- read.table("data/Create_learning2014.R", header=TRUE)
