@@ -1,7 +1,57 @@
-# Insert chapter 2 title here
+# Excercise 2
 
-*Describe the work you have done this week and summarize your learning.*
+install.packages("ggplot2")
+install.packages("GGally")
+library(ggplot2)
+library(GGally)
+library(dplyr)
+# 1 Reading the data
 
-- Describe your work and results clearly. 
-- Assume the reader has an introductory course level understanding of writing and reading R code as well as statistical methods.
-- Assume the reader has no previous knowledge of your data or the more advanced methods you are using.
+harjoitusdata <- read.table("data/Create_learning2014.R", header=TRUE)
+
+summary(harjoitusdata$Age)
+
+str(harjoitusdata)
+
+## Describing the data
+The dataset has been collected during 12/2014-1/2015. The data consists of 166 observations and has 7 variables, which are
+
+**1)** Gender= Subjects gender, male / female  **2)** Age = Subjects age ranging from 17 to 55, with the mean being 25,51 **3)** Attitude, which measures global attitude toward statistics with 10 questions. The attitude variable is a meansum variable of these 10 questions. **4)** Deep is a factor variable that measures the deep learning, it is also a meansum variable consisting of 12 questions **5)** Stra factor variable measures Stategic learning cababilities, it consist of 8 questions and is a meansum variable of these. **6)**  surf is a factor variable measures the surface learning cababilities via 12 questions. **7)** Points variable measures how many points in total an individual received from the course exam
+
+## 2 Graphical overview of the data
+
+summary(harjoitusdata)
+ggpairs(harjoitusdata, lower = list(combo = wrap("facethist", bins = 20)))
+
+"From the correlation picture we can see that the strongest correlations is between the global attitude towards statistics and total points. This correleation is positive. Lowest correlation is between deep learning and total Points."
+
+## 3 & 4 Regression model 
+
+m1 <- lm(Points ~ Attitude + stra + Age, data = harjoitusdata)
+
+summary(m1)
+
+m2 <- lm(Points ~ Attitude + deep + surf, data = harjoitusdata)
+
+summary(m2)
+
+m3 <- lm(Points ~ Attitude, data = harjoitusdata)
+
+summary(m3)
+
+"From the model 1 (m1) we can see that only Attitude had a very strong statistical significance in explaining the Points total variable (p<0,001). From the model we can see that a higher attitude towards statistical learning is connected to higher exam points. The other variables did not have signicicant impact to total points. Also from the model 2 (m2) you can see a model with other variables and also deep learning or surf learning did not have statistical significance to total points as neither did age or strategical learning, as we can see from model 1 (m1). Also tested in a separate model gender did not have a statistical significance towards points total
+
+From the summary table it can be seen that 1 higher point in attitude rises the points total (B) by 3,46.
+
+The multiple squared for the model 1 was 0,2182 and for model 2 it was 0,2024. This describes how much these variables explain the variation of the dependent. It means that 80 % of the variation is explained by other factors
+
+In model 3 i only have the attitude as the explanatory variable. This model has the r square of 19,06 %"
+
+## 5 Model diagnostic
+
+par(mfrow = c(2,2))
+
+plot(m3, which = c(1, 2, 5))
+plot(m3, which = c(5))
+
+"From the picture **Normal Q-Q** we can see that the model is normally distributed. From the picture **Residual vs Fitted** we can see how much the data points vary from the residual (which is the expecetd outcome based on the model) **Residuals vs Leverage** helps us identify influential data points. From these we can see that there are few influential data points in the left down section of the picture."
