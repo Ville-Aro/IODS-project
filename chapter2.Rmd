@@ -1,5 +1,6 @@
 # Exercise 2
 
+install.packages("dplyr")
 install.packages("ggplot2")
 install.packages("GGally")
 library(ggplot2)
@@ -52,6 +53,5 @@ In model 3 i only have the attitude as the explanatory variable. This model has 
 par(mfrow = c(2,2))
 
 plot(m3, which = c(1, 2, 5))
-plot(m3, which = c(5))
 
 "From the picture **Normal Q-Q** we can see that the model is normally distributed. From the picture **Residual vs Fitted** we can see how much the data points vary from the residual (which is the expecetd outcome based on the model) **Residuals vs Leverage** helps us identify influential data points. From these we can see that there are few influential data points in the left down section of the picture."
