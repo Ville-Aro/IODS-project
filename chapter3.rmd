@@ -1,0 +1,128 @@
+
+# Excercise 3
+
+
+## 1) Creating a markdown chapter 3
+
+"I have created the chaper 3 markdown and linked it to the index-rmd"
+---
+title: "Excercise 3"
+author: "ville"
+date: "17/11/2019"
+output: html_document
+---
+
+## 2a) Reading the data
+
+```{r}
+
+library(ggplot2)
+library(GGally)
+library(dplyr)
+
+url <- "/Users/ville/Documents/IODS-project/data/alc"
+
+
+alc <- read.table(url, header=TRUE)
+
+
+colnames(alc)
+
+```
+
+## 2b) Desciribng the data 
+
+"This data approach student achievement in secondary education of two Portuguese schools. The data attributes include student grades, demographic, social and school related features) and it was collected by using school reports and questionnaires. Two datasets are provided regarding the performance in two distinct subjects: Mathematics (mat) and Portuguese language (por). In [Cortez and Silva, 2008], the two datasets were modeled under binary/five-level classification and regression tasks. Important note: the target attribute G3 has a strong correlation with attributes G2 and G1. This occurs because G3 is the final year grade (issued at the 3rd period), while G1 and G2 correspond to the 1st and 2nd period grades. It is more difficult to predict G3 without G2 and G1, but such prediction is much more useful (see paper source for more details). The data (n=382) has 35 different variables and is a joined data of the two datasets. The names of the variables can be seen above"
+
+
+## 3) Choosing the variables
+
+"I have chosen the following variables as explanatory for alcohol consumption **1) Sex** = students sex (F=female, M=Male) **2) Pstatus** = parent's cohabitation status (binary: 'T' - living together or 'A' - apart)  **3) Failures'**=  number of past class failures (numeric: n if 1<=n<3, else 4) **4) Romantic**. = with a romantic relationship (binary: yes or no)
+
+My hypothesis is that for gender (sex), men have higher alcohol consumptions than women. For Pstatus, parents living apart could have positive impact on alcohol consumption. For failures the more higher number of failed classes could have a rising impact on alcohol usage. And for the romantic status being in a relationship could have negative impact on alcohol consumption "
+
+
+## 4) Distribution of the chosen variables and their relationships with alcohol consumption
+
+```{r}
+g1 <- ggplot(data = alc, aes(x = alc_use, fill = sex))
+g1 + geom_bar() 
+```
+
+"In the first plot i have combines the alcohol usage mean from weekend and weekdays and gender. From the first plot, we can see that the hypothesis made earlier is rather true with this data. As we can see that when the alcohol consumption rises, the Male group takes the dominant portion of the group. From this it looks like Men have a higher tendency to drink more than Women"
+
+```{r}
+g2 <- ggplot(data = alc, aes(x = alc_use, fill = Pstatus ))
+g2 + geom_bar()
+```
+
+"In the second plot i have combined the alcohol usage with participants parental status. From this we can see that major portion of the participants live in families where the parents live together, and only a small portion come from divorced families.From this it looks like the participants whose parents live apart are using less alcohol."
+
+```{r}
+g3 <- ggplot(data = alc, aes(x = failures, fill = high_use))
+g3 + geom_bar()
+```
+
+
+"In the third plot we have the participants divided to groups by how many class failures they
+ve had recently and have examined the alcohol usage of these groups. In this plot I have used the high use variable, which is a binary variable that is TRUE if the pariticipants alcohol consumption is high and false if it is low or very low. From this it looks like only small proportion of the participants have failed classes recently. It also seems that in the groups with more failures also alcohol usage is higher."
+
+
+```{r}
+g4 <- ggplot(data = alc, aes(x = alc_use, fill = romantic ))
+g4 + geom_bar()
+```
+
+"In the last plot i have combined the relationship status with alcohol consumption. From this picture it seems that a major part of the participants are not in a romantic relationship. It also seems that participants who are in romantic relationship also have lower alcohol usage"
+          
+
+
+## 5) Logistic regression
+
+```{r}
+m <- glm(high_use ~ failures + romantic + Pstatus + sex, data = alc, family = "binomial")
+
+summary(m)
+```
+"Above I have made the logistic regression model with 4 explanatory variables (failures, romantic, Pstatus and sex) and high alcohol usage as the explained variable
+
+From the model we can see that failures and gender (sex) has a statistically significant relationship with high alcohol usage (p<0,001). The Ods ratios mean that one higher group in failures raises the probability of higher alcohol usage by 49 %. Also men have 82,28 % higher probability to have higher alcohol usage than men. Being in a relationship has a negative effect on alcohol usage but this is not statistically significant. Also parents living together have a negative effect on higher alcohol consumption but this also is not statistically significant"
+
+```{r}
+OR <- coef(m) %>% exp
+CI <- confint(m) %>% exp
+
+cbind(OR, CI)
+```
+"Above we can see the confidence interlwalls and Odds ratios (OR). From this the two variables with significance were gender and failures. Those that fail have 1,6 x higher chance for high alcohol usage and men have 2,3 x higher chance for high alcohol usage"
+
+
+
+## 6) Prection analysis
+
+```{r}
+probabilities <- predict(m, type = "response")
+
+alc <- mutate(alc, probability = probabilities)
+
+alc <- mutate(alc, prediction = probabilities > 0.5)
+
+g <- ggplot(alc, aes(x = probability, y = high_use, col = prediction))
+
+g + geom_point()
+
+table(high_use = alc$high_use, prediction = alc$prediction) %>% prop.table %>% addmargins
+```
+
+
+```{r}
+loss_func <- function(class, prob) {
+  n_wrong <- abs(class - prob) > 0.5
+  mean(n_wrong)
+}
+
+loss_func(class = alc$high_use, prob = alc$probability)
+
+```
+
+"From the above prediction analysis we can intepret that the model prediction has 29% chance of being incorrect. This can be also seen on the prediction table. The model predicts the participants who dont have high alcohol usage fairly well, as only 0,02/0,86= 3 % of the predictions are incorrect. But in determining high alcohol usage the model is quite bad as it only predicts 0,028/0,26= 10 % of the high alcohol users."
