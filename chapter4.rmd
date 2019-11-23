@@ -1,0 +1,141 @@
+# Excercise 4
+
+---
+title: "Chaper 4"
+author: "ville"
+date: "23/11/2019"
+output: html_document
+---
+
+## 1) Create a new Rmarkdown
+
+Created according to instructions as chaper 4
+
+## 2) Loading the data and describing it
+
+```{r}
+install.packages("dplyr", repos="http://cran.us.r-project.org")
+install.packages("ggplot2", repos="http://cran.us.r-project.org")
+install.packages("GGally", repos="http://cran.us.r-project.org")
+install.packages("corrplot", repos="http://cran.us.r-project.org")
+install.packages("MASS", repos="http://cran.us.r-project.org")
+
+library(ggplot2)
+library(GGally)
+library(ggplot2)
+library(GGally)
+library(dplyr)
+library(corrplot)
+library(MASS)
+data("Boston")
+summary(Boston)
+```
+
+The Boston dataset has 506 rows and 14 column variables.
+
+Columns are 
+
+**crim**= per capita crime rate by town.**zn**=
+proportion of residential land zoned for lots over 25,000 sq.ft. **indus** =proportion of non-retail business acres per town. **chas**= Charles River dummy variable (= 1 if tract bounds river; 0 otherwise). **nox**= nitrogen oxides concentration (parts per 10 million). **rm**= average number of rooms per dwelling. **age** =proportion of owner-occupied units built prior to 1940.  **dis** =weighted mean of distances to five Boston employment centres. **rad**
+index of accessibility to radial highways.**tax** =full-value property-tax rate per \$10,000. **ptratio** =pupil-teacher ratio by town. **black**= 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town. **lstat** =lower status of the population (percent). **medv** =median value of owner-occupied homes in \$1000s.
+
+
+## 3) Graphical overview of the data
+```{r}
+cor_matrix<-cor(Boston)
+cor_matrix%>%round(digits=2)
+corrplot(cor_matrix, method="circle", type="upper")
+```
+
+From the corrplot picture we can see which variables have correlations with each others. We can see that for example the distance of five employement centers in boston have a high correlation with proportion of non-retail bussiness acres per town. And that average number of rooms per dwelling is negatively linked to lower status of the population percent.
+
+## 4) Standardizing the data
+
+```{r}
+boston_scaled <- scale(Boston)
+class(boston_scaled)
+boston_scaled <- as.data.frame(boston_scaled)
+
+bins <- quantile(boston_scaled$crim)
+bins
+
+crime <- cut(boston_scaled$crim, breaks = bins, labels = c("low", "med_low","med_high", "high") , include.lowest = TRUE)
+
+table(crime)
+boston_scaled <- dplyr::select(boston_scaled, -crim)
+boston_scaled <- data.frame(boston_scaled, crime)
+n <- nrow(boston_scaled)
+ind <- sample(n,  size = n * 0.8)
+train <- boston_scaled[ind,]
+test <- boston_scaled[-ind,]
+correct_classes <- test$crime
+test <- dplyr::select(test, -crime)
+
+
+```
+
+Now the crime variable is set to 4 categories according to how high is the per capita crime rate by town.
+
+## 5) Linear discriminant analysis
+
+```{r}
+lda.fit <- lda(crime ~ ., data = train)
+lda.fit
+lda.arrows <- function(x, myscale = 1, arrow_heads = 0.1, color = "red", tex = 0.75, choices = c(1,2)){
+  heads <- coef(x)
+  arrows(x0 = 0, y0 = 0, 
+         x1 = myscale * heads[,choices[1]], 
+         y1 = myscale * heads[,choices[2]], col=color, length = arrow_heads)
+  text(myscale * heads[,choices], labels = row.names(heads), 
+       cex = tex, col=color, pos=3)
+}
+
+classes <- as.numeric(train$crime)
+plot(lda.fit, dimen = 2, col = classes, pch = classes)
+lda.arrows(lda.fit, myscale = 1)
+```
+
+In the above picture we can see the linear combination of the variables that separate the crime classes. The LDA model os visualized as a biplot
+
+## 6) Predicting classes
+
+```{r}
+lda.pred <- predict(lda.fit, newdata = test)
+table(correct = correct_classes, predicted = lda.pred$class)
+```
+
+In the above picture we can see how the model perdicts the Crime classes. Atleast for high crime rates the models predicition seems quite good 26/27. For med_low and med_high it isn't as accurate
+
+## 7) Standardazing the dataset and running the k-means algorithm
+
+```{r}
+boston_scaled2 <- scale(Boston)
+boston_scaled2 <- as.data.frame(boston_scaled)
+dist_eu <- dist(Boston)
+dist_man <- dist(Boston, method = 'manhattan')
+
+set.seed(123)
+k_max <- 10
+
+twcss <- sapply(1:k_max, function(k){kmeans(Boston, k)$tot.withinss})
+
+qplot(x = 1:k_max, y = twcss, geom = 'line')
+```
+
+*According to the qplot above, the optimal number of clusters is around 2, because afther that the WCSS changes dramatically*
+
+```{r} 
+km <-kmeans(Boston, centers = 2)
+
+
+pairs(Boston , col = km$cluster)
+pairs(Boston[1:5] , col = km$cluster)
+pairs(Boston[6:10] , col = km$cluster)
+pairs(Boston[11:14] , col = km$cluster)
+
+```
+
+In the above pictures the variables are shown in pairs with 2 cluster groups. From this we can see how the two groups differentiate per pair variables. For example you can see how the data is clustered between proportion of blacks by town (black) and number of rooms per dwelling.
+
+
+

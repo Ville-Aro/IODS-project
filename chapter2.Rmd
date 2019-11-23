@@ -12,18 +12,18 @@ library(dplyr)
 ```
 
 
-# 1 Reading the data
+## 1 Reading the data
 
 
 ```{r}
-harjoitusdata <- read.table("data/Create_learning2014.R", header=TRUE)
+harjoitusdata <- read.table("data/Create_learning2014", header=TRUE)
 summary(harjoitusdata$Age)
 
 str(harjoitusdata)
 ```
 
 
-## Describing the data
+## 1a Describing the data
 The dataset has been collected during 12/2014-1/2015. The data consists of 166 observations and has 7 variables, which are
 
 **1)** Gender= Subjects gender, male / female  **2)** Age = Subjects age ranging from 17 to 55, with the mean being 25,51 **3)** Attitude, which measures global attitude toward statistics with 10 questions. The attitude variable is a meansum variable of these 10 questions. **4)** Deep is a factor variable that measures the deep learning, it is also a meansum variable consisting of 12 questions **5)** Stra factor variable measures Stategic learning cababilities, it consist of 8 questions and is a meansum variable of these. **6)**  surf is a factor variable measures the surface learning cababilities via 12 questions. **7)** Points variable measures how many points in total an individual received from the course exam

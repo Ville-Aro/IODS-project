@@ -1,383 +1,383 @@
-"school" "sex" "age" "address" "famsize" "Pstatus" "Medu" "Fedu" "Mjob" "Fjob" "reason" "nursery" "internet" "guardian" "traveltime" "studytime" "failures" "schoolsup" "famsup" "paid" "activities" "higher" "romantic" "famrel" "freetime" "goout" "Dalc" "Walc" "health" "absences" "G1" "G2" "G3" "alc_use" "high_use"
-"1" "GP" "F" 18 "U" "GT3" "A" 4 4 "at_home" "teacher" "course" "yes" "no" "mother" 2 2 0 "yes" "no" "no" "no" "yes" "no" 4 3 4 1 1 3 5 2 8 8 1 FALSE
-"2" "GP" "F" 17 "U" "GT3" "T" 1 1 "at_home" "other" "course" "no" "yes" "father" 1 2 0 "no" "yes" "no" "no" "yes" "no" 5 3 3 1 1 3 3 7 8 8 1 FALSE
-"3" "GP" "F" 15 "U" "LE3" "T" 1 1 "at_home" "other" "other" "yes" "yes" "mother" 1 2 2 "yes" "no" "yes" "no" "yes" "no" 4 3 2 2 3 3 8 10 10 11 2.5 TRUE
-"4" "GP" "F" 15 "U" "GT3" "T" 4 2 "health" "services" "home" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "yes" 3 2 2 1 1 5 1 14 14 14 1 FALSE
-"5" "GP" "F" 16 "U" "GT3" "T" 3 3 "other" "other" "home" "yes" "no" "father" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 2 1 2 5 2 8 12 12 1.5 FALSE
-"6" "GP" "M" 16 "U" "LE3" "T" 4 3 "services" "other" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 5 4 2 1 2 5 8 14 14 14 1.5 FALSE
-"7" "GP" "M" 16 "U" "LE3" "T" 2 2 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "no" "yes" "no" 4 4 4 1 1 3 0 12 12 12 1 FALSE
-"8" "GP" "F" 17 "U" "GT3" "A" 4 4 "other" "teacher" "home" "yes" "no" "mother" 2 2 0 "yes" "yes" "no" "no" "yes" "no" 4 1 4 1 1 1 4 8 9 10 1 FALSE
-"9" "GP" "M" 15 "U" "LE3" "A" 3 2 "services" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 2 2 1 1 1 0 16 17 18 1 FALSE
-"10" "GP" "M" 15 "U" "GT3" "T" 3 4 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 5 5 1 1 1 5 0 13 14 14 1 FALSE
-"11" "GP" "F" 15 "U" "GT3" "T" 4 4 "teacher" "health" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 3 3 3 1 2 2 1 12 11 12 1.5 FALSE
-"12" "GP" "F" 15 "U" "GT3" "T" 2 1 "services" "other" "reputation" "yes" "yes" "father" 3 3 0 "no" "yes" "no" "yes" "yes" "no" 5 2 2 1 1 4 2 10 12 12 1 FALSE
-"13" "GP" "M" 15 "U" "LE3" "T" 4 4 "health" "services" "course" "yes" "yes" "father" 1 1 0 "no" "yes" "yes" "yes" "yes" "no" 4 3 3 1 3 5 1 13 14 13 2 FALSE
-"14" "GP" "M" 15 "U" "GT3" "T" 4 3 "teacher" "other" "course" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "no" "yes" "no" 5 4 3 1 2 3 1 11 11 12 1.5 FALSE
-"15" "GP" "M" 15 "U" "GT3" "A" 2 2 "other" "other" "home" "yes" "yes" "other" 1 3 0 "no" "yes" "no" "no" "yes" "yes" 4 5 2 1 1 3 0 14 15 16 1 FALSE
-"16" "GP" "F" 16 "U" "GT3" "T" 4 4 "health" "other" "home" "yes" "yes" "mother" 1 1 0 "no" "yes" "no" "no" "yes" "no" 4 4 4 1 2 2 5 16 16 16 1.5 FALSE
-"17" "GP" "F" 16 "U" "GT3" "T" 4 4 "services" "services" "reputation" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "no" 3 2 3 1 2 2 8 13 14 14 1.5 FALSE
-"18" "GP" "F" 16 "U" "GT3" "T" 3 3 "other" "other" "reputation" "yes" "no" "mother" 3 2 0 "yes" "yes" "no" "yes" "yes" "no" 5 3 2 1 1 4 3 10 12 12 1 FALSE
-"19" "GP" "M" 17 "U" "GT3" "T" 3 2 "services" "services" "course" "yes" "yes" "mother" 1 1 3 "no" "yes" "no" "yes" "yes" "no" 5 5 5 2 4 5 9 7 6 6 3 TRUE
-"20" "GP" "M" 16 "U" "LE3" "T" 4 3 "health" "other" "home" "yes" "yes" "father" 1 1 0 "no" "no" "yes" "yes" "yes" "no" 3 1 3 1 3 5 5 10 11 11 2 FALSE
-"21" "GP" "M" 15 "U" "GT3" "T" 4 3 "teacher" "other" "reputation" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "no" "yes" "no" 4 4 1 1 1 1 0 12 14 14 1 FALSE
-"22" "GP" "M" 15 "U" "GT3" "T" 4 4 "health" "health" "other" "yes" "yes" "father" 1 1 0 "no" "yes" "yes" "no" "yes" "no" 5 4 2 1 1 5 0 12 14 14 1 FALSE
-"23" "GP" "M" 16 "U" "LE3" "T" 4 2 "teacher" "other" "course" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "no" 4 5 1 1 3 5 1 14 14 15 2 FALSE
-"24" "GP" "M" 16 "U" "LE3" "T" 2 2 "other" "other" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "no" "yes" "yes" "no" 5 4 4 2 4 5 1 12 12 11 3 TRUE
-"25" "GP" "F" 15 "R" "GT3" "T" 2 4 "services" "health" "course" "yes" "yes" "mother" 1 3 0 "yes" "yes" "yes" "yes" "yes" "no" 4 3 2 1 1 5 2 10 10 9 1 FALSE
-"26" "GP" "F" 16 "U" "GT3" "T" 2 2 "services" "services" "home" "no" "yes" "mother" 1 1 1 "no" "yes" "yes" "no" "yes" "no" 1 2 2 1 3 5 10 8 10 10 2 FALSE
-"27" "GP" "M" 15 "U" "GT3" "T" 2 2 "other" "other" "home" "yes" "yes" "mother" 1 1 0 "no" "yes" "yes" "no" "yes" "no" 4 2 2 1 2 5 5 12 12 12 1.5 FALSE
-"28" "GP" "M" 15 "U" "GT3" "T" 4 2 "health" "services" "other" "yes" "yes" "mother" 1 1 0 "no" "no" "yes" "no" "yes" "no" 2 2 4 2 4 1 2 13 14 13 3 TRUE
-"29" "GP" "M" 16 "U" "LE3" "A" 3 4 "services" "other" "home" "yes" "yes" "mother" 1 2 0 "yes" "yes" "no" "yes" "yes" "no" 5 3 3 1 1 5 3 12 12 12 1 FALSE
-"30" "GP" "M" 16 "U" "GT3" "T" 4 4 "teacher" "teacher" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "yes" 4 4 5 5 5 5 10 11 12 12 5 TRUE
-"31" "GP" "M" 15 "U" "GT3" "T" 4 4 "health" "services" "home" "no" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 5 4 2 3 4 5 0 10 11 12 3.5 TRUE
-"32" "GP" "M" 15 "U" "GT3" "T" 4 4 "services" "services" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "no" "yes" "yes" "no" 4 3 1 1 1 5 1 16 16 16 1 FALSE
-"33" "GP" "M" 15 "R" "GT3" "T" 4 3 "teacher" "at_home" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "yes" "yes" "yes" 4 5 2 1 1 5 0 15 15 16 1 FALSE
-"34" "GP" "M" 15 "U" "LE3" "T" 3 3 "other" "other" "course" "no" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "no" 5 3 2 1 1 2 0 10 11 12 1 FALSE
-"35" "GP" "M" 16 "U" "GT3" "T" 3 2 "other" "other" "home" "no" "yes" "mother" 1 1 0 "no" "yes" "yes" "no" "yes" "no" 5 4 3 1 1 5 2 12 13 14 1 FALSE
-"36" "GP" "F" 15 "U" "GT3" "T" 2 3 "other" "other" "other" "yes" "no" "father" 2 1 0 "no" "yes" "no" "yes" "yes" "no" 3 5 1 1 1 5 2 10 9 8 1 FALSE
-"37" "GP" "M" 15 "U" "LE3" "T" 4 3 "teacher" "services" "home" "yes" "yes" "mother" 1 3 0 "no" "yes" "no" "yes" "yes" "no" 5 4 3 1 1 4 1 14 15 16 1 FALSE
-"38" "GP" "M" 16 "R" "GT3" "A" 4 4 "other" "teacher" "reputation" "yes" "yes" "mother" 2 3 0 "no" "yes" "no" "yes" "yes" "yes" 2 4 3 1 1 5 6 14 14 14 1 FALSE
-"39" "GP" "F" 15 "R" "GT3" "T" 3 4 "services" "health" "course" "yes" "yes" "mother" 1 3 0 "yes" "yes" "yes" "yes" "yes" "no" 4 3 2 1 1 5 2 12 12 12 1 FALSE
-"40" "GP" "F" 15 "R" "GT3" "T" 2 2 "at_home" "other" "reputation" "yes" "no" "mother" 1 1 0 "yes" "yes" "yes" "yes" "yes" "no" 4 3 1 1 1 2 8 14 13 12 1 FALSE
-"41" "GP" "F" 16 "U" "LE3" "T" 2 2 "other" "other" "home" "no" "yes" "mother" 2 2 0 "no" "yes" "no" "yes" "yes" "yes" 3 3 3 1 2 3 20 9 10 10 1.5 FALSE
-"42" "GP" "M" 15 "U" "LE3" "T" 4 4 "teacher" "other" "home" "no" "yes" "other" 1 1 0 "no" "yes" "no" "no" "yes" "yes" 5 4 3 2 4 5 8 11 12 12 3 TRUE
-"43" "GP" "M" 15 "U" "GT3" "T" 4 4 "services" "teacher" "course" "yes" "yes" "father" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 4 3 3 1 1 5 1 16 16 16 1 FALSE
-"44" "GP" "M" 15 "U" "GT3" "T" 2 2 "services" "services" "course" "yes" "yes" "father" 1 1 0 "yes" "yes" "no" "no" "yes" "no" 5 4 1 1 1 1 0 8 9 10 1 FALSE
-"45" "GP" "F" 16 "U" "LE3" "T" 2 2 "other" "at_home" "course" "yes" "yes" "father" 2 2 1 "yes" "no" "no" "yes" "yes" "no" 4 3 3 2 2 5 14 10 10 10 2 FALSE
-"46" "GP" "F" 15 "U" "LE3" "A" 4 3 "other" "other" "course" "yes" "yes" "mother" 1 2 0 "yes" "yes" "yes" "yes" "yes" "yes" 5 2 2 1 1 5 6 9 10 8 1 FALSE
-"47" "GP" "F" 16 "U" "LE3" "A" 3 3 "other" "services" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "no" 2 3 5 1 4 3 9 12 12 12 2.5 TRUE
-"48" "GP" "M" 16 "U" "GT3" "T" 4 3 "health" "services" "reputation" "yes" "yes" "mother" 1 4 0 "no" "no" "no" "yes" "yes" "no" 4 2 2 1 1 2 3 18 18 18 1 FALSE
-"49" "GP" "M" 15 "U" "GT3" "T" 4 2 "teacher" "other" "home" "yes" "no" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 2 2 5 3 13 14 14 2 FALSE
-"50" "GP" "F" 15 "U" "GT3" "T" 4 4 "services" "teacher" "other" "no" "yes" "father" 1 2 0 "yes" "yes" "no" "yes" "yes" "no" 4 4 4 1 1 3 2 10 10 10 1 FALSE
-"51" "GP" "F" 16 "U" "LE3" "T" 2 2 "services" "services" "course" "yes" "yes" "mother" 3 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 2 3 4 1 13 13 13 2.5 TRUE
-"52" "GP" "F" 15 "U" "LE3" "T" 4 2 "health" "other" "other" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 1 1 5 1 14 14 14 1 FALSE
-"53" "GP" "M" 15 "U" "LE3" "A" 4 2 "health" "health" "other" "yes" "no" "father" 2 1 0 "no" "no" "no" "no" "yes" "no" 5 5 5 3 4 5 5 10 10 10 3.5 TRUE
-"54" "GP" "F" 15 "U" "GT3" "T" 4 4 "services" "services" "course" "yes" "yes" "mother" 1 1 0 "yes" "yes" "yes" "no" "yes" "no" 3 3 4 2 3 5 0 10 11 12 2.5 TRUE
-"55" "GP" "F" 15 "U" "LE3" "A" 3 3 "other" "other" "other" "yes" "yes" "mother" 1 1 0 "no" "no" "yes" "no" "yes" "no" 5 3 4 4 4 1 3 12 12 13 4 TRUE
-"56" "GP" "F" 16 "U" "GT3" "A" 2 1 "other" "other" "other" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "yes" "yes" "yes" 5 3 4 1 1 2 5 10 11 11 1 FALSE
-"57" "GP" "F" 15 "U" "GT3" "A" 4 3 "services" "services" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 3 2 1 1 1 0 14 14 15 1 FALSE
-"58" "GP" "M" 15 "U" "GT3" "T" 4 4 "teacher" "health" "reputation" "yes" "no" "mother" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 3 2 2 1 1 5 6 14 15 16 1 FALSE
-"59" "GP" "M" 15 "U" "LE3" "T" 1 2 "other" "at_home" "home" "yes" "yes" "father" 1 2 0 "yes" "yes" "no" "yes" "yes" "no" 4 3 2 1 1 5 1 12 12 12 1 FALSE
-"60" "GP" "F" 16 "U" "GT3" "T" 4 2 "services" "other" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "no" 4 2 3 1 1 5 2 16 16 16 1 FALSE
-"61" "GP" "F" 16 "R" "GT3" "T" 4 4 "health" "teacher" "other" "yes" "no" "mother" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 2 4 4 2 3 4 3 14 14 14 2.5 TRUE
-"62" "GP" "F" 16 "U" "GT3" "T" 1 1 "services" "services" "course" "no" "yes" "father" 4 1 0 "yes" "yes" "no" "yes" "yes" "yes" 5 5 5 5 5 5 3 10 9 14 5 TRUE
-"63" "GP" "F" 16 "U" "LE3" "T" 1 2 "other" "services" "reputation" "yes" "yes" "father" 1 2 0 "yes" "no" "no" "yes" "yes" "no" 4 4 3 1 1 1 2 10 12 10 1 FALSE
-"64" "GP" "F" 16 "U" "GT3" "T" 4 3 "teacher" "health" "home" "yes" "yes" "mother" 1 3 0 "yes" "yes" "yes" "yes" "yes" "no" 3 4 4 2 4 4 1 12 11 11 3 TRUE
-"65" "GP" "F" 15 "U" "LE3" "T" 4 3 "services" "services" "reputation" "yes" "yes" "father" 1 2 0 "yes" "no" "no" "yes" "yes" "yes" 4 4 4 2 4 2 0 12 11 11 3 TRUE
-"66" "GP" "F" 16 "U" "LE3" "T" 4 3 "teacher" "services" "course" "yes" "yes" "mother" 3 2 0 "no" "yes" "no" "yes" "yes" "no" 5 4 3 1 2 1 2 16 15 16 1.5 FALSE
-"67" "GP" "M" 15 "U" "GT3" "A" 4 4 "other" "services" "reputation" "no" "yes" "mother" 1 4 0 "no" "yes" "no" "yes" "yes" "yes" 1 3 3 5 5 3 2 12 12 12 5 TRUE
-"68" "GP" "F" 16 "U" "GT3" "T" 3 1 "services" "other" "course" "yes" "yes" "mother" 1 4 0 "yes" "yes" "yes" "no" "yes" "no" 4 3 3 1 2 5 2 8 8 8 1.5 FALSE
-"69" "GP" "F" 15 "R" "LE3" "T" 2 2 "health" "services" "reputation" "yes" "yes" "mother" 2 2 0 "yes" "yes" "yes" "no" "yes" "no" 4 1 3 1 3 4 1 10 10 10 2 FALSE
-"70" "GP" "F" 15 "R" "LE3" "T" 3 1 "other" "other" "reputation" "no" "yes" "father" 2 4 0 "no" "yes" "no" "no" "yes" "no" 4 4 2 2 3 3 9 16 16 16 2.5 TRUE
-"71" "GP" "M" 16 "U" "GT3" "T" 3 1 "other" "other" "reputation" "yes" "yes" "father" 2 4 0 "no" "yes" "yes" "no" "yes" "no" 4 3 2 1 1 5 1 13 13 13 1 FALSE
-"72" "GP" "M" 15 "U" "GT3" "T" 4 2 "other" "other" "course" "yes" "yes" "mother" 1 4 0 "no" "no" "no" "no" "yes" "no" 3 3 3 1 1 3 0 10 10 10 1 FALSE
-"73" "GP" "F" 15 "R" "GT3" "T" 1 1 "other" "other" "reputation" "no" "yes" "mother" 1 2 1 "yes" "yes" "no" "no" "yes" "yes" 3 3 4 2 4 5 2 10 8 8 3 TRUE
-"74" "GP" "M" 16 "U" "GT3" "T" 3 1 "other" "other" "reputation" "yes" "no" "mother" 1 1 0 "no" "no" "no" "yes" "yes" "no" 5 3 2 2 2 5 1 12 12 14 2 FALSE
-"75" "GP" "F" 16 "U" "GT3" "T" 3 3 "other" "services" "home" "yes" "yes" "mother" 1 2 0 "yes" "yes" "yes" "yes" "yes" "no" 4 3 3 2 4 5 29 11 12 11 3 TRUE
-"76" "GP" "M" 15 "U" "GT3" "T" 4 3 "teacher" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 3 3 2 3 5 3 10 10 10 2.5 TRUE
-"77" "GP" "M" 15 "U" "GT3" "T" 4 0 "teacher" "other" "course" "yes" "yes" "mother" 2 4 0 "no" "no" "no" "yes" "yes" "no" 3 4 3 1 1 1 4 12 11 10 1 FALSE
-"78" "GP" "F" 16 "U" "GT3" "T" 2 2 "other" "other" "reputation" "yes" "yes" "mother" 1 4 0 "no" "no" "yes" "no" "yes" "yes" 5 2 3 1 3 3 0 12 12 12 2 FALSE
-"79" "GP" "M" 17 "U" "GT3" "T" 2 1 "other" "other" "home" "yes" "yes" "mother" 2 1 3 "yes" "yes" "no" "yes" "no" "no" 4 5 1 1 1 3 1 8 8 10 1 FALSE
-"80" "GP" "M" 17 "U" "GT3" "T" 2 1 "other" "other" "home" "yes" "yes" "mother" 2 1 2 "yes" "yes" "no" "yes" "no" "no" 4 4 3 1 2 4 12 8 8 8 1.5 FALSE
-"81" "GP" "F" 16 "U" "GT3" "T" 3 4 "at_home" "other" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "no" 2 4 3 1 2 3 13 8 8 8 1.5 FALSE
-"82" "GP" "M" 15 "U" "GT3" "T" 2 3 "other" "services" "course" "no" "yes" "father" 1 1 0 "yes" "yes" "yes" "yes" "yes" "yes" 3 2 2 1 3 3 1 10 12 12 2 FALSE
-"83" "GP" "M" 15 "U" "GT3" "T" 2 3 "other" "other" "home" "no" "yes" "mother" 1 3 0 "yes" "no" "yes" "no" "yes" "no" 5 3 2 1 2 5 3 10 10 10 1.5 FALSE
-"84" "GP" "F" 15 "U" "LE3" "T" 3 2 "services" "other" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 4 4 1 1 5 7 10 8 8 1 FALSE
-"85" "GP" "M" 15 "U" "LE3" "T" 2 2 "services" "services" "home" "yes" "yes" "mother" 2 2 0 "no" "no" "yes" "yes" "yes" "no" 5 3 3 1 3 4 3 14 14 14 2 FALSE
-"86" "GP" "F" 15 "U" "GT3" "T" 1 1 "other" "other" "home" "no" "yes" "father" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 4 3 2 2 3 4 2 11 11 11 2.5 TRUE
-"87" "GP" "F" 15 "U" "GT3" "T" 4 4 "services" "services" "reputation" "yes" "yes" "father" 2 2 1 "no" "no" "yes" "no" "yes" "yes" 4 4 4 2 3 5 5 10 10 10 2.5 TRUE
-"88" "GP" "F" 16 "U" "LE3" "T" 2 2 "at_home" "other" "course" "yes" "no" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "no" 4 3 4 1 2 2 5 10 9 8 1.5 FALSE
-"89" "GP" "F" 15 "U" "GT3" "T" 4 2 "other" "other" "reputation" "yes" "yes" "mother" 1 3 0 "no" "yes" "no" "yes" "yes" "no" 5 3 3 1 3 1 4 14 14 14 2 FALSE
-"90" "GP" "M" 16 "U" "GT3" "T" 2 2 "services" "other" "reputation" "no" "yes" "father" 2 2 0 "no" "no" "yes" "yes" "yes" "no" 4 4 2 1 1 3 9 12 10 10 1 FALSE
-"91" "GP" "M" 16 "U" "LE3" "A" 4 4 "teacher" "health" "reputation" "yes" "no" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "no" 4 1 3 3 5 5 12 8 8 8 4 TRUE
-"92" "GP" "F" 16 "U" "GT3" "T" 3 3 "other" "other" "home" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "no" "yes" "yes" 4 3 3 1 3 4 1 8 9 10 2 FALSE
-"93" "GP" "F" 15 "U" "GT3" "T" 4 3 "services" "other" "reputation" "yes" "yes" "mother" 1 1 0 "no" "no" "yes" "yes" "yes" "no" 4 5 5 1 3 1 5 15 15 16 2 FALSE
-"94" "GP" "F" 16 "U" "LE3" "T" 3 1 "other" "other" "home" "yes" "no" "father" 1 2 0 "yes" "yes" "no" "no" "yes" "no" 3 3 3 2 3 2 2 10 10 9 2.5 TRUE
-"95" "GP" "F" 16 "U" "GT3" "T" 4 2 "teacher" "services" "home" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "yes" "yes" "no" 5 3 3 1 1 1 1 12 12 12 1 FALSE
-"96" "GP" "M" 15 "U" "LE3" "T" 2 2 "services" "health" "reputation" "yes" "yes" "mother" 1 4 0 "no" "yes" "no" "yes" "yes" "no" 4 3 4 1 1 4 4 11 12 13 1 FALSE
-"97" "GP" "F" 15 "R" "GT3" "T" 1 1 "at_home" "other" "home" "yes" "yes" "mother" 2 4 0 "yes" "yes" "yes" "yes" "yes" "no" 3 1 2 1 1 1 3 10 12 12 1 FALSE
-"98" "GP" "M" 16 "R" "GT3" "T" 4 3 "services" "other" "reputation" "no" "yes" "mother" 2 1 0 "yes" "yes" "no" "yes" "yes" "no" 3 3 3 1 1 4 4 10 13 13 1 FALSE
-"99" "GP" "F" 16 "U" "GT3" "T" 2 1 "other" "other" "course" "yes" "no" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "yes" 4 3 5 1 1 5 1 10 10 11 1 FALSE
-"100" "GP" "F" 16 "U" "GT3" "T" 4 4 "other" "other" "reputation" "no" "yes" "mother" 1 1 0 "no" "no" "no" "yes" "yes" "no" 5 3 4 1 2 1 5 12 14 14 1.5 FALSE
-"101" "GP" "F" 16 "U" "GT3" "T" 4 3 "other" "at_home" "course" "yes" "yes" "mother" 1 3 0 "yes" "yes" "yes" "no" "yes" "no" 5 3 5 1 1 3 1 10 11 10 1 FALSE
-"102" "GP" "M" 16 "U" "GT3" "T" 4 4 "services" "services" "other" "yes" "yes" "mother" 1 1 0 "yes" "yes" "yes" "yes" "yes" "no" 4 5 5 5 5 4 13 8 8 6 5 TRUE
-"103" "GP" "M" 16 "U" "GT3" "T" 4 4 "services" "teacher" "other" "yes" "yes" "father" 1 3 0 "no" "yes" "no" "yes" "yes" "yes" 4 4 3 1 1 4 0 16 16 16 1 FALSE
-"104" "GP" "M" 15 "U" "GT3" "T" 4 4 "services" "other" "course" "no" "yes" "mother" 1 1 0 "no" "yes" "no" "yes" "yes" "no" 5 3 3 1 1 5 3 11 13 13 1 FALSE
-"105" "GP" "F" 15 "U" "GT3" "T" 3 2 "services" "other" "home" "yes" "yes" "mother" 2 2 0 "yes" "yes" "yes" "no" "yes" "no" 4 3 5 1 1 2 21 9 8 8 1 FALSE
-"106" "GP" "M" 15 "U" "GT3" "A" 3 4 "services" "other" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 5 4 4 1 1 1 0 16 17 17 1 FALSE
-"107" "GP" "F" 15 "U" "GT3" "A" 3 3 "other" "health" "reputation" "yes" "no" "father" 1 4 0 "yes" "no" "no" "no" "yes" "no" 4 3 3 1 1 4 10 10 10 10 1 FALSE
-"108" "GP" "F" 15 "U" "GT3" "T" 2 2 "other" "other" "course" "yes" "yes" "mother" 1 4 0 "yes" "yes" "yes" "no" "yes" "no" 5 1 2 1 1 3 6 8 9 9 1 FALSE
-"109" "GP" "M" 16 "U" "GT3" "T" 3 3 "services" "other" "home" "yes" "yes" "father" 1 3 0 "no" "yes" "no" "yes" "yes" "no" 5 3 3 1 1 5 3 14 16 16 1 FALSE
-"110" "GP" "M" 16 "U" "GT3" "T" 3 3 "services" "other" "home" "yes" "yes" "father" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 4 2 3 1 2 4 1 14 15 16 1.5 FALSE
-"111" "GP" "M" 15 "R" "GT3" "T" 4 4 "other" "other" "home" "yes" "yes" "father" 4 4 0 "no" "yes" "yes" "yes" "yes" "yes" 1 3 5 3 5 1 7 11 12 12 4 TRUE
-"112" "GP" "F" 16 "U" "LE3" "T" 4 4 "health" "health" "other" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "yes" 5 4 5 1 1 4 3 14 15 15 1 FALSE
-"113" "GP" "M" 15 "U" "LE3" "A" 4 4 "teacher" "teacher" "course" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "yes" "yes" "no" 5 5 3 1 1 4 5 16 16 16 1 FALSE
-"114" "GP" "F" 16 "R" "GT3" "T" 3 3 "services" "other" "reputation" "yes" "yes" "father" 1 3 0 "yes" "yes" "no" "yes" "yes" "no" 4 1 2 1 1 2 2 9 10 10 1 FALSE
-"115" "GP" "F" 16 "U" "GT3" "T" 2 2 "at_home" "other" "home" "yes" "yes" "mother" 1 2 1 "yes" "no" "no" "yes" "yes" "no" 3 1 2 1 1 5 9 9 12 12 1 FALSE
-"116" "GP" "M" 15 "U" "LE3" "T" 4 2 "teacher" "other" "course" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "no" "yes" "no" 3 5 2 1 1 3 10 18 18 18 1 FALSE
-"117" "GP" "M" 15 "R" "GT3" "T" 2 1 "health" "services" "reputation" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "yes" 5 4 2 1 1 5 6 10 9 10 1 FALSE
-"118" "GP" "M" 16 "U" "GT3" "T" 4 4 "teacher" "teacher" "course" "yes" "yes" "father" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 5 4 4 1 2 5 4 16 14 15 1.5 FALSE
-"119" "GP" "M" 16 "U" "GT3" "T" 4 4 "teacher" "teacher" "course" "yes" "yes" "father" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 4 4 3 2 2 5 9 12 12 12 2 FALSE
-"120" "GP" "M" 15 "U" "GT3" "T" 4 4 "other" "teacher" "reputation" "yes" "no" "father" 2 2 0 "no" "yes" "no" "yes" "yes" "no" 4 4 3 1 1 2 3 14 14 15 1 FALSE
-"121" "GP" "M" 16 "U" "GT3" "T" 3 3 "other" "services" "home" "yes" "yes" "father" 2 1 0 "no" "no" "no" "yes" "yes" "no" 5 4 2 1 1 5 3 14 14 14 1 FALSE
-"122" "GP" "M" 17 "R" "GT3" "T" 1 3 "other" "other" "course" "yes" "yes" "father" 3 2 1 "no" "yes" "no" "yes" "yes" "no" 5 2 4 1 4 5 17 10 9 10 2.5 TRUE
-"123" "GP" "M" 15 "U" "GT3" "T" 3 4 "other" "other" "reputation" "yes" "yes" "father" 1 1 0 "no" "no" "no" "no" "yes" "no" 3 4 3 1 2 4 4 14 13 14 1.5 FALSE
-"124" "GP" "F" 15 "U" "GT3" "T" 1 2 "at_home" "services" "course" "no" "yes" "mother" 1 2 0 "no" "no" "no" "no" "yes" "no" 3 2 3 1 2 1 1 15 14 14 1.5 FALSE
-"125" "GP" "M" 15 "U" "GT3" "T" 2 2 "services" "services" "home" "yes" "yes" "father" 1 4 0 "no" "yes" "yes" "yes" "yes" "no" 5 5 4 1 2 5 6 15 14 14 1.5 FALSE
-"126" "GP" "F" 16 "U" "LE3" "T" 2 4 "other" "health" "course" "yes" "yes" "father" 2 2 0 "no" "yes" "yes" "yes" "yes" "yes" 4 2 2 1 2 5 2 14 12 13 1.5 FALSE
-"127" "GP" "M" 16 "U" "GT3" "T" 4 4 "health" "other" "course" "yes" "yes" "mother" 1 1 0 "no" "yes" "no" "yes" "yes" "no" 3 4 4 1 4 5 11 13 12 13 2.5 TRUE
-"128" "GP" "F" 16 "U" "GT3" "T" 2 2 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "no" "yes" "yes" 5 4 4 1 1 5 0 10 9 10 1 FALSE
-"129" "GP" "M" 15 "U" "GT3" "T" 3 4 "services" "services" "home" "yes" "yes" "father" 1 1 0 "yes" "no" "no" "no" "yes" "no" 5 5 5 3 2 5 1 11 11 10 2.5 TRUE
-"130" "GP" "F" 15 "U" "LE3" "A" 3 4 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "yes" "no" "no" "yes" "yes" "yes" 5 3 2 1 1 1 0 8 10 11 1 FALSE
-"131" "GP" "F" 19 "U" "GT3" "T" 0 1 "at_home" "other" "course" "no" "no" "other" 1 2 2 "no" "yes" "no" "no" "no" "no" 3 4 2 1 1 5 1 8 9 10 1 FALSE
-"132" "GP" "M" 16 "R" "GT3" "T" 4 4 "teacher" "teacher" "course" "yes" "yes" "mother" 1 1 0 "no" "no" "yes" "yes" "yes" "no" 3 5 5 2 5 4 8 16 16 16 3.5 TRUE
-"133" "GP" "F" 15 "R" "GT3" "T" 3 4 "services" "teacher" "course" "yes" "yes" "father" 2 3 1 "no" "yes" "no" "no" "yes" "yes" 4 2 2 2 2 5 0 11 6 6 2 FALSE
-"134" "GP" "F" 15 "U" "GT3" "T" 1 1 "at_home" "other" "course" "no" "yes" "mother" 3 1 0 "no" "yes" "no" "yes" "yes" "yes" 4 3 3 1 2 4 3 10 6 6 1.5 FALSE
-"135" "GP" "F" 17 "U" "LE3" "T" 2 2 "other" "other" "course" "yes" "yes" "father" 1 1 0 "no" "yes" "no" "no" "yes" "yes" 3 4 4 1 3 5 7 12 12 12 2 FALSE
-"136" "GP" "F" 16 "U" "GT3" "A" 3 4 "services" "other" "course" "yes" "yes" "father" 1 1 0 "no" "no" "no" "no" "yes" "no" 3 2 1 1 4 5 14 14 12 12 2.5 TRUE
-"137" "GP" "M" 15 "R" "GT3" "T" 3 4 "at_home" "teacher" "course" "yes" "no" "mother" 4 2 0 "no" "yes" "no" "no" "yes" "yes" 5 3 3 1 1 5 1 10 6 6 1 FALSE
-"138" "GP" "F" 15 "U" "GT3" "T" 4 4 "services" "at_home" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "no" "yes" "yes" "yes" 4 3 3 1 1 5 2 12 7 8 1 FALSE
-"139" "GP" "M" 17 "R" "GT3" "T" 3 4 "at_home" "other" "course" "yes" "no" "mother" 3 2 0 "no" "no" "no" "no" "yes" "no" 5 4 5 2 4 5 1 10 4 5 3 TRUE
-"140" "GP" "F" 16 "U" "GT3" "A" 3 3 "other" "other" "course" "no" "yes" "other" 2 1 1 "no" "yes" "no" "yes" "yes" "yes" 4 3 2 1 1 5 2 6 4 5 1 FALSE
-"141" "GP" "M" 16 "U" "LE3" "T" 1 1 "services" "other" "course" "yes" "no" "mother" 1 2 2 "no" "no" "no" "no" "yes" "yes" 4 4 4 1 3 5 0 12 11 11 2 FALSE
-"142" "GP" "F" 15 "U" "GT3" "T" 4 4 "teacher" "teacher" "course" "yes" "yes" "mother" 2 1 0 "no" "no" "no" "yes" "yes" "no" 4 3 2 1 1 5 3 14 15 14 1 FALSE
-"143" "GP" "M" 15 "U" "GT3" "T" 4 3 "teacher" "services" "course" "yes" "yes" "father" 2 4 0 "yes" "yes" "no" "no" "yes" "no" 2 2 2 1 1 3 3 8 10 6 1 FALSE
-"144" "GP" "M" 16 "U" "LE3" "T" 2 2 "services" "services" "reputation" "yes" "yes" "father" 2 1 1 "no" "yes" "no" "yes" "yes" "no" 2 3 3 2 2 2 6 10 10 10 2 FALSE
-"145" "GP" "F" 15 "U" "GT3" "T" 4 4 "teacher" "services" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "no" 4 2 2 1 1 5 2 11 12 12 1 FALSE
-"146" "GP" "F" 16 "U" "LE3" "T" 1 1 "at_home" "at_home" "course" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "no" "yes" "no" 3 4 4 3 3 1 3 12 12 12 3 TRUE
-"147" "GP" "M" 17 "U" "GT3" "T" 2 1 "other" "other" "home" "yes" "yes" "mother" 2 1 3 "no" "yes" "no" "no" "yes" "no" 4 4 3 1 2 4 0 7 4 5 1.5 FALSE
-"148" "GP" "M" 17 "U" "GT3" "T" 2 1 "other" "other" "home" "yes" "yes" "mother" 1 1 2 "no" "yes" "no" "no" "yes" "no" 5 4 5 1 2 5 11 7 4 3 1.5 FALSE
-"149" "GP" "F" 15 "U" "GT3" "T" 1 1 "other" "services" "course" "yes" "yes" "father" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 4 2 1 2 5 0 10 12 12 1.5 FALSE
-"150" "GP" "F" 15 "U" "GT3" "T" 3 2 "health" "services" "home" "yes" "yes" "father" 1 2 2 "no" "yes" "no" "no" "yes" "no" 3 3 2 1 1 3 1 8 9 6 1 FALSE
-"151" "GP" "F" 15 "U" "GT3" "T" 1 2 "at_home" "other" "course" "no" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 2 1 1 5 4 12 12 12 1 FALSE
-"152" "GP" "M" 16 "U" "GT3" "T" 4 4 "teacher" "teacher" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "no" "yes" 4 4 3 2 2 5 3 12 10 7 2 FALSE
-"153" "GP" "M" 16 "U" "GT3" "T" 4 4 "teacher" "teacher" "course" "yes" "yes" "mother" 1 1 0 "no" "yes" "no" "no" "no" "yes" 3 3 2 2 1 5 8 8 8 4 1.5 FALSE
-"154" "GP" "M" 15 "U" "LE3" "A" 2 1 "services" "other" "course" "yes" "yes" "mother" 4 1 2 "no" "no" "no" "no" "yes" "no" 4 5 5 2 5 5 0 10 10 10 3.5 TRUE
-"155" "GP" "M" 18 "U" "LE3" "T" 1 1 "other" "other" "course" "yes" "yes" "mother" 1 1 2 "no" "no" "no" "no" "no" "yes" 2 3 5 2 5 4 0 8 7 0 3.5 TRUE
-"156" "GP" "M" 16 "U" "LE3" "T" 2 1 "at_home" "other" "course" "yes" "no" "mother" 1 1 1 "no" "no" "no" "yes" "yes" "yes" 4 4 4 3 5 5 6 10 12 12 4 TRUE
-"157" "GP" "F" 15 "R" "GT3" "T" 3 3 "services" "services" "reputation" "yes" "yes" "other" 2 3 1 "no" "yes" "yes" "yes" "yes" "yes" 4 2 1 2 3 3 5 12 12 12 2.5 TRUE
-"158" "GP" "M" 19 "U" "GT3" "T" 3 2 "services" "at_home" "home" "yes" "yes" "mother" 1 1 2 "no" "yes" "no" "no" "no" "yes" 4 5 4 1 1 4 3 8 4 6 1 FALSE
-"159" "GP" "F" 17 "U" "GT3" "T" 4 4 "other" "teacher" "course" "yes" "no" "mother" 1 1 0 "yes" "yes" "no" "no" "yes" "yes" 4 2 1 1 1 4 0 12 12 12 1 FALSE
-"160" "GP" "M" 15 "R" "GT3" "T" 2 3 "at_home" "services" "course" "yes" "no" "mother" 1 2 0 "yes" "no" "yes" "yes" "yes" "no" 4 4 4 1 1 1 1 9 8 8 1 FALSE
-"161" "GP" "M" 17 "R" "LE3" "T" 1 2 "other" "other" "reputation" "yes" "no" "mother" 1 1 2 "no" "no" "no" "no" "yes" "no" 2 2 2 3 3 5 11 12 10 12 3 TRUE
-"162" "GP" "F" 18 "R" "GT3" "T" 1 1 "at_home" "other" "course" "no" "no" "mother" 3 1 3 "no" "yes" "no" "yes" "yes" "no" 5 2 5 1 5 4 6 10 9 10 3 TRUE
-"163" "GP" "M" 16 "R" "GT3" "T" 2 2 "at_home" "other" "course" "no" "no" "mother" 3 1 0 "no" "no" "no" "no" "yes" "no" 4 2 2 1 2 3 3 14 12 13 1.5 FALSE
-"164" "GP" "M" 16 "U" "GT3" "T" 3 3 "other" "services" "course" "yes" "yes" "father" 1 2 1 "no" "yes" "yes" "no" "yes" "yes" 4 5 5 4 4 5 2 10 11 6 4 TRUE
-"165" "GP" "M" 17 "R" "LE3" "T" 2 1 "at_home" "other" "course" "yes" "yes" "mother" 2 1 2 "no" "no" "no" "yes" "no" "yes" 3 3 2 2 2 5 4 8 7 4 2 FALSE
-"166" "GP" "M" 17 "R" "LE3" "T" 1 1 "other" "services" "course" "yes" "no" "mother" 4 2 2 "no" "no" "no" "yes" "no" "yes" 5 3 5 1 5 5 0 6 8 8 3 TRUE
-"167" "GP" "M" 16 "U" "GT3" "T" 2 2 "other" "other" "course" "yes" "yes" "father" 1 2 0 "no" "no" "no" "no" "no" "no" 4 3 5 2 4 4 2 10 10 10 3 TRUE
-"168" "GP" "F" 16 "U" "GT3" "T" 4 2 "health" "services" "home" "yes" "yes" "father" 1 2 0 "no" "no" "yes" "no" "yes" "yes" 4 2 3 1 1 3 0 16 16 17 1 FALSE
-"169" "GP" "F" 16 "U" "GT3" "T" 2 2 "other" "other" "home" "no" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 5 1 5 1 1 4 0 9 10 6 1 FALSE
-"170" "GP" "F" 16 "U" "GT3" "T" 4 4 "health" "health" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "yes" 4 4 2 1 1 3 0 15 15 16 1 FALSE
-"171" "GP" "M" 16 "U" "GT3" "T" 3 4 "other" "other" "course" "no" "yes" "father" 3 1 2 "no" "yes" "no" "yes" "yes" "no" 3 4 5 2 4 2 2 8 7 5 3 TRUE
-"172" "GP" "M" 16 "U" "GT3" "T" 1 0 "other" "other" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "yes" "yes" "yes" 4 3 2 1 1 3 1 14 16 17 1 FALSE
-"173" "GP" "M" 17 "U" "LE3" "T" 4 4 "teacher" "other" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 4 4 1 3 5 0 12 10 10 2 FALSE
-"174" "GP" "F" 16 "U" "GT3" "T" 1 3 "at_home" "services" "home" "no" "yes" "mother" 1 2 2 "no" "no" "no" "yes" "yes" "yes" 4 3 5 1 1 3 0 11 10 6 1 FALSE
-"175" "GP" "F" 16 "U" "LE3" "T" 3 3 "other" "other" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 4 5 1 1 4 2 12 12 12 1 FALSE
-"176" "GP" "M" 17 "U" "LE3" "T" 4 3 "teacher" "other" "course" "yes" "yes" "mother" 2 2 0 "no" "no" "yes" "yes" "yes" "no" 4 4 4 4 4 4 2 10 10 10 4 TRUE
-"177" "GP" "F" 16 "U" "GT3" "T" 2 2 "services" "other" "reputation" "no" "yes" "mother" 2 2 0 "no" "no" "yes" "yes" "yes" "no" 3 4 4 1 4 5 1 13 12 12 2.5 TRUE
-"178" "GP" "M" 17 "U" "GT3" "T" 3 3 "other" "other" "reputation" "no" "yes" "father" 1 2 0 "no" "no" "no" "yes" "yes" "no" 4 3 4 1 4 4 4 8 7 8 2.5 TRUE
-"179" "GP" "M" 16 "R" "GT3" "T" 4 2 "teacher" "services" "other" "yes" "yes" "mother" 1 1 0 "no" "yes" "no" "yes" "yes" "yes" 4 3 3 3 4 3 9 10 8 10 3.5 TRUE
-"180" "GP" "M" 17 "U" "GT3" "T" 4 3 "other" "other" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "yes" "yes" "yes" 5 2 3 1 1 2 4 10 10 12 1 FALSE
-"181" "GP" "M" 16 "U" "GT3" "T" 4 3 "teacher" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 3 4 3 2 3 3 7 10 9 10 2.5 TRUE
-"182" "GP" "M" 16 "U" "GT3" "T" 3 3 "services" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "yes" "yes" "yes" 4 2 3 1 2 4 3 12 14 13 1.5 FALSE
-"183" "GP" "M" 16 "U" "GT3" "T" 3 3 "services" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "yes" "yes" "yes" 4 2 3 1 2 3 1 12 12 12 1.5 FALSE
-"184" "GP" "F" 17 "U" "GT3" "T" 2 4 "services" "services" "reputation" "yes" "no" "father" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 5 4 2 2 3 5 0 16 18 17 2.5 TRUE
-"185" "GP" "F" 17 "U" "LE3" "T" 3 3 "other" "other" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "yes" "yes" "yes" 5 3 3 2 3 1 44 12 11 11 2.5 TRUE
-"186" "GP" "F" 16 "U" "GT3" "T" 3 2 "other" "other" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 1 2 2 1 2 1 11 13 14 14 1.5 FALSE
-"187" "GP" "M" 17 "U" "GT3" "T" 3 3 "services" "services" "other" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "yes" "yes" "yes" 4 3 4 2 3 4 9 12 12 12 2.5 TRUE
-"188" "GP" "M" 16 "U" "GT3" "T" 1 2 "services" "services" "other" "yes" "yes" "mother" 1 1 0 "no" "yes" "yes" "yes" "yes" "yes" 3 3 3 1 2 3 1 10 10 11 1.5 FALSE
-"189" "GP" "M" 16 "U" "LE3" "T" 2 1 "other" "other" "course" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "yes" "yes" "yes" 4 2 3 1 2 5 0 14 14 16 1.5 FALSE
-"190" "GP" "F" 17 "U" "GT3" "A" 3 3 "health" "other" "reputation" "no" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "yes" 3 3 3 1 3 3 8 10 10 12 2 FALSE
-"191" "GP" "M" 17 "R" "GT3" "T" 1 2 "at_home" "other" "home" "yes" "no" "mother" 1 2 0 "no" "no" "no" "no" "yes" "no" 3 1 3 1 5 3 5 8 9 10 3 TRUE
-"192" "GP" "F" 16 "U" "GT3" "T" 2 3 "services" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "no" "yes" "no" 4 3 3 1 1 2 8 12 12 13 1 FALSE
-"193" "GP" "F" 17 "U" "GT3" "T" 1 1 "at_home" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "no" 5 3 3 1 1 3 0 10 10 10 1 FALSE
-"194" "GP" "M" 17 "U" "GT3" "T" 1 2 "at_home" "services" "other" "no" "yes" "other" 2 2 0 "no" "no" "yes" "yes" "yes" "no" 4 4 4 4 5 5 14 8 10 10 4.5 TRUE
-"195" "GP" "M" 16 "R" "GT3" "T" 3 3 "services" "services" "reputation" "yes" "yes" "mother" 1 1 0 "no" "yes" "no" "yes" "yes" "no" 4 3 2 3 4 5 4 10 10 10 3.5 TRUE
-"196" "GP" "M" 16 "U" "GT3" "T" 2 3 "other" "other" "home" "yes" "yes" "father" 2 1 0 "no" "no" "no" "no" "yes" "no" 5 3 3 1 1 3 0 13 13 13 1 FALSE
-"197" "GP" "F" 17 "U" "LE3" "T" 2 4 "services" "services" "course" "yes" "yes" "father" 1 2 0 "no" "no" "no" "yes" "yes" "yes" 4 3 2 1 1 5 4 14 15 16 1 FALSE
-"198" "GP" "M" 17 "U" "GT3" "T" 4 4 "services" "teacher" "home" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "no" "yes" "no" 5 2 3 1 2 5 4 15 14 15 1.5 FALSE
-"199" "GP" "M" 16 "R" "LE3" "T" 3 3 "teacher" "other" "home" "yes" "yes" "father" 3 1 0 "no" "yes" "yes" "yes" "yes" "no" 3 3 4 3 5 3 12 10 10 11 4 TRUE
-"200" "GP" "F" 17 "U" "GT3" "T" 4 4 "services" "teacher" "home" "yes" "yes" "mother" 2 1 1 "no" "yes" "no" "no" "yes" "no" 4 2 4 2 3 2 27 16 16 17 2.5 TRUE
-"201" "GP" "F" 16 "U" "LE3" "T" 4 4 "teacher" "teacher" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 5 2 1 2 3 0 10 10 10 1.5 FALSE
-"202" "GP" "F" 16 "U" "GT3" "T" 4 3 "health" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 4 3 5 1 5 2 2 15 15 16 3 TRUE
-"203" "GP" "F" 16 "U" "GT3" "T" 2 3 "other" "other" "reputation" "yes" "no" "mother" 1 2 0 "yes" "yes" "yes" "yes" "yes" "no" 4 4 3 1 3 4 5 10 11 11 2 FALSE
-"204" "GP" "F" 17 "U" "GT3" "T" 1 1 "other" "other" "course" "no" "no" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 4 4 1 3 1 2 12 12 12 2 FALSE
-"205" "GP" "F" 17 "R" "GT3" "T" 2 2 "other" "other" "reputation" "yes" "yes" "mother" 1 1 0 "no" "yes" "no" "no" "yes" "no" 5 3 2 1 2 3 20 10 10 10 1.5 FALSE
-"206" "GP" "F" 16 "R" "GT3" "T" 2 2 "services" "services" "reputation" "no" "yes" "mother" 2 4 0 "no" "yes" "yes" "yes" "yes" "no" 5 3 5 1 1 5 6 12 12 12 1 FALSE
-"207" "GP" "F" 17 "U" "GT3" "T" 3 4 "at_home" "services" "home" "yes" "yes" "mother" 1 3 1 "no" "yes" "yes" "no" "yes" "yes" 4 4 3 3 4 5 21 9 9 8 3.5 TRUE
-"208" "GP" "F" 16 "U" "GT3" "A" 3 1 "services" "other" "course" "yes" "yes" "mother" 1 2 2 "no" "yes" "yes" "no" "yes" "no" 2 3 3 2 2 4 4 9 9 10 2 FALSE
-"209" "GP" "F" 16 "U" "GT3" "T" 4 3 "teacher" "other" "other" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "yes" "yes" "yes" 1 3 2 1 1 1 7 12 14 14 1 FALSE
-"210" "GP" "F" 16 "U" "GT3" "T" 1 1 "at_home" "other" "home" "yes" "no" "mother" 2 1 0 "no" "yes" "yes" "no" "yes" "no" 4 3 2 1 4 5 4 10 11 12 2.5 TRUE
-"211" "GP" "F" 17 "R" "GT3" "T" 4 3 "teacher" "other" "reputation" "yes" "yes" "mother" 2 3 0 "no" "yes" "yes" "yes" "yes" "yes" 4 4 2 1 1 4 3 9 10 10 1 FALSE
-"212" "GP" "F" 19 "U" "GT3" "T" 3 3 "other" "other" "reputation" "yes" "yes" "other" 1 4 0 "no" "yes" "yes" "yes" "yes" "no" 4 3 3 1 2 3 7 10 10 10 1.5 FALSE
-"213" "GP" "M" 17 "U" "LE3" "T" 4 4 "services" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "yes" 5 3 5 4 5 3 14 12 12 12 4.5 TRUE
-"214" "GP" "F" 16 "U" "GT3" "A" 2 2 "other" "other" "reputation" "yes" "yes" "mother" 1 2 0 "yes" "yes" "yes" "no" "yes" "no" 3 3 4 1 1 4 0 12 13 14 1 FALSE
-"215" "GP" "M" 18 "U" "GT3" "T" 2 2 "services" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 4 4 2 4 5 12 9 9 10 3 TRUE
-"216" "GP" "F" 17 "R" "LE3" "T" 4 4 "services" "other" "other" "yes" "no" "mother" 1 1 0 "no" "yes" "yes" "no" "yes" "no" 5 2 1 1 2 3 9 10 10 10 1.5 FALSE
-"217" "GP" "F" 17 "U" "LE3" "T" 3 2 "other" "other" "reputation" "yes" "yes" "mother" 2 2 0 "no" "no" "yes" "no" "yes" "no" 4 4 4 1 3 1 2 14 16 15 2 FALSE
-"218" "GP" "F" 17 "U" "GT3" "T" 4 3 "other" "other" "reputation" "yes" "yes" "mother" 1 2 1 "no" "no" "yes" "no" "yes" "yes" 3 4 5 2 4 1 19 8 8 7 3 TRUE
-"219" "GP" "M" 18 "U" "LE3" "T" 3 3 "services" "health" "home" "yes" "yes" "father" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 3 2 4 2 4 4 12 8 8 9 3 TRUE
-"220" "GP" "F" 17 "U" "GT3" "T" 2 3 "at_home" "other" "home" "yes" "no" "father" 2 1 0 "no" "yes" "yes" "no" "yes" "no" 3 3 3 1 4 3 4 10 10 10 2.5 TRUE
-"221" "GP" "F" 17 "U" "GT3" "T" 2 2 "at_home" "at_home" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "no" 4 3 3 1 1 4 2 10 11 12 1 FALSE
-"222" "GP" "F" 17 "R" "GT3" "T" 2 1 "at_home" "services" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "no" "yes" "yes" "no" 4 2 5 1 2 5 1 8 8 8 1.5 FALSE
-"223" "GP" "F" 17 "U" "GT3" "T" 1 1 "at_home" "other" "reputation" "yes" "no" "mother" 1 3 0 "no" "yes" "no" "yes" "yes" "yes" 4 3 4 1 1 5 6 9 8 6 1 FALSE
-"224" "GP" "F" 16 "U" "GT3" "T" 2 3 "services" "teacher" "other" "yes" "yes" "mother" 1 2 0 "yes" "no" "no" "no" "yes" "no" 2 3 1 1 1 3 1 14 14 16 1 FALSE
-"225" "GP" "M" 18 "U" "GT3" "T" 2 2 "other" "other" "home" "yes" "yes" "mother" 2 2 2 "no" "yes" "yes" "no" "yes" "no" 3 3 3 5 5 4 4 11 11 12 5 TRUE
-"226" "GP" "F" 16 "U" "GT3" "T" 4 4 "teacher" "services" "home" "no" "yes" "mother" 1 3 0 "no" "yes" "no" "yes" "yes" "no" 5 3 2 1 1 5 2 14 14 15 1 FALSE
-"227" "GP" "F" 18 "R" "GT3" "T" 3 1 "other" "other" "reputation" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "yes" 5 3 3 1 1 4 10 8 8 8 1 FALSE
-"228" "GP" "F" 17 "U" "GT3" "T" 3 2 "other" "other" "course" "no" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "no" 5 3 4 1 3 3 6 16 16 16 2 FALSE
-"229" "GP" "M" 17 "U" "LE3" "T" 2 3 "services" "services" "reputation" "no" "yes" "father" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 5 3 3 1 3 3 1 11 11 12 2 FALSE
-"230" "GP" "M" 18 "U" "LE3" "T" 2 1 "at_home" "other" "course" "yes" "yes" "mother" 4 2 0 "yes" "yes" "yes" "yes" "yes" "yes" 4 3 2 4 5 3 8 10 9 10 4.5 TRUE
-"231" "GP" "F" 17 "U" "GT3" "A" 2 1 "other" "other" "course" "yes" "yes" "mother" 2 3 0 "no" "no" "no" "yes" "yes" "yes" 3 2 3 1 2 3 5 14 12 14 1.5 FALSE
-"232" "GP" "F" 17 "U" "LE3" "T" 4 3 "health" "other" "reputation" "yes" "yes" "father" 1 2 0 "no" "no" "no" "yes" "yes" "yes" 3 2 3 1 2 3 7 14 12 13 1.5 FALSE
-"233" "GP" "M" 17 "R" "GT3" "T" 2 2 "other" "other" "course" "yes" "yes" "father" 2 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 5 2 1 1 1 2 12 12 12 1 FALSE
-"234" "GP" "M" 17 "U" "GT3" "T" 4 4 "teacher" "teacher" "reputation" "yes" "yes" "mother" 1 2 0 "yes" "yes" "no" "yes" "yes" "yes" 4 5 5 1 3 2 7 12 11 11 2 FALSE
-"235" "GP" "M" 16 "U" "GT3" "T" 4 4 "health" "other" "reputation" "yes" "yes" "father" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 2 4 2 4 1 1 14 13 14 3 TRUE
-"236" "GP" "M" 16 "U" "LE3" "T" 1 1 "other" "other" "home" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "no" "yes" "no" 3 4 2 1 1 5 10 9 8 8 1 FALSE
-"237" "GP" "M" 16 "U" "GT3" "T" 3 2 "at_home" "other" "reputation" "yes" "yes" "mother" 2 3 0 "no" "no" "no" "yes" "yes" "yes" 5 3 3 1 3 2 5 12 10 11 2 FALSE
-"238" "GP" "M" 17 "U" "LE3" "T" 2 2 "other" "other" "home" "no" "yes" "father" 1 2 0 "no" "no" "yes" "yes" "yes" "yes" 4 4 2 5 5 4 2 15 14 14 5 TRUE
-"239" "GP" "F" 16 "U" "GT3" "T" 2 1 "other" "other" "home" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "no" "yes" "yes" 4 5 2 1 1 5 12 11 11 11 1 FALSE
-"240" "GP" "F" 17 "R" "GT3" "T" 2 1 "at_home" "services" "course" "yes" "no" "mother" 3 2 0 "no" "no" "no" "yes" "yes" "no" 2 1 1 1 1 3 2 13 12 12 1 FALSE
-"241" "GP" "M" 18 "U" "GT3" "T" 2 2 "other" "services" "reputation" "yes" "yes" "father" 1 2 0 "no" "no" "no" "no" "no" "no" 5 5 4 3 5 2 8 8 7 4 4 TRUE
-"242" "GP" "M" 17 "U" "LE3" "T" 4 3 "health" "other" "course" "yes" "yes" "mother" 2 2 0 "no" "no" "no" "yes" "yes" "yes" 2 5 5 1 4 5 11 14 14 14 2.5 TRUE
-"243" "GP" "M" 17 "R" "LE3" "A" 4 4 "teacher" "other" "course" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "no" "yes" "no" 3 3 3 2 3 4 1 11 12 12 2.5 TRUE
-"244" "GP" "M" 16 "U" "LE3" "T" 4 3 "teacher" "other" "course" "no" "yes" "mother" 1 1 0 "no" "no" "no" "yes" "yes" "no" 5 4 5 1 1 3 4 10 7 8 1 FALSE
-"245" "GP" "M" 16 "U" "GT3" "T" 4 4 "services" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "no" 5 3 2 1 2 5 0 14 12 12 1.5 FALSE
-"246" "GP" "M" 16 "U" "GT3" "T" 4 4 "services" "services" "course" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "yes" "yes" "no" 5 3 2 1 2 5 2 14 14 14 1.5 FALSE
-"247" "GP" "F" 18 "U" "GT3" "T" 2 1 "other" "other" "course" "no" "yes" "other" 2 3 0 "no" "yes" "yes" "no" "yes" "yes" 4 4 4 1 1 3 5 10 5 6 1 FALSE
-"248" "GP" "M" 16 "U" "GT3" "T" 2 1 "other" "other" "course" "yes" "yes" "mother" 3 1 0 "no" "no" "no" "no" "yes" "no" 4 3 3 1 1 4 6 16 17 17 1 FALSE
-"249" "GP" "M" 17 "U" "GT3" "T" 2 3 "other" "other" "course" "yes" "yes" "father" 2 1 0 "no" "no" "no" "no" "yes" "no" 5 2 2 1 1 2 3 10 12 13 1 FALSE
-"250" "GP" "M" 22 "U" "GT3" "T" 3 1 "services" "services" "other" "no" "yes" "mother" 1 1 3 "no" "no" "no" "no" "no" "yes" 5 4 5 5 5 1 14 6 8 6 5 TRUE
-"251" "GP" "M" 18 "R" "LE3" "T" 3 3 "other" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "yes" 4 3 3 1 3 5 8 6 7 8 2 FALSE
-"252" "GP" "M" 16 "U" "GT3" "T" 0 2 "other" "other" "other" "no" "yes" "mother" 1 1 0 "no" "no" "yes" "no" "yes" "no" 4 3 2 2 4 5 0 12 14 13 3 TRUE
-"253" "GP" "M" 18 "U" "GT3" "T" 3 2 "services" "other" "course" "yes" "yes" "mother" 2 1 0 "no" "no" "no" "no" "no" "no" 4 4 5 2 4 5 4 6 8 8 3 TRUE
-"254" "GP" "M" 16 "U" "GT3" "T" 3 3 "at_home" "other" "reputation" "no" "yes" "other" 3 2 0 "yes" "yes" "no" "no" "yes" "no" 5 3 3 1 3 2 5 8 10 10 2 FALSE
-"255" "GP" "M" 18 "U" "GT3" "T" 2 1 "services" "services" "other" "no" "yes" "mother" 1 1 2 "no" "no" "no" "no" "no" "no" 3 2 5 2 5 5 4 6 8 7 3.5 TRUE
-"256" "GP" "M" 16 "R" "GT3" "T" 2 1 "other" "other" "course" "no" "no" "mother" 2 1 0 "no" "no" "no" "yes" "yes" "no" 3 3 2 1 3 3 1 11 11 10 2 FALSE
-"257" "GP" "M" 17 "R" "GT3" "T" 2 1 "other" "other" "course" "no" "yes" "mother" 1 1 0 "no" "no" "no" "no" "yes" "no" 4 4 2 2 4 5 0 10 12 12 3 TRUE
-"258" "GP" "M" 17 "U" "LE3" "T" 1 1 "health" "other" "course" "yes" "yes" "mother" 2 1 1 "no" "yes" "no" "yes" "yes" "no" 4 4 4 1 2 5 1 8 10 9 1.5 FALSE
-"259" "GP" "F" 17 "U" "LE3" "T" 4 2 "teacher" "services" "reputation" "yes" "yes" "mother" 1 4 0 "no" "yes" "yes" "yes" "yes" "no" 4 2 3 1 1 4 4 14 14 15 1 FALSE
-"260" "GP" "M" 19 "U" "LE3" "A" 4 3 "services" "at_home" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "no" 4 3 1 1 1 1 8 11 12 12 1 FALSE
-"261" "GP" "M" 18 "U" "GT3" "T" 2 1 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "no" 5 2 4 1 2 4 5 16 15 15 1.5 FALSE
-"262" "GP" "F" 17 "U" "LE3" "T" 2 2 "services" "services" "course" "yes" "yes" "father" 1 4 0 "no" "no" "yes" "yes" "yes" "yes" 3 4 1 1 1 2 1 10 10 6 1 FALSE
-"263" "GP" "F" 18 "U" "GT3" "T" 4 3 "services" "other" "home" "yes" "yes" "father" 1 2 0 "no" "yes" "yes" "no" "yes" "yes" 3 1 2 1 3 2 12 16 16 16 2 FALSE
-"264" "GP" "M" 18 "U" "GT3" "T" 4 3 "teacher" "other" "course" "no" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 2 1 1 3 2 9 9 10 1 FALSE
-"265" "GP" "M" 18 "R" "GT3" "T" 3 2 "other" "other" "course" "no" "no" "mother" 1 3 0 "no" "no" "no" "yes" "yes" "no" 5 3 2 1 1 3 2 12 12 12 1 FALSE
-"266" "GP" "F" 17 "U" "GT3" "T" 3 3 "other" "other" "home" "no" "no" "mother" 1 3 0 "no" "no" "no" "yes" "yes" "no" 3 2 3 1 1 4 3 12 10 11 1 FALSE
-"267" "GP" "F" 18 "U" "GT3" "T" 2 2 "at_home" "services" "home" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "yes" 4 3 3 1 1 3 0 10 11 6 1 FALSE
-"268" "GP" "M" 18 "R" "LE3" "A" 3 4 "other" "other" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 2 5 3 4 1 10 16 16 16 3.5 TRUE
-"269" "GP" "M" 17 "U" "GT3" "T" 3 1 "services" "other" "other" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "yes" "yes" "yes" 5 4 4 3 4 5 1 10 10 12 3.5 TRUE
-"270" "GP" "F" 18 "R" "GT3" "T" 4 4 "teacher" "other" "reputation" "yes" "yes" "mother" 2 2 0 "no" "no" "yes" "yes" "yes" "no" 4 3 4 2 2 4 8 11 10 12 2 FALSE
-"271" "GP" "M" 18 "U" "GT3" "T" 4 2 "health" "other" "reputation" "yes" "yes" "father" 1 2 0 "no" "yes" "yes" "yes" "yes" "yes" 5 4 5 1 3 5 7 10 10 12 2 FALSE
-"272" "GP" "F" 18 "R" "GT3" "T" 2 1 "other" "other" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "no" "no" "no" "yes" 4 3 5 1 2 3 6 7 4 5 1.5 FALSE
-"273" "GP" "F" 19 "U" "GT3" "T" 3 3 "other" "services" "home" "yes" "yes" "other" 1 2 1 "no" "yes" "yes" "yes" "yes" "no" 4 3 5 3 3 5 16 10 10 10 3 TRUE
-"274" "GP" "F" 18 "U" "GT3" "T" 2 3 "other" "services" "reputation" "yes" "yes" "father" 1 4 0 "no" "yes" "yes" "yes" "yes" "yes" 4 5 5 1 3 2 7 16 15 15 2 FALSE
-"275" "GP" "F" 18 "U" "LE3" "T" 1 1 "other" "other" "home" "no" "no" "mother" 2 2 0 "no" "yes" "yes" "no" "yes" "no" 4 4 3 1 1 3 2 12 12 12 1 FALSE
-"276" "GP" "M" 17 "R" "GT3" "T" 1 2 "at_home" "at_home" "home" "no" "no" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "yes" 3 5 2 2 2 1 2 16 16 16 2 FALSE
-"277" "GP" "F" 17 "U" "GT3" "T" 2 4 "at_home" "health" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "no" "yes" "yes" 4 3 3 1 1 1 4 12 13 13 1 FALSE
-"278" "GP" "F" 17 "U" "LE3" "T" 2 2 "services" "other" "course" "yes" "yes" "mother" 2 2 0 "yes" "yes" "yes" "no" "yes" "yes" 4 4 4 2 3 5 6 12 12 12 2.5 TRUE
-"279" "GP" "F" 18 "R" "GT3" "A" 3 2 "other" "services" "home" "no" "yes" "mother" 2 2 0 "no" "no" "no" "no" "no" "yes" 4 1 1 1 1 5 45 11 9 10 1 FALSE
-"280" "GP" "M" 18 "U" "GT3" "T" 4 4 "teacher" "services" "home" "yes" "yes" "mother" 2 1 0 "no" "no" "yes" "yes" "yes" "no" 3 2 4 1 4 3 14 10 10 10 2.5 TRUE
-"281" "GP" "M" 18 "U" "GT3" "T" 4 4 "teacher" "services" "home" "yes" "yes" "mother" 2 2 0 "no" "no" "yes" "yes" "yes" "no" 4 2 4 2 3 2 11 10 10 11 2.5 TRUE
-"282" "GP" "F" 18 "U" "GT3" "T" 4 4 "health" "health" "reputation" "yes" "yes" "father" 1 2 1 "yes" "yes" "no" "yes" "yes" "yes" 2 4 4 1 1 4 8 12 10 10 1 FALSE
-"283" "GP" "M" 18 "U" "LE3" "T" 4 3 "teacher" "services" "course" "yes" "yes" "mother" 2 1 0 "no" "no" "yes" "yes" "yes" "no" 4 2 3 1 2 1 4 10 10 10 1.5 FALSE
-"284" "GP" "M" 17 "U" "LE3" "A" 4 1 "services" "other" "home" "yes" "yes" "mother" 2 1 0 "no" "no" "yes" "yes" "yes" "yes" 4 5 4 2 4 5 26 10 10 9 3 TRUE
-"285" "GP" "M" 17 "U" "LE3" "A" 3 2 "teacher" "services" "home" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "no" "yes" "no" 4 4 4 3 4 3 18 12 11 12 3.5 TRUE
-"286" "GP" "F" 18 "R" "LE3" "T" 1 1 "at_home" "other" "reputation" "yes" "no" "mother" 2 4 0 "no" "yes" "yes" "yes" "yes" "no" 5 2 2 1 1 3 2 14 14 15 1 FALSE
-"287" "GP" "F" 18 "U" "GT3" "T" 1 1 "other" "other" "home" "yes" "yes" "mother" 2 2 0 "yes" "no" "no" "yes" "yes" "no" 5 4 4 1 1 4 2 10 11 12 1 FALSE
-"288" "GP" "F" 18 "U" "GT3" "T" 1 1 "other" "other" "home" "yes" "yes" "mother" 2 2 0 "yes" "no" "no" "yes" "yes" "no" 4 4 4 1 2 3 2 11 12 12 1.5 FALSE
-"289" "GP" "F" 17 "U" "GT3" "T" 2 2 "other" "other" "course" "no" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "no" 5 4 5 1 2 5 8 11 10 12 1.5 FALSE
-"290" "GP" "M" 17 "U" "GT3" "T" 1 1 "other" "other" "reputation" "no" "yes" "father" 1 2 0 "no" "no" "yes" "no" "yes" "no" 4 3 3 1 2 4 1 12 11 12 1.5 FALSE
-"291" "GP" "F" 18 "U" "GT3" "T" 2 2 "at_home" "at_home" "other" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 1 2 2 2 18 18 18 1.5 FALSE
-"292" "GP" "F" 17 "U" "GT3" "T" 1 1 "services" "teacher" "reputation" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 1 1 3 3 13 12 13 1 FALSE
-"293" "GP" "M" 18 "U" "GT3" "T" 2 1 "services" "services" "reputation" "yes" "yes" "mother" 1 3 0 "no" "no" "yes" "yes" "yes" "no" 4 2 4 1 3 2 3 14 14 14 2 FALSE
-"294" "GP" "M" 18 "U" "LE3" "A" 4 4 "teacher" "teacher" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 5 4 3 1 1 2 4 16 15 16 1 FALSE
-"295" "GP" "M" 18 "U" "GT3" "T" 4 2 "teacher" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "yes" 4 3 2 1 4 5 6 14 14 14 2.5 TRUE
-"296" "GP" "F" 17 "U" "GT3" "T" 4 3 "health" "services" "reputation" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "no" "yes" "no" 4 2 2 1 2 3 0 16 16 16 1.5 FALSE
-"297" "GP" "F" 17 "R" "LE3" "T" 3 1 "services" "other" "reputation" "yes" "no" "mother" 2 4 0 "no" "yes" "yes" "no" "yes" "no" 3 1 2 1 1 3 3 18 18 18 1 FALSE
-"298" "GP" "M" 18 "R" "LE3" "T" 3 2 "services" "other" "reputation" "yes" "yes" "mother" 2 3 0 "no" "yes" "yes" "yes" "yes" "no" 5 4 2 1 1 4 4 14 14 14 1 FALSE
-"299" "GP" "M" 17 "U" "GT3" "T" 3 3 "health" "other" "home" "yes" "yes" "mother" 1 1 0 "no" "yes" "yes" "no" "yes" "no" 4 4 3 1 3 5 2 14 14 13 2 FALSE
-"300" "GP" "F" 19 "U" "GT3" "T" 4 4 "health" "other" "reputation" "yes" "yes" "other" 2 2 0 "no" "yes" "yes" "yes" "yes" "no" 2 3 4 2 3 2 1 12 11 6 2.5 TRUE
-"301" "GP" "F" 18 "U" "LE3" "T" 4 3 "other" "other" "home" "yes" "yes" "other" 2 2 0 "no" "yes" "yes" "no" "yes" "yes" 4 4 5 1 2 2 5 12 11 11 1.5 FALSE
-"302" "GP" "F" 18 "U" "GT3" "T" 4 3 "other" "other" "reputation" "yes" "yes" "father" 1 4 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 1 1 3 0 15 15 16 1 FALSE
-"303" "GP" "M" 18 "U" "LE3" "T" 4 4 "teacher" "teacher" "home" "yes" "yes" "mother" 1 1 0 "no" "yes" "yes" "no" "yes" "yes" 1 4 2 2 2 1 2 17 16 16 2 FALSE
-"304" "GP" "F" 18 "U" "LE3" "A" 4 4 "health" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "yes" 4 2 4 1 1 4 7 13 12 13 1 FALSE
-"305" "GP" "M" 17 "U" "LE3" "T" 4 4 "other" "teacher" "home" "yes" "yes" "father" 2 1 0 "no" "no" "yes" "no" "yes" "no" 4 1 1 2 2 5 0 12 12 12 2 FALSE
-"306" "GP" "F" 17 "U" "GT3" "T" 4 2 "other" "other" "reputation" "yes" "yes" "mother" 2 3 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 1 1 3 0 16 14 15 1 FALSE
-"307" "GP" "F" 17 "U" "GT3" "T" 3 2 "health" "health" "reputation" "no" "yes" "father" 1 4 0 "no" "yes" "yes" "yes" "yes" "no" 5 2 2 1 2 5 0 18 18 18 1.5 FALSE
-"308" "GP" "M" 20 "U" "GT3" "A" 3 2 "services" "other" "course" "yes" "no" "other" 1 1 1 "no" "no" "no" "yes" "yes" "no" 5 5 3 1 1 5 0 16 16 16 1 FALSE
-"309" "GP" "M" 19 "R" "GT3" "T" 3 3 "other" "services" "reputation" "yes" "no" "father" 1 2 0 "no" "no" "no" "yes" "yes" "yes" 4 5 3 1 2 5 0 12 11 12 1.5 FALSE
-"310" "GP" "F" 18 "U" "GT3" "T" 2 1 "services" "other" "course" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "yes" "yes" "no" 5 3 3 1 2 1 1 10 10 8 1.5 FALSE
-"311" "GP" "F" 18 "U" "GT3" "T" 4 3 "other" "other" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "yes" 4 3 4 1 1 5 6 12 12 13 1 FALSE
-"312" "GP" "F" 17 "R" "GT3" "T" 3 4 "at_home" "services" "course" "no" "yes" "father" 1 3 0 "no" "yes" "yes" "yes" "yes" "no" 4 3 4 2 5 5 1 13 13 14 3.5 TRUE
-"313" "GP" "F" 18 "U" "GT3" "T" 4 4 "teacher" "other" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 4 4 3 3 5 1 12 11 12 3 TRUE
-"314" "GP" "F" 17 "U" "GT3" "A" 4 3 "services" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "yes" 5 2 2 1 2 5 18 14 14 15 1.5 FALSE
-"315" "GP" "F" 17 "U" "GT3" "T" 2 2 "other" "other" "course" "yes" "no" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "yes" 4 2 2 1 1 3 8 12 11 11 1 FALSE
-"316" "GP" "F" 17 "R" "LE3" "T" 2 2 "services" "services" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "no" 3 3 2 2 2 3 2 11 11 10 2 FALSE
-"317" "GP" "F" 17 "U" "GT3" "T" 3 1 "services" "services" "course" "no" "yes" "father" 1 3 0 "no" "yes" "no" "no" "yes" "no" 3 4 3 2 3 5 0 14 16 16 2.5 TRUE
-"318" "GP" "F" 17 "U" "LE3" "T" 0 2 "at_home" "at_home" "home" "yes" "yes" "father" 2 3 0 "no" "no" "no" "no" "yes" "no" 3 3 3 2 3 2 0 15 14 15 2.5 TRUE
-"319" "GP" "M" 18 "U" "GT3" "T" 4 4 "other" "other" "course" "yes" "yes" "mother" 1 3 0 "no" "no" "no" "yes" "yes" "no" 4 3 3 2 2 3 2 11 13 12 2 FALSE
-"320" "GP" "M" 17 "U" "GT3" "T" 3 3 "other" "services" "reputation" "no" "yes" "mother" 1 1 0 "no" "no" "no" "yes" "yes" "no" 4 3 5 3 5 5 2 16 16 16 4 TRUE
-"321" "GP" "M" 17 "R" "GT3" "T" 2 2 "services" "other" "course" "yes" "yes" "mother" 4 1 0 "no" "yes" "no" "no" "yes" "no" 4 4 5 5 5 4 5 11 10 10 5 TRUE
-"322" "GP" "F" 17 "U" "GT3" "T" 4 4 "teacher" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 5 4 2 1 4 4 4 10 10 10 2.5 TRUE
-"323" "GP" "F" 17 "U" "GT3" "T" 4 4 "teacher" "services" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "no" 5 4 4 1 3 4 4 12 10 11 2 FALSE
-"324" "GP" "F" 17 "U" "GT3" "T" 4 4 "teacher" "teacher" "course" "no" "yes" "mother" 2 3 0 "no" "yes" "yes" "no" "yes" "yes" 4 3 3 1 2 4 4 14 14 14 1.5 FALSE
-"325" "GP" "M" 18 "U" "LE3" "T" 2 2 "other" "other" "course" "yes" "yes" "mother" 1 4 0 "no" "yes" "no" "yes" "yes" "no" 4 5 5 2 4 5 1 10 10 10 3 TRUE
-"326" "GP" "F" 17 "R" "GT3" "T" 2 4 "at_home" "other" "course" "yes" "yes" "father" 1 3 0 "no" "yes" "no" "no" "yes" "yes" 4 4 3 1 1 5 4 14 14 14 1 FALSE
-"327" "GP" "F" 18 "U" "GT3" "T" 3 3 "services" "services" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "no" 5 3 4 1 1 4 4 8 6 6 1 FALSE
-"328" "GP" "F" 18 "U" "LE3" "T" 2 2 "other" "other" "home" "no" "yes" "other" 1 2 0 "no" "no" "no" "yes" "yes" "yes" 4 3 3 1 1 2 0 9 8 6 1 FALSE
-"329" "GP" "F" 18 "R" "GT3" "T" 2 2 "at_home" "other" "course" "yes" "no" "mother" 2 4 0 "no" "no" "no" "yes" "yes" "no" 4 4 4 1 1 4 3 12 11 7 1 FALSE
-"330" "GP" "F" 17 "U" "GT3" "T" 3 4 "services" "other" "course" "yes" "yes" "mother" 1 3 0 "no" "no" "no" "no" "yes" "no" 4 4 5 1 3 5 12 14 14 14 2 FALSE
-"331" "GP" "F" 17 "U" "GT3" "T" 3 2 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "yes" 4 3 2 2 3 2 0 10 10 8 2.5 TRUE
-"332" "GP" "F" 18 "U" "LE3" "T" 3 3 "services" "services" "home" "yes" "yes" "mother" 1 4 0 "no" "yes" "no" "no" "yes" "no" 5 3 3 1 1 1 6 15 14 16 1 FALSE
-"333" "GP" "F" 17 "R" "GT3" "A" 3 2 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 2 3 2 2 12 12 13 2.5 TRUE
-"334" "GP" "M" 18 "U" "GT3" "T" 4 4 "teacher" "services" "home" "yes" "yes" "father" 2 2 0 "no" "yes" "no" "yes" "yes" "no" 4 2 4 2 3 2 3 10 11 6 2.5 TRUE
-"335" "GP" "M" 18 "U" "GT3" "T" 4 4 "teacher" "services" "home" "yes" "yes" "father" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 4 3 3 2 2 2 0 11 11 6 2 FALSE
-"336" "GP" "M" 18 "U" "LE3" "T" 3 4 "services" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "yes" 4 3 3 1 3 5 8 16 16 16 2 FALSE
-"337" "GP" "F" 17 "U" "GT3" "A" 2 2 "at_home" "at_home" "home" "yes" "yes" "father" 1 2 0 "no" "yes" "no" "no" "yes" "yes" 3 3 1 1 2 4 9 10 10 7 1.5 FALSE
-"338" "GP" "F" 18 "U" "GT3" "T" 2 3 "at_home" "other" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "no" "no" "yes" "no" 4 3 3 1 2 3 2 11 11 12 1.5 FALSE
-"339" "GP" "F" 18 "U" "GT3" "T" 3 2 "other" "services" "other" "yes" "yes" "mother" 1 3 0 "no" "no" "no" "no" "yes" "yes" 5 4 3 2 3 1 6 14 14 16 2.5 TRUE
-"340" "GP" "M" 18 "R" "GT3" "T" 4 3 "teacher" "services" "course" "yes" "yes" "mother" 1 3 0 "no" "no" "no" "no" "yes" "yes" 5 3 2 1 2 4 6 16 14 16 1.5 FALSE
-"341" "GP" "M" 18 "U" "GT3" "T" 4 3 "teacher" "other" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "no" "yes" "yes" 5 4 5 2 3 5 0 12 12 12 2.5 TRUE
-"342" "GP" "F" 17 "U" "GT3" "T" 4 3 "health" "other" "reputation" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "yes" 4 4 3 1 3 4 0 12 14 14 2 FALSE
-"343" "MS" "M" 18 "R" "GT3" "T" 3 2 "other" "other" "course" "no" "yes" "mother" 2 1 0 "no" "yes" "no" "no" "yes" "no" 2 5 5 5 5 5 9 10 12 12 5 TRUE
-"344" "MS" "M" 19 "R" "GT3" "T" 1 1 "other" "services" "home" "yes" "yes" "other" 3 2 2 "no" "no" "no" "no" "yes" "no" 5 4 4 3 3 2 8 9 8 10 3 TRUE
-"345" "MS" "M" 17 "U" "GT3" "T" 3 3 "health" "other" "course" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "no" "yes" "no" 4 5 4 2 3 3 3 10 11 12 2.5 TRUE
-"346" "MS" "M" 18 "U" "LE3" "T" 1 3 "at_home" "services" "course" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "no" "no" "yes" 4 3 3 2 3 3 4 8 8 8 2.5 TRUE
-"347" "MS" "M" 19 "R" "GT3" "T" 1 1 "other" "other" "home" "yes" "yes" "other" 3 1 1 "no" "yes" "no" "no" "yes" "no" 4 4 4 3 3 5 4 8 8 9 3 TRUE
-"348" "MS" "M" 17 "R" "GT3" "T" 4 3 "services" "other" "home" "no" "yes" "mother" 2 2 0 "no" "yes" "yes" "yes" "yes" "yes" 4 5 5 1 3 2 4 12 11 11 2 FALSE
-"349" "MS" "F" 18 "U" "GT3" "T" 3 3 "services" "services" "course" "yes" "no" "father" 1 2 0 "no" "yes" "no" "no" "yes" "yes" 5 3 4 1 1 5 0 10 10 10 1 FALSE
-"350" "MS" "F" 17 "R" "GT3" "T" 4 4 "teacher" "services" "other" "yes" "yes" "father" 2 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 3 3 1 2 5 3 12 12 12 1.5 FALSE
-"351" "MS" "F" 17 "U" "LE3" "A" 3 2 "services" "other" "reputation" "yes" "no" "mother" 2 2 0 "no" "no" "no" "no" "yes" "yes" 1 2 3 1 2 5 1 14 13 13 1.5 FALSE
-"352" "MS" "M" 18 "U" "LE3" "T" 1 1 "other" "services" "home" "no" "yes" "father" 2 1 0 "no" "no" "no" "no" "yes" "yes" 3 3 2 1 2 3 3 12 12 12 1.5 FALSE
-"353" "MS" "F" 18 "U" "LE3" "T" 1 1 "at_home" "services" "course" "yes" "yes" "father" 2 3 0 "no" "no" "no" "no" "yes" "no" 5 3 2 1 1 4 0 18 16 17 1 FALSE
-"354" "MS" "F" 18 "U" "GT3" "T" 3 3 "services" "services" "other" "yes" "yes" "mother" 2 2 0 "no" "yes" "no" "no" "yes" "yes" 4 3 2 1 3 3 3 12 12 12 2 FALSE
-"355" "MS" "F" 17 "U" "LE3" "T" 4 4 "at_home" "at_home" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "yes" 2 3 4 1 1 1 2 16 14 15 1 FALSE
-"356" "MS" "F" 17 "R" "GT3" "T" 1 2 "other" "services" "course" "no" "no" "father" 2 2 0 "no" "no" "no" "no" "yes" "no" 3 2 2 1 2 3 0 12 12 12 1.5 FALSE
-"357" "MS" "M" 18 "R" "GT3" "T" 1 3 "at_home" "other" "course" "yes" "no" "mother" 2 2 0 "no" "yes" "yes" "no" "yes" "no" 3 3 4 2 4 3 2 9 10 10 3 TRUE
-"358" "MS" "M" 18 "U" "LE3" "T" 4 4 "teacher" "services" "other" "yes" "yes" "mother" 2 3 0 "no" "no" "yes" "no" "yes" "yes" 4 2 2 2 2 5 0 14 14 14 2 FALSE
-"359" "MS" "F" 17 "R" "GT3" "T" 1 1 "other" "services" "reputation" "yes" "yes" "mother" 3 1 1 "no" "yes" "yes" "no" "yes" "yes" 5 2 1 1 2 1 0 8 7 4 1.5 FALSE
-"360" "MS" "F" 18 "U" "GT3" "T" 2 3 "at_home" "services" "course" "yes" "yes" "father" 2 1 0 "no" "yes" "yes" "no" "yes" "yes" 5 2 3 1 2 4 0 10 10 10 1.5 FALSE
-"361" "MS" "F" 18 "R" "GT3" "T" 4 4 "other" "teacher" "other" "no" "yes" "father" 3 2 0 "no" "yes" "yes" "no" "yes" "yes" 3 2 2 4 2 5 5 10 8 6 3 TRUE
-"362" "MS" "M" 18 "R" "LE3" "T" 1 2 "at_home" "services" "other" "yes" "yes" "father" 3 1 0 "no" "yes" "yes" "yes" "no" "yes" 4 3 3 2 3 3 3 12 11 11 2.5 TRUE
-"363" "MS" "F" 17 "U" "GT3" "T" 2 2 "other" "at_home" "home" "yes" "no" "mother" 1 3 0 "no" "no" "no" "yes" "yes" "yes" 3 4 3 1 1 3 8 12 11 12 1 FALSE
-"364" "MS" "F" 17 "R" "GT3" "T" 1 2 "other" "other" "course" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "yes" "yes" "no" 3 5 5 1 3 1 9 6 6 7 2 FALSE
-"365" "MS" "F" 18 "R" "LE3" "T" 4 4 "other" "other" "reputation" "yes" "yes" "mother" 2 3 0 "no" "no" "no" "no" "yes" "no" 5 4 4 1 1 1 0 17 18 18 1 FALSE
-"366" "MS" "F" 18 "R" "GT3" "T" 1 1 "other" "other" "home" "yes" "yes" "mother" 4 3 0 "no" "no" "no" "no" "yes" "no" 4 3 2 1 2 4 3 9 10 11 1.5 FALSE
-"367" "MS" "F" 18 "R" "LE3" "T" 4 4 "teacher" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "yes" "yes" "no" 5 4 3 3 4 2 2 10 12 12 3.5 TRUE
-"368" "MS" "F" 18 "U" "GT3" "T" 3 3 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "no" "yes" "yes" 4 1 3 1 2 1 0 16 16 16 1.5 FALSE
-"369" "MS" "F" 17 "R" "GT3" "T" 3 1 "at_home" "other" "reputation" "no" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 5 4 2 3 1 14 9 10 10 2.5 TRUE
-"370" "MS" "M" 18 "U" "GT3" "T" 4 4 "teacher" "teacher" "home" "no" "yes" "father" 1 2 0 "no" "no" "yes" "yes" "yes" "no" 3 2 4 1 4 2 4 16 16 16 2.5 TRUE
-"371" "MS" "M" 18 "R" "GT3" "T" 2 1 "other" "other" "other" "no" "yes" "mother" 2 1 0 "no" "no" "no" "yes" "yes" "yes" 4 4 3 1 3 5 2 7 6 4 2 FALSE
-"372" "MS" "M" 17 "U" "GT3" "T" 2 3 "other" "services" "home" "yes" "yes" "father" 2 2 0 "no" "no" "no" "yes" "yes" "no" 4 4 3 1 1 3 3 12 13 13 1 FALSE
-"373" "MS" "M" 19 "R" "GT3" "T" 1 1 "other" "services" "other" "yes" "no" "mother" 2 1 1 "no" "no" "no" "no" "yes" "no" 4 3 2 1 3 5 0 6 6 0 2 FALSE
-"374" "MS" "M" 18 "R" "GT3" "T" 4 2 "other" "other" "home" "yes" "no" "father" 2 1 1 "no" "no" "yes" "no" "yes" "no" 5 4 3 4 3 3 7 6 6 2 3.5 TRUE
-"375" "MS" "F" 18 "R" "GT3" "T" 2 2 "at_home" "other" "other" "yes" "no" "mother" 2 3 0 "no" "no" "yes" "no" "yes" "no" 5 3 3 1 3 4 1 12 13 12 2 FALSE
-"376" "MS" "F" 18 "R" "GT3" "T" 4 4 "teacher" "at_home" "reputation" "yes" "yes" "mother" 3 1 0 "no" "yes" "yes" "yes" "yes" "yes" 4 4 3 2 2 5 6 6 7 8 2 FALSE
-"377" "MS" "F" 19 "R" "GT3" "T" 2 3 "services" "other" "course" "no" "yes" "mother" 1 3 1 "no" "no" "no" "yes" "yes" "no" 5 4 2 1 2 5 2 8 8 5 1.5 FALSE
-"378" "MS" "F" 18 "U" "LE3" "T" 3 1 "teacher" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 4 1 1 1 2 11 12 12 1 FALSE
-"379" "MS" "F" 18 "U" "GT3" "T" 1 1 "other" "other" "course" "yes" "no" "mother" 2 2 2 "no" "no" "no" "yes" "yes" "no" 2 2 2 2 2 5 2 6 6 4 2 FALSE
-"380" "MS" "F" 18 "U" "GT3" "T" 1 1 "other" "other" "course" "yes" "no" "mother" 2 2 0 "no" "no" "no" "yes" "yes" "no" 1 1 1 1 1 5 3 8 8 4 1 FALSE
-"381" "MS" "M" 17 "U" "LE3" "T" 3 1 "services" "services" "course" "no" "yes" "mother" 2 1 0 "no" "no" "no" "no" "yes" "no" 2 4 5 3 4 2 4 12 13 13 3.5 TRUE
-"382" "MS" "M" 18 "R" "LE3" "T" 3 2 "services" "other" "course" "no" "yes" "mother" 3 1 0 "no" "no" "no" "no" "yes" "no" 4 4 1 3 4 5 2 10 12 10 3.5 TRUE
+"school" "sex" "age" "address" "famsize" "Pstatus" "Medu" "Fedu" "Mjob" "Fjob" "reason" "nursery" "internet" "guardian" "traveltime" "studytime" "failures" "schoolsup" "famsup" "paid" "activities" "higher" "romantic" "famrel" "freetime" "goout" "Dalc" "Walc" "health" "absences" "G1" "G2" "G3" "alc_use" "high_use" "prediction" "probability"
+"1" "GP" "F" 18 "U" "GT3" "A" 4 4 "at_home" "teacher" "course" "yes" "no" "mother" 2 2 0 "yes" "no" "no" "no" "yes" "no" 4 3 4 1 1 3 5 2 8 8 1 FALSE FALSE 0.230505936552646
+"2" "GP" "F" 17 "U" "GT3" "T" 1 1 "at_home" "other" "course" "no" "yes" "father" 1 2 0 "no" "yes" "no" "no" "yes" "no" 5 3 3 1 1 3 3 7 8 8 1 FALSE FALSE 0.202581020664484
+"3" "GP" "F" 15 "U" "LE3" "T" 1 1 "at_home" "other" "other" "yes" "yes" "mother" 1 2 2 "yes" "no" "yes" "no" "yes" "no" 4 3 2 2 3 3 8 10 10 11 2.5 TRUE FALSE 0.404463552214493
+"4" "GP" "F" 15 "U" "GT3" "T" 4 2 "health" "services" "home" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "yes" 3 2 2 1 1 5 1 14 14 14 1 FALSE FALSE 0.180555362195864
+"5" "GP" "F" 16 "U" "GT3" "T" 3 3 "other" "other" "home" "yes" "no" "father" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 2 1 2 5 2 8 12 12 1.5 FALSE FALSE 0.202581020664484
+"6" "GP" "M" 16 "U" "LE3" "T" 4 3 "services" "other" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 5 4 2 1 2 5 8 14 14 14 1.5 FALSE FALSE 0.366469319001781
+"7" "GP" "M" 16 "U" "LE3" "T" 2 2 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "no" "yes" "no" 4 4 4 1 1 3 0 12 12 12 1 FALSE FALSE 0.366469319001781
+"8" "GP" "F" 17 "U" "GT3" "A" 4 4 "other" "teacher" "home" "yes" "no" "mother" 2 2 0 "yes" "yes" "no" "no" "yes" "no" 4 1 4 1 1 1 4 8 9 10 1 FALSE FALSE 0.230505936552646
+"9" "GP" "M" 15 "U" "LE3" "A" 3 2 "services" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 2 2 1 1 1 0 16 17 18 1 FALSE FALSE 0.405497570927916
+"10" "GP" "M" 15 "U" "GT3" "T" 3 4 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 5 5 1 1 1 5 0 13 14 14 1 FALSE FALSE 0.366469319001781
+"11" "GP" "F" 15 "U" "GT3" "T" 4 4 "teacher" "health" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 3 3 3 1 2 2 1 12 11 12 1.5 FALSE FALSE 0.202581020664484
+"12" "GP" "F" 15 "U" "GT3" "T" 2 1 "services" "other" "reputation" "yes" "yes" "father" 3 3 0 "no" "yes" "no" "yes" "yes" "no" 5 2 2 1 1 4 2 10 12 12 1 FALSE FALSE 0.202581020664484
+"13" "GP" "M" 15 "U" "LE3" "T" 4 4 "health" "services" "course" "yes" "yes" "father" 1 1 0 "no" "yes" "yes" "yes" "yes" "no" 4 3 3 1 3 5 1 13 14 13 2 FALSE FALSE 0.366469319001781
+"14" "GP" "M" 15 "U" "GT3" "T" 4 3 "teacher" "other" "course" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "no" "yes" "no" 5 4 3 1 2 3 1 11 11 12 1.5 FALSE FALSE 0.366469319001781
+"15" "GP" "M" 15 "U" "GT3" "A" 2 2 "other" "other" "home" "yes" "yes" "other" 1 3 0 "no" "yes" "no" "no" "yes" "yes" 4 5 2 1 1 3 0 14 15 16 1 FALSE FALSE 0.371693390304312
+"16" "GP" "F" 16 "U" "GT3" "T" 4 4 "health" "other" "home" "yes" "yes" "mother" 1 1 0 "no" "yes" "no" "no" "yes" "no" 4 4 4 1 2 2 5 16 16 16 1.5 FALSE FALSE 0.202581020664484
+"17" "GP" "F" 16 "U" "GT3" "T" 4 4 "services" "services" "reputation" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "no" 3 2 3 1 2 2 8 13 14 14 1.5 FALSE FALSE 0.202581020664484
+"18" "GP" "F" 16 "U" "GT3" "T" 3 3 "other" "other" "reputation" "yes" "no" "mother" 3 2 0 "yes" "yes" "no" "yes" "yes" "no" 5 3 2 1 1 4 3 10 12 12 1 FALSE FALSE 0.202581020664484
+"19" "GP" "M" 17 "U" "GT3" "T" 3 2 "services" "services" "course" "yes" "yes" "mother" 1 1 3 "no" "yes" "no" "yes" "yes" "no" 5 5 5 2 4 5 9 7 6 6 3 TRUE TRUE 0.716591255141781
+"20" "GP" "M" 16 "U" "LE3" "T" 4 3 "health" "other" "home" "yes" "yes" "father" 1 1 0 "no" "no" "yes" "yes" "yes" "no" 3 1 3 1 3 5 5 10 11 11 2 FALSE FALSE 0.366469319001781
+"21" "GP" "M" 15 "U" "GT3" "T" 4 3 "teacher" "other" "reputation" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "no" "yes" "no" 4 4 1 1 1 1 0 12 14 14 1 FALSE FALSE 0.366469319001781
+"22" "GP" "M" 15 "U" "GT3" "T" 4 4 "health" "health" "other" "yes" "yes" "father" 1 1 0 "no" "yes" "yes" "no" "yes" "no" 5 4 2 1 1 5 0 12 14 14 1 FALSE FALSE 0.366469319001781
+"23" "GP" "M" 16 "U" "LE3" "T" 4 2 "teacher" "other" "course" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "no" 4 5 1 1 3 5 1 14 14 15 2 FALSE FALSE 0.366469319001781
+"24" "GP" "M" 16 "U" "LE3" "T" 2 2 "other" "other" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "no" "yes" "yes" "no" 5 4 4 2 4 5 1 12 12 11 3 TRUE FALSE 0.366469319001781
+"25" "GP" "F" 15 "R" "GT3" "T" 2 4 "services" "health" "course" "yes" "yes" "mother" 1 3 0 "yes" "yes" "yes" "yes" "yes" "no" 4 3 2 1 1 5 2 10 10 9 1 FALSE FALSE 0.202581020664484
+"26" "GP" "F" 16 "U" "GT3" "T" 2 2 "services" "services" "home" "no" "yes" "mother" 1 1 1 "no" "yes" "yes" "no" "yes" "no" 1 2 2 1 3 5 10 8 10 10 2 FALSE FALSE 0.293474063584148
+"27" "GP" "M" 15 "U" "GT3" "T" 2 2 "other" "other" "home" "yes" "yes" "mother" 1 1 0 "no" "yes" "yes" "no" "yes" "no" 4 2 2 1 2 5 5 12 12 12 1.5 FALSE FALSE 0.366469319001781
+"28" "GP" "M" 15 "U" "GT3" "T" 4 2 "health" "services" "other" "yes" "yes" "mother" 1 1 0 "no" "no" "yes" "no" "yes" "no" 2 2 4 2 4 1 2 13 14 13 3 TRUE FALSE 0.366469319001781
+"29" "GP" "M" 16 "U" "LE3" "A" 3 4 "services" "other" "home" "yes" "yes" "mother" 1 2 0 "yes" "yes" "no" "yes" "yes" "no" 5 3 3 1 1 5 3 12 12 12 1 FALSE FALSE 0.405497570927916
+"30" "GP" "M" 16 "U" "GT3" "T" 4 4 "teacher" "teacher" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "yes" 4 4 5 5 5 5 10 11 12 12 5 TRUE FALSE 0.334090315379865
+"31" "GP" "M" 15 "U" "GT3" "T" 4 4 "health" "services" "home" "no" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 5 4 2 3 4 5 0 10 11 12 3.5 TRUE FALSE 0.366469319001781
+"32" "GP" "M" 15 "U" "GT3" "T" 4 4 "services" "services" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "no" "yes" "yes" "no" 4 3 1 1 1 5 1 16 16 16 1 FALSE FALSE 0.366469319001781
+"33" "GP" "M" 15 "R" "GT3" "T" 4 3 "teacher" "at_home" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "yes" "yes" "yes" 4 5 2 1 1 5 0 15 15 16 1 FALSE FALSE 0.334090315379865
+"34" "GP" "M" 15 "U" "LE3" "T" 3 3 "other" "other" "course" "no" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "no" 5 3 2 1 1 2 0 10 11 12 1 FALSE FALSE 0.366469319001781
+"35" "GP" "M" 16 "U" "GT3" "T" 3 2 "other" "other" "home" "no" "yes" "mother" 1 1 0 "no" "yes" "yes" "no" "yes" "no" 5 4 3 1 1 5 2 12 13 14 1 FALSE FALSE 0.366469319001781
+"36" "GP" "F" 15 "U" "GT3" "T" 2 3 "other" "other" "other" "yes" "no" "father" 2 1 0 "no" "yes" "no" "yes" "yes" "no" 3 5 1 1 1 5 2 10 9 8 1 FALSE FALSE 0.202581020664484
+"37" "GP" "M" 15 "U" "LE3" "T" 4 3 "teacher" "services" "home" "yes" "yes" "mother" 1 3 0 "no" "yes" "no" "yes" "yes" "no" 5 4 3 1 1 4 1 14 15 16 1 FALSE FALSE 0.366469319001781
+"38" "GP" "M" 16 "R" "GT3" "A" 4 4 "other" "teacher" "reputation" "yes" "yes" "mother" 2 3 0 "no" "yes" "no" "yes" "yes" "yes" 2 4 3 1 1 5 6 14 14 14 1 FALSE FALSE 0.371693390304312
+"39" "GP" "F" 15 "R" "GT3" "T" 3 4 "services" "health" "course" "yes" "yes" "mother" 1 3 0 "yes" "yes" "yes" "yes" "yes" "no" 4 3 2 1 1 5 2 12 12 12 1 FALSE FALSE 0.202581020664484
+"40" "GP" "F" 15 "R" "GT3" "T" 2 2 "at_home" "other" "reputation" "yes" "no" "mother" 1 1 0 "yes" "yes" "yes" "yes" "yes" "no" 4 3 1 1 1 2 8 14 13 12 1 FALSE FALSE 0.202581020664484
+"41" "GP" "F" 16 "U" "LE3" "T" 2 2 "other" "other" "home" "no" "yes" "mother" 2 2 0 "no" "yes" "no" "yes" "yes" "yes" 3 3 3 1 2 3 20 9 10 10 1.5 FALSE FALSE 0.180555362195864
+"42" "GP" "M" 15 "U" "LE3" "T" 4 4 "teacher" "other" "home" "no" "yes" "other" 1 1 0 "no" "yes" "no" "no" "yes" "yes" 5 4 3 2 4 5 8 11 12 12 3 TRUE FALSE 0.334090315379865
+"43" "GP" "M" 15 "U" "GT3" "T" 4 4 "services" "teacher" "course" "yes" "yes" "father" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 4 3 3 1 1 5 1 16 16 16 1 FALSE FALSE 0.366469319001781
+"44" "GP" "M" 15 "U" "GT3" "T" 2 2 "services" "services" "course" "yes" "yes" "father" 1 1 0 "yes" "yes" "no" "no" "yes" "no" 5 4 1 1 1 1 0 8 9 10 1 FALSE FALSE 0.366469319001781
+"45" "GP" "F" 16 "U" "LE3" "T" 2 2 "other" "at_home" "course" "yes" "yes" "father" 2 2 1 "yes" "no" "no" "yes" "yes" "no" 4 3 3 2 2 5 14 10 10 10 2 FALSE FALSE 0.293474063584148
+"46" "GP" "F" 15 "U" "LE3" "A" 4 3 "other" "other" "course" "yes" "yes" "mother" 1 2 0 "yes" "yes" "yes" "yes" "yes" "yes" 5 2 2 1 1 5 6 9 10 8 1 FALSE FALSE 0.206229346676854
+"47" "GP" "F" 16 "U" "LE3" "A" 3 3 "other" "services" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "no" 2 3 5 1 4 3 9 12 12 12 2.5 TRUE FALSE 0.230505936552646
+"48" "GP" "M" 16 "U" "GT3" "T" 4 3 "health" "services" "reputation" "yes" "yes" "mother" 1 4 0 "no" "no" "no" "yes" "yes" "no" 4 2 2 1 1 2 3 18 18 18 1 FALSE FALSE 0.366469319001781
+"49" "GP" "M" 15 "U" "GT3" "T" 4 2 "teacher" "other" "home" "yes" "no" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 2 2 5 3 13 14 14 2 FALSE FALSE 0.366469319001781
+"50" "GP" "F" 15 "U" "GT3" "T" 4 4 "services" "teacher" "other" "no" "yes" "father" 1 2 0 "yes" "yes" "no" "yes" "yes" "no" 4 4 4 1 1 3 2 10 10 10 1 FALSE FALSE 0.202581020664484
+"51" "GP" "F" 16 "U" "LE3" "T" 2 2 "services" "services" "course" "yes" "yes" "mother" 3 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 2 3 4 1 13 13 13 2.5 TRUE FALSE 0.202581020664484
+"52" "GP" "F" 15 "U" "LE3" "T" 4 2 "health" "other" "other" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 1 1 5 1 14 14 14 1 FALSE FALSE 0.202581020664484
+"53" "GP" "M" 15 "U" "LE3" "A" 4 2 "health" "health" "other" "yes" "no" "father" 2 1 0 "no" "no" "no" "no" "yes" "no" 5 5 5 3 4 5 5 10 10 10 3.5 TRUE FALSE 0.405497570927916
+"54" "GP" "F" 15 "U" "GT3" "T" 4 4 "services" "services" "course" "yes" "yes" "mother" 1 1 0 "yes" "yes" "yes" "no" "yes" "no" 3 3 4 2 3 5 0 10 11 12 2.5 TRUE FALSE 0.202581020664484
+"55" "GP" "F" 15 "U" "LE3" "A" 3 3 "other" "other" "other" "yes" "yes" "mother" 1 1 0 "no" "no" "yes" "no" "yes" "no" 5 3 4 4 4 1 3 12 12 13 4 TRUE FALSE 0.230505936552646
+"56" "GP" "F" 16 "U" "GT3" "A" 2 1 "other" "other" "other" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "yes" "yes" "yes" 5 3 4 1 1 2 5 10 11 11 1 FALSE FALSE 0.206229346676854
+"57" "GP" "F" 15 "U" "GT3" "A" 4 3 "services" "services" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 3 2 1 1 1 0 14 14 15 1 FALSE FALSE 0.230505936552646
+"58" "GP" "M" 15 "U" "GT3" "T" 4 4 "teacher" "health" "reputation" "yes" "no" "mother" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 3 2 2 1 1 5 6 14 15 16 1 FALSE FALSE 0.366469319001781
+"59" "GP" "M" 15 "U" "LE3" "T" 1 2 "other" "at_home" "home" "yes" "yes" "father" 1 2 0 "yes" "yes" "no" "yes" "yes" "no" 4 3 2 1 1 5 1 12 12 12 1 FALSE FALSE 0.366469319001781
+"60" "GP" "F" 16 "U" "GT3" "T" 4 2 "services" "other" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "no" 4 2 3 1 1 5 2 16 16 16 1 FALSE FALSE 0.202581020664484
+"61" "GP" "F" 16 "R" "GT3" "T" 4 4 "health" "teacher" "other" "yes" "no" "mother" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 2 4 4 2 3 4 3 14 14 14 2.5 TRUE FALSE 0.202581020664484
+"62" "GP" "F" 16 "U" "GT3" "T" 1 1 "services" "services" "course" "no" "yes" "father" 4 1 0 "yes" "yes" "no" "yes" "yes" "yes" 5 5 5 5 5 5 3 10 9 14 5 TRUE FALSE 0.180555362195864
+"63" "GP" "F" 16 "U" "LE3" "T" 1 2 "other" "services" "reputation" "yes" "yes" "father" 1 2 0 "yes" "no" "no" "yes" "yes" "no" 4 4 3 1 1 1 2 10 12 10 1 FALSE FALSE 0.202581020664484
+"64" "GP" "F" 16 "U" "GT3" "T" 4 3 "teacher" "health" "home" "yes" "yes" "mother" 1 3 0 "yes" "yes" "yes" "yes" "yes" "no" 3 4 4 2 4 4 1 12 11 11 3 TRUE FALSE 0.202581020664484
+"65" "GP" "F" 15 "U" "LE3" "T" 4 3 "services" "services" "reputation" "yes" "yes" "father" 1 2 0 "yes" "no" "no" "yes" "yes" "yes" 4 4 4 2 4 2 0 12 11 11 3 TRUE FALSE 0.180555362195864
+"66" "GP" "F" 16 "U" "LE3" "T" 4 3 "teacher" "services" "course" "yes" "yes" "mother" 3 2 0 "no" "yes" "no" "yes" "yes" "no" 5 4 3 1 2 1 2 16 15 16 1.5 FALSE FALSE 0.202581020664484
+"67" "GP" "M" 15 "U" "GT3" "A" 4 4 "other" "services" "reputation" "no" "yes" "mother" 1 4 0 "no" "yes" "no" "yes" "yes" "yes" 1 3 3 5 5 3 2 12 12 12 5 TRUE FALSE 0.371693390304312
+"68" "GP" "F" 16 "U" "GT3" "T" 3 1 "services" "other" "course" "yes" "yes" "mother" 1 4 0 "yes" "yes" "yes" "no" "yes" "no" 4 3 3 1 2 5 2 8 8 8 1.5 FALSE FALSE 0.202581020664484
+"69" "GP" "F" 15 "R" "LE3" "T" 2 2 "health" "services" "reputation" "yes" "yes" "mother" 2 2 0 "yes" "yes" "yes" "no" "yes" "no" 4 1 3 1 3 4 1 10 10 10 2 FALSE FALSE 0.202581020664484
+"70" "GP" "F" 15 "R" "LE3" "T" 3 1 "other" "other" "reputation" "no" "yes" "father" 2 4 0 "no" "yes" "no" "no" "yes" "no" 4 4 2 2 3 3 9 16 16 16 2.5 TRUE FALSE 0.202581020664484
+"71" "GP" "M" 16 "U" "GT3" "T" 3 1 "other" "other" "reputation" "yes" "yes" "father" 2 4 0 "no" "yes" "yes" "no" "yes" "no" 4 3 2 1 1 5 1 13 13 13 1 FALSE FALSE 0.366469319001781
+"72" "GP" "M" 15 "U" "GT3" "T" 4 2 "other" "other" "course" "yes" "yes" "mother" 1 4 0 "no" "no" "no" "no" "yes" "no" 3 3 3 1 1 3 0 10 10 10 1 FALSE FALSE 0.366469319001781
+"73" "GP" "F" 15 "R" "GT3" "T" 1 1 "other" "other" "reputation" "no" "yes" "mother" 1 2 1 "yes" "yes" "no" "no" "yes" "yes" 3 3 4 2 4 5 2 10 8 8 3 TRUE FALSE 0.264848290442272
+"74" "GP" "M" 16 "U" "GT3" "T" 3 1 "other" "other" "reputation" "yes" "no" "mother" 1 1 0 "no" "no" "no" "yes" "yes" "no" 5 3 2 2 2 5 1 12 12 14 2 FALSE FALSE 0.366469319001781
+"75" "GP" "F" 16 "U" "GT3" "T" 3 3 "other" "services" "home" "yes" "yes" "mother" 1 2 0 "yes" "yes" "yes" "yes" "yes" "no" 4 3 3 2 4 5 29 11 12 11 3 TRUE FALSE 0.202581020664484
+"76" "GP" "M" 15 "U" "GT3" "T" 4 3 "teacher" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 3 3 2 3 5 3 10 10 10 2.5 TRUE FALSE 0.366469319001781
+"77" "GP" "M" 15 "U" "GT3" "T" 4 0 "teacher" "other" "course" "yes" "yes" "mother" 2 4 0 "no" "no" "no" "yes" "yes" "no" 3 4 3 1 1 1 4 12 11 10 1 FALSE FALSE 0.366469319001781
+"78" "GP" "F" 16 "U" "GT3" "T" 2 2 "other" "other" "reputation" "yes" "yes" "mother" 1 4 0 "no" "no" "yes" "no" "yes" "yes" 5 2 3 1 3 3 0 12 12 12 2 FALSE FALSE 0.180555362195864
+"79" "GP" "M" 17 "U" "GT3" "T" 2 1 "other" "other" "home" "yes" "yes" "mother" 2 1 3 "yes" "yes" "no" "yes" "no" "no" 4 5 1 1 1 3 1 8 8 10 1 FALSE TRUE 0.716591255141781
+"80" "GP" "M" 17 "U" "GT3" "T" 2 1 "other" "other" "home" "yes" "yes" "mother" 2 1 2 "yes" "yes" "no" "yes" "no" "no" 4 4 3 1 2 4 12 8 8 8 1.5 FALSE TRUE 0.607292558112848
+"81" "GP" "F" 16 "U" "GT3" "T" 3 4 "at_home" "other" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "no" 2 4 3 1 2 3 13 8 8 8 1.5 FALSE FALSE 0.202581020664484
+"82" "GP" "M" 15 "U" "GT3" "T" 2 3 "other" "services" "course" "no" "yes" "father" 1 1 0 "yes" "yes" "yes" "yes" "yes" "yes" 3 2 2 1 3 3 1 10 12 12 2 FALSE FALSE 0.334090315379865
+"83" "GP" "M" 15 "U" "GT3" "T" 2 3 "other" "other" "home" "no" "yes" "mother" 1 3 0 "yes" "no" "yes" "no" "yes" "no" 5 3 2 1 2 5 3 10 10 10 1.5 FALSE FALSE 0.366469319001781
+"84" "GP" "F" 15 "U" "LE3" "T" 3 2 "services" "other" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 4 4 1 1 5 7 10 8 8 1 FALSE FALSE 0.202581020664484
+"85" "GP" "M" 15 "U" "LE3" "T" 2 2 "services" "services" "home" "yes" "yes" "mother" 2 2 0 "no" "no" "yes" "yes" "yes" "no" 5 3 3 1 3 4 3 14 14 14 2 FALSE FALSE 0.366469319001781
+"86" "GP" "F" 15 "U" "GT3" "T" 1 1 "other" "other" "home" "no" "yes" "father" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 4 3 2 2 3 4 2 11 11 11 2.5 TRUE FALSE 0.202581020664484
+"87" "GP" "F" 15 "U" "GT3" "T" 4 4 "services" "services" "reputation" "yes" "yes" "father" 2 2 1 "no" "no" "yes" "no" "yes" "yes" 4 4 4 2 3 5 5 10 10 10 2.5 TRUE FALSE 0.264848290442272
+"88" "GP" "F" 16 "U" "LE3" "T" 2 2 "at_home" "other" "course" "yes" "no" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "no" 4 3 4 1 2 2 5 10 9 8 1.5 FALSE FALSE 0.202581020664484
+"89" "GP" "F" 15 "U" "GT3" "T" 4 2 "other" "other" "reputation" "yes" "yes" "mother" 1 3 0 "no" "yes" "no" "yes" "yes" "no" 5 3 3 1 3 1 4 14 14 14 2 FALSE FALSE 0.202581020664484
+"90" "GP" "M" 16 "U" "GT3" "T" 2 2 "services" "other" "reputation" "no" "yes" "father" 2 2 0 "no" "no" "yes" "yes" "yes" "no" 4 4 2 1 1 3 9 12 10 10 1 FALSE FALSE 0.366469319001781
+"91" "GP" "M" 16 "U" "LE3" "A" 4 4 "teacher" "health" "reputation" "yes" "no" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "no" 4 1 3 3 5 5 12 8 8 8 4 TRUE FALSE 0.405497570927916
+"92" "GP" "F" 16 "U" "GT3" "T" 3 3 "other" "other" "home" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "no" "yes" "yes" 4 3 3 1 3 4 1 8 9 10 2 FALSE FALSE 0.180555362195864
+"93" "GP" "F" 15 "U" "GT3" "T" 4 3 "services" "other" "reputation" "yes" "yes" "mother" 1 1 0 "no" "no" "yes" "yes" "yes" "no" 4 5 5 1 3 1 5 15 15 16 2 FALSE FALSE 0.202581020664484
+"94" "GP" "F" 16 "U" "LE3" "T" 3 1 "other" "other" "home" "yes" "no" "father" 1 2 0 "yes" "yes" "no" "no" "yes" "no" 3 3 3 2 3 2 2 10 10 9 2.5 TRUE FALSE 0.202581020664484
+"95" "GP" "F" 16 "U" "GT3" "T" 4 2 "teacher" "services" "home" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "yes" "yes" "no" 5 3 3 1 1 1 1 12 12 12 1 FALSE FALSE 0.202581020664484
+"96" "GP" "M" 15 "U" "LE3" "T" 2 2 "services" "health" "reputation" "yes" "yes" "mother" 1 4 0 "no" "yes" "no" "yes" "yes" "no" 4 3 4 1 1 4 4 11 12 13 1 FALSE FALSE 0.366469319001781
+"97" "GP" "F" 15 "R" "GT3" "T" 1 1 "at_home" "other" "home" "yes" "yes" "mother" 2 4 0 "yes" "yes" "yes" "yes" "yes" "no" 3 1 2 1 1 1 3 10 12 12 1 FALSE FALSE 0.202581020664484
+"98" "GP" "M" 16 "R" "GT3" "T" 4 3 "services" "other" "reputation" "no" "yes" "mother" 2 1 0 "yes" "yes" "no" "yes" "yes" "no" 3 3 3 1 1 4 4 10 13 13 1 FALSE FALSE 0.366469319001781
+"99" "GP" "F" 16 "U" "GT3" "T" 2 1 "other" "other" "course" "yes" "no" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "yes" 4 3 5 1 1 5 1 10 10 11 1 FALSE FALSE 0.180555362195864
+"100" "GP" "F" 16 "U" "GT3" "T" 4 4 "other" "other" "reputation" "no" "yes" "mother" 1 1 0 "no" "no" "no" "yes" "yes" "no" 5 3 4 1 2 1 5 12 14 14 1.5 FALSE FALSE 0.202581020664484
+"101" "GP" "F" 16 "U" "GT3" "T" 4 3 "other" "at_home" "course" "yes" "yes" "mother" 1 3 0 "yes" "yes" "yes" "no" "yes" "no" 5 3 5 1 1 3 1 10 11 10 1 FALSE FALSE 0.202581020664484
+"102" "GP" "M" 16 "U" "GT3" "T" 4 4 "services" "services" "other" "yes" "yes" "mother" 1 1 0 "yes" "yes" "yes" "yes" "yes" "no" 4 5 5 5 5 4 13 8 8 6 5 TRUE FALSE 0.366469319001781
+"103" "GP" "M" 16 "U" "GT3" "T" 4 4 "services" "teacher" "other" "yes" "yes" "father" 1 3 0 "no" "yes" "no" "yes" "yes" "yes" 4 4 3 1 1 4 0 16 16 16 1 FALSE FALSE 0.334090315379865
+"104" "GP" "M" 15 "U" "GT3" "T" 4 4 "services" "other" "course" "no" "yes" "mother" 1 1 0 "no" "yes" "no" "yes" "yes" "no" 5 3 3 1 1 5 3 11 13 13 1 FALSE FALSE 0.366469319001781
+"105" "GP" "F" 15 "U" "GT3" "T" 3 2 "services" "other" "home" "yes" "yes" "mother" 2 2 0 "yes" "yes" "yes" "no" "yes" "no" 4 3 5 1 1 2 21 9 8 8 1 FALSE FALSE 0.202581020664484
+"106" "GP" "M" 15 "U" "GT3" "A" 3 4 "services" "other" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 5 4 4 1 1 1 0 16 17 17 1 FALSE FALSE 0.405497570927916
+"107" "GP" "F" 15 "U" "GT3" "A" 3 3 "other" "health" "reputation" "yes" "no" "father" 1 4 0 "yes" "no" "no" "no" "yes" "no" 4 3 3 1 1 4 10 10 10 10 1 FALSE FALSE 0.230505936552646
+"108" "GP" "F" 15 "U" "GT3" "T" 2 2 "other" "other" "course" "yes" "yes" "mother" 1 4 0 "yes" "yes" "yes" "no" "yes" "no" 5 1 2 1 1 3 6 8 9 9 1 FALSE FALSE 0.202581020664484
+"109" "GP" "M" 16 "U" "GT3" "T" 3 3 "services" "other" "home" "yes" "yes" "father" 1 3 0 "no" "yes" "no" "yes" "yes" "no" 5 3 3 1 1 5 3 14 16 16 1 FALSE FALSE 0.366469319001781
+"110" "GP" "M" 16 "U" "GT3" "T" 3 3 "services" "other" "home" "yes" "yes" "father" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 4 2 3 1 2 4 1 14 15 16 1.5 FALSE FALSE 0.366469319001781
+"111" "GP" "M" 15 "R" "GT3" "T" 4 4 "other" "other" "home" "yes" "yes" "father" 4 4 0 "no" "yes" "yes" "yes" "yes" "yes" 1 3 5 3 5 1 7 11 12 12 4 TRUE FALSE 0.334090315379865
+"112" "GP" "F" 16 "U" "LE3" "T" 4 4 "health" "health" "other" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "yes" 5 4 5 1 1 4 3 14 15 15 1 FALSE FALSE 0.180555362195864
+"113" "GP" "M" 15 "U" "LE3" "A" 4 4 "teacher" "teacher" "course" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "yes" "yes" "no" 5 5 3 1 1 4 5 16 16 16 1 FALSE FALSE 0.405497570927916
+"114" "GP" "F" 16 "R" "GT3" "T" 3 3 "services" "other" "reputation" "yes" "yes" "father" 1 3 0 "yes" "yes" "no" "yes" "yes" "no" 4 1 2 1 1 2 2 9 10 10 1 FALSE FALSE 0.202581020664484
+"115" "GP" "F" 16 "U" "GT3" "T" 2 2 "at_home" "other" "home" "yes" "yes" "mother" 1 2 1 "yes" "no" "no" "yes" "yes" "no" 3 1 2 1 1 5 9 9 12 12 1 FALSE FALSE 0.293474063584148
+"116" "GP" "M" 15 "U" "LE3" "T" 4 2 "teacher" "other" "course" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "no" "yes" "no" 3 5 2 1 1 3 10 18 18 18 1 FALSE FALSE 0.366469319001781
+"117" "GP" "M" 15 "R" "GT3" "T" 2 1 "health" "services" "reputation" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "yes" 5 4 2 1 1 5 6 10 9 10 1 FALSE FALSE 0.334090315379865
+"118" "GP" "M" 16 "U" "GT3" "T" 4 4 "teacher" "teacher" "course" "yes" "yes" "father" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 5 4 4 1 2 5 4 16 14 15 1.5 FALSE FALSE 0.366469319001781
+"119" "GP" "M" 16 "U" "GT3" "T" 4 4 "teacher" "teacher" "course" "yes" "yes" "father" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 4 4 3 2 2 5 9 12 12 12 2 FALSE FALSE 0.366469319001781
+"120" "GP" "M" 15 "U" "GT3" "T" 4 4 "other" "teacher" "reputation" "yes" "no" "father" 2 2 0 "no" "yes" "no" "yes" "yes" "no" 4 4 3 1 1 2 3 14 14 15 1 FALSE FALSE 0.366469319001781
+"121" "GP" "M" 16 "U" "GT3" "T" 3 3 "other" "services" "home" "yes" "yes" "father" 2 1 0 "no" "no" "no" "yes" "yes" "no" 5 4 2 1 1 5 3 14 14 14 1 FALSE FALSE 0.366469319001781
+"122" "GP" "M" 17 "R" "GT3" "T" 1 3 "other" "other" "course" "yes" "yes" "father" 3 2 1 "no" "yes" "no" "yes" "yes" "no" 5 2 4 1 4 5 17 10 9 10 2.5 TRUE FALSE 0.48607261765707
+"123" "GP" "M" 15 "U" "GT3" "T" 3 4 "other" "other" "reputation" "yes" "yes" "father" 1 1 0 "no" "no" "no" "no" "yes" "no" 3 4 3 1 2 4 4 14 13 14 1.5 FALSE FALSE 0.366469319001781
+"124" "GP" "F" 15 "U" "GT3" "T" 1 2 "at_home" "services" "course" "no" "yes" "mother" 1 2 0 "no" "no" "no" "no" "yes" "no" 3 2 3 1 2 1 1 15 14 14 1.5 FALSE FALSE 0.202581020664484
+"125" "GP" "M" 15 "U" "GT3" "T" 2 2 "services" "services" "home" "yes" "yes" "father" 1 4 0 "no" "yes" "yes" "yes" "yes" "no" 5 5 4 1 2 5 6 15 14 14 1.5 FALSE FALSE 0.366469319001781
+"126" "GP" "F" 16 "U" "LE3" "T" 2 4 "other" "health" "course" "yes" "yes" "father" 2 2 0 "no" "yes" "yes" "yes" "yes" "yes" 4 2 2 1 2 5 2 14 12 13 1.5 FALSE FALSE 0.180555362195864
+"127" "GP" "M" 16 "U" "GT3" "T" 4 4 "health" "other" "course" "yes" "yes" "mother" 1 1 0 "no" "yes" "no" "yes" "yes" "no" 3 4 4 1 4 5 11 13 12 13 2.5 TRUE FALSE 0.366469319001781
+"128" "GP" "F" 16 "U" "GT3" "T" 2 2 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "no" "yes" "yes" 5 4 4 1 1 5 0 10 9 10 1 FALSE FALSE 0.180555362195864
+"129" "GP" "M" 15 "U" "GT3" "T" 3 4 "services" "services" "home" "yes" "yes" "father" 1 1 0 "yes" "no" "no" "no" "yes" "no" 5 5 5 3 2 5 1 11 11 10 2.5 TRUE FALSE 0.366469319001781
+"130" "GP" "F" 15 "U" "LE3" "A" 3 4 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "yes" "no" "no" "yes" "yes" "yes" 5 3 2 1 1 1 0 8 10 11 1 FALSE FALSE 0.206229346676854
+"131" "GP" "F" 19 "U" "GT3" "T" 0 1 "at_home" "other" "course" "no" "no" "other" 1 2 2 "no" "yes" "no" "no" "no" "no" 3 4 2 1 1 5 1 8 9 10 1 FALSE FALSE 0.404463552214493
+"132" "GP" "M" 16 "R" "GT3" "T" 4 4 "teacher" "teacher" "course" "yes" "yes" "mother" 1 1 0 "no" "no" "yes" "yes" "yes" "no" 3 5 5 2 5 4 8 16 16 16 3.5 TRUE FALSE 0.366469319001781
+"133" "GP" "F" 15 "R" "GT3" "T" 3 4 "services" "teacher" "course" "yes" "yes" "father" 2 3 1 "no" "yes" "no" "no" "yes" "yes" 4 2 2 2 2 5 0 11 6 6 2 FALSE FALSE 0.264848290442272
+"134" "GP" "F" 15 "U" "GT3" "T" 1 1 "at_home" "other" "course" "no" "yes" "mother" 3 1 0 "no" "yes" "no" "yes" "yes" "yes" 4 3 3 1 2 4 3 10 6 6 1.5 FALSE FALSE 0.180555362195864
+"135" "GP" "F" 17 "U" "LE3" "T" 2 2 "other" "other" "course" "yes" "yes" "father" 1 1 0 "no" "yes" "no" "no" "yes" "yes" 3 4 4 1 3 5 7 12 12 12 2 FALSE FALSE 0.180555362195864
+"136" "GP" "F" 16 "U" "GT3" "A" 3 4 "services" "other" "course" "yes" "yes" "father" 1 1 0 "no" "no" "no" "no" "yes" "no" 3 2 1 1 4 5 14 14 12 12 2.5 TRUE FALSE 0.230505936552646
+"137" "GP" "M" 15 "R" "GT3" "T" 3 4 "at_home" "teacher" "course" "yes" "no" "mother" 4 2 0 "no" "yes" "no" "no" "yes" "yes" 5 3 3 1 1 5 1 10 6 6 1 FALSE FALSE 0.334090315379865
+"138" "GP" "F" 15 "U" "GT3" "T" 4 4 "services" "at_home" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "no" "yes" "yes" "yes" 4 3 3 1 1 5 2 12 7 8 1 FALSE FALSE 0.180555362195864
+"139" "GP" "M" 17 "R" "GT3" "T" 3 4 "at_home" "other" "course" "yes" "no" "mother" 3 2 0 "no" "no" "no" "no" "yes" "no" 5 4 5 2 4 5 1 10 4 5 3 TRUE FALSE 0.366469319001781
+"140" "GP" "F" 16 "U" "GT3" "A" 3 3 "other" "other" "course" "no" "yes" "other" 2 1 1 "no" "yes" "no" "yes" "yes" "yes" 4 3 2 1 1 5 2 6 4 5 1 FALSE FALSE 0.298147276425738
+"141" "GP" "M" 16 "U" "LE3" "T" 1 1 "services" "other" "course" "yes" "no" "mother" 1 2 2 "no" "no" "no" "no" "yes" "yes" 4 4 4 1 3 5 0 12 11 11 2 FALSE TRUE 0.572876428666508
+"142" "GP" "F" 15 "U" "GT3" "T" 4 4 "teacher" "teacher" "course" "yes" "yes" "mother" 2 1 0 "no" "no" "no" "yes" "yes" "no" 4 3 2 1 1 5 3 14 15 14 1 FALSE FALSE 0.202581020664484
+"143" "GP" "M" 15 "U" "GT3" "T" 4 3 "teacher" "services" "course" "yes" "yes" "father" 2 4 0 "yes" "yes" "no" "no" "yes" "no" 2 2 2 1 1 3 3 8 10 6 1 FALSE FALSE 0.366469319001781
+"144" "GP" "M" 16 "U" "LE3" "T" 2 2 "services" "services" "reputation" "yes" "yes" "father" 2 1 1 "no" "yes" "no" "yes" "yes" "no" 2 3 3 2 2 2 6 10 10 10 2 FALSE FALSE 0.48607261765707
+"145" "GP" "F" 15 "U" "GT3" "T" 4 4 "teacher" "services" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "no" 4 2 2 1 1 5 2 11 12 12 1 FALSE FALSE 0.202581020664484
+"146" "GP" "F" 16 "U" "LE3" "T" 1 1 "at_home" "at_home" "course" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "no" "yes" "no" 3 4 4 3 3 1 3 12 12 12 3 TRUE FALSE 0.202581020664484
+"147" "GP" "M" 17 "U" "GT3" "T" 2 1 "other" "other" "home" "yes" "yes" "mother" 2 1 3 "no" "yes" "no" "no" "yes" "no" 4 4 3 1 2 4 0 7 4 5 1.5 FALSE TRUE 0.716591255141781
+"148" "GP" "M" 17 "U" "GT3" "T" 2 1 "other" "other" "home" "yes" "yes" "mother" 1 1 2 "no" "yes" "no" "no" "yes" "no" 5 4 5 1 2 5 11 7 4 3 1.5 FALSE TRUE 0.607292558112848
+"149" "GP" "F" 15 "U" "GT3" "T" 1 1 "other" "services" "course" "yes" "yes" "father" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 4 2 1 2 5 0 10 12 12 1.5 FALSE FALSE 0.202581020664484
+"150" "GP" "F" 15 "U" "GT3" "T" 3 2 "health" "services" "home" "yes" "yes" "father" 1 2 2 "no" "yes" "no" "no" "yes" "no" 3 3 2 1 1 3 1 8 9 6 1 FALSE FALSE 0.404463552214493
+"151" "GP" "F" 15 "U" "GT3" "T" 1 2 "at_home" "other" "course" "no" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 2 1 1 5 4 12 12 12 1 FALSE FALSE 0.202581020664484
+"152" "GP" "M" 16 "U" "GT3" "T" 4 4 "teacher" "teacher" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "no" "yes" 4 4 3 2 2 5 3 12 10 7 2 FALSE FALSE 0.334090315379865
+"153" "GP" "M" 16 "U" "GT3" "T" 4 4 "teacher" "teacher" "course" "yes" "yes" "mother" 1 1 0 "no" "yes" "no" "no" "no" "yes" 3 3 2 2 1 5 8 8 8 4 1.5 FALSE FALSE 0.334090315379865
+"154" "GP" "M" 15 "U" "LE3" "A" 2 1 "services" "other" "course" "yes" "yes" "mother" 4 1 2 "no" "no" "no" "no" "yes" "no" 4 5 5 2 5 5 0 10 10 10 3.5 TRUE TRUE 0.645823173597929
+"155" "GP" "M" 18 "U" "LE3" "T" 1 1 "other" "other" "course" "yes" "yes" "mother" 1 1 2 "no" "no" "no" "no" "no" "yes" 2 3 5 2 5 4 0 8 7 0 3.5 TRUE TRUE 0.572876428666508
+"156" "GP" "M" 16 "U" "LE3" "T" 2 1 "at_home" "other" "course" "yes" "no" "mother" 1 1 1 "no" "no" "no" "yes" "yes" "yes" 4 4 4 3 5 5 6 10 12 12 4 TRUE FALSE 0.450643010329586
+"157" "GP" "F" 15 "R" "GT3" "T" 3 3 "services" "services" "reputation" "yes" "yes" "other" 2 3 1 "no" "yes" "yes" "yes" "yes" "yes" 4 2 1 2 3 3 5 12 12 12 2.5 TRUE FALSE 0.264848290442272
+"158" "GP" "M" 19 "U" "GT3" "T" 3 2 "services" "at_home" "home" "yes" "yes" "mother" 1 1 2 "no" "yes" "no" "no" "no" "yes" 4 5 4 1 1 4 3 8 4 6 1 FALSE TRUE 0.572876428666508
+"159" "GP" "F" 17 "U" "GT3" "T" 4 4 "other" "teacher" "course" "yes" "no" "mother" 1 1 0 "yes" "yes" "no" "no" "yes" "yes" 4 2 1 1 1 4 0 12 12 12 1 FALSE FALSE 0.180555362195864
+"160" "GP" "M" 15 "R" "GT3" "T" 2 3 "at_home" "services" "course" "yes" "no" "mother" 1 2 0 "yes" "no" "yes" "yes" "yes" "no" 4 4 4 1 1 1 1 9 8 8 1 FALSE FALSE 0.366469319001781
+"161" "GP" "M" 17 "R" "LE3" "T" 1 2 "other" "other" "reputation" "yes" "no" "mother" 1 1 2 "no" "no" "no" "no" "yes" "no" 2 2 2 3 3 5 11 12 10 12 3 TRUE TRUE 0.607292558112848
+"162" "GP" "F" 18 "R" "GT3" "T" 1 1 "at_home" "other" "course" "no" "no" "mother" 3 1 3 "no" "yes" "no" "yes" "yes" "no" 5 2 5 1 5 4 6 10 9 10 3 TRUE TRUE 0.52616824694901
+"163" "GP" "M" 16 "R" "GT3" "T" 2 2 "at_home" "other" "course" "no" "no" "mother" 3 1 0 "no" "no" "no" "no" "yes" "no" 4 2 2 1 2 3 3 14 12 13 1.5 FALSE FALSE 0.366469319001781
+"164" "GP" "M" 16 "U" "GT3" "T" 3 3 "other" "services" "course" "yes" "yes" "father" 1 2 1 "no" "yes" "yes" "no" "yes" "yes" 4 5 5 4 4 5 2 10 11 6 4 TRUE FALSE 0.450643010329586
+"165" "GP" "M" 17 "R" "LE3" "T" 2 1 "at_home" "other" "course" "yes" "yes" "mother" 2 1 2 "no" "no" "no" "yes" "no" "yes" 3 3 2 2 2 5 4 8 7 4 2 FALSE TRUE 0.572876428666508
+"166" "GP" "M" 17 "R" "LE3" "T" 1 1 "other" "services" "course" "yes" "no" "mother" 4 2 2 "no" "no" "no" "yes" "no" "yes" 5 3 5 1 5 5 0 6 8 8 3 TRUE TRUE 0.572876428666508
+"167" "GP" "M" 16 "U" "GT3" "T" 2 2 "other" "other" "course" "yes" "yes" "father" 1 2 0 "no" "no" "no" "no" "no" "no" 4 3 5 2 4 4 2 10 10 10 3 TRUE FALSE 0.366469319001781
+"168" "GP" "F" 16 "U" "GT3" "T" 4 2 "health" "services" "home" "yes" "yes" "father" 1 2 0 "no" "no" "yes" "no" "yes" "yes" 4 2 3 1 1 3 0 16 16 17 1 FALSE FALSE 0.180555362195864
+"169" "GP" "F" 16 "U" "GT3" "T" 2 2 "other" "other" "home" "no" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 5 1 5 1 1 4 0 9 10 6 1 FALSE FALSE 0.202581020664484
+"170" "GP" "F" 16 "U" "GT3" "T" 4 4 "health" "health" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "yes" 4 4 2 1 1 3 0 15 15 16 1 FALSE FALSE 0.180555362195864
+"171" "GP" "M" 16 "U" "GT3" "T" 3 4 "other" "other" "course" "no" "yes" "father" 3 1 2 "no" "yes" "no" "yes" "yes" "no" 3 4 5 2 4 2 2 8 7 5 3 TRUE TRUE 0.607292558112848
+"172" "GP" "M" 16 "U" "GT3" "T" 1 0 "other" "other" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "yes" "yes" "yes" 4 3 2 1 1 3 1 14 16 17 1 FALSE FALSE 0.334090315379865
+"173" "GP" "M" 17 "U" "LE3" "T" 4 4 "teacher" "other" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 4 4 1 3 5 0 12 10 10 2 FALSE FALSE 0.366469319001781
+"174" "GP" "F" 16 "U" "GT3" "T" 1 3 "at_home" "services" "home" "no" "yes" "mother" 1 2 2 "no" "no" "no" "yes" "yes" "yes" 4 3 5 1 1 3 0 11 10 6 1 FALSE FALSE 0.37069182330075
+"175" "GP" "F" 16 "U" "LE3" "T" 3 3 "other" "other" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 4 5 1 1 4 2 12 12 12 1 FALSE FALSE 0.202581020664484
+"176" "GP" "M" 17 "U" "LE3" "T" 4 3 "teacher" "other" "course" "yes" "yes" "mother" 2 2 0 "no" "no" "yes" "yes" "yes" "no" 4 4 4 4 4 4 2 10 10 10 4 TRUE FALSE 0.366469319001781
+"177" "GP" "F" 16 "U" "GT3" "T" 2 2 "services" "other" "reputation" "no" "yes" "mother" 2 2 0 "no" "no" "yes" "yes" "yes" "no" 3 4 4 1 4 5 1 13 12 12 2.5 TRUE FALSE 0.202581020664484
+"178" "GP" "M" 17 "U" "GT3" "T" 3 3 "other" "other" "reputation" "no" "yes" "father" 1 2 0 "no" "no" "no" "yes" "yes" "no" 4 3 4 1 4 4 4 8 7 8 2.5 TRUE FALSE 0.366469319001781
+"179" "GP" "M" 16 "R" "GT3" "T" 4 2 "teacher" "services" "other" "yes" "yes" "mother" 1 1 0 "no" "yes" "no" "yes" "yes" "yes" 4 3 3 3 4 3 9 10 8 10 3.5 TRUE FALSE 0.334090315379865
+"180" "GP" "M" 17 "U" "GT3" "T" 4 3 "other" "other" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "yes" "yes" "yes" 5 2 3 1 1 2 4 10 10 12 1 FALSE FALSE 0.334090315379865
+"181" "GP" "M" 16 "U" "GT3" "T" 4 3 "teacher" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 3 4 3 2 3 3 7 10 9 10 2.5 TRUE FALSE 0.366469319001781
+"182" "GP" "M" 16 "U" "GT3" "T" 3 3 "services" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "yes" "yes" "yes" 4 2 3 1 2 4 3 12 14 13 1.5 FALSE FALSE 0.334090315379865
+"183" "GP" "M" 16 "U" "GT3" "T" 3 3 "services" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "yes" "yes" "yes" 4 2 3 1 2 3 1 12 12 12 1.5 FALSE FALSE 0.334090315379865
+"184" "GP" "F" 17 "U" "GT3" "T" 2 4 "services" "services" "reputation" "yes" "no" "father" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 5 4 2 2 3 5 0 16 18 17 2.5 TRUE FALSE 0.202581020664484
+"185" "GP" "F" 17 "U" "LE3" "T" 3 3 "other" "other" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "yes" "yes" "yes" 5 3 3 2 3 1 44 12 11 11 2.5 TRUE FALSE 0.180555362195864
+"186" "GP" "F" 16 "U" "GT3" "T" 3 2 "other" "other" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 1 2 2 1 2 1 11 13 14 14 1.5 FALSE FALSE 0.202581020664484
+"187" "GP" "M" 17 "U" "GT3" "T" 3 3 "services" "services" "other" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "yes" "yes" "yes" 4 3 4 2 3 4 9 12 12 12 2.5 TRUE FALSE 0.334090315379865
+"188" "GP" "M" 16 "U" "GT3" "T" 1 2 "services" "services" "other" "yes" "yes" "mother" 1 1 0 "no" "yes" "yes" "yes" "yes" "yes" 3 3 3 1 2 3 1 10 10 11 1.5 FALSE FALSE 0.334090315379865
+"189" "GP" "M" 16 "U" "LE3" "T" 2 1 "other" "other" "course" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "yes" "yes" "yes" 4 2 3 1 2 5 0 14 14 16 1.5 FALSE FALSE 0.334090315379865
+"190" "GP" "F" 17 "U" "GT3" "A" 3 3 "health" "other" "reputation" "no" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "yes" 3 3 3 1 3 3 8 10 10 12 2 FALSE FALSE 0.206229346676854
+"191" "GP" "M" 17 "R" "GT3" "T" 1 2 "at_home" "other" "home" "yes" "no" "mother" 1 2 0 "no" "no" "no" "no" "yes" "no" 3 1 3 1 5 3 5 8 9 10 3 TRUE FALSE 0.366469319001781
+"192" "GP" "F" 16 "U" "GT3" "T" 2 3 "services" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "no" "yes" "no" 4 3 3 1 1 2 8 12 12 13 1 FALSE FALSE 0.202581020664484
+"193" "GP" "F" 17 "U" "GT3" "T" 1 1 "at_home" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "no" 5 3 3 1 1 3 0 10 10 10 1 FALSE FALSE 0.202581020664484
+"194" "GP" "M" 17 "U" "GT3" "T" 1 2 "at_home" "services" "other" "no" "yes" "other" 2 2 0 "no" "no" "yes" "yes" "yes" "no" 4 4 4 4 5 5 14 8 10 10 4.5 TRUE FALSE 0.366469319001781
+"195" "GP" "M" 16 "R" "GT3" "T" 3 3 "services" "services" "reputation" "yes" "yes" "mother" 1 1 0 "no" "yes" "no" "yes" "yes" "no" 4 3 2 3 4 5 4 10 10 10 3.5 TRUE FALSE 0.366469319001781
+"196" "GP" "M" 16 "U" "GT3" "T" 2 3 "other" "other" "home" "yes" "yes" "father" 2 1 0 "no" "no" "no" "no" "yes" "no" 5 3 3 1 1 3 0 13 13 13 1 FALSE FALSE 0.366469319001781
+"197" "GP" "F" 17 "U" "LE3" "T" 2 4 "services" "services" "course" "yes" "yes" "father" 1 2 0 "no" "no" "no" "yes" "yes" "yes" 4 3 2 1 1 5 4 14 15 16 1 FALSE FALSE 0.180555362195864
+"198" "GP" "M" 17 "U" "GT3" "T" 4 4 "services" "teacher" "home" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "no" "yes" "no" 5 2 3 1 2 5 4 15 14 15 1.5 FALSE FALSE 0.366469319001781
+"199" "GP" "M" 16 "R" "LE3" "T" 3 3 "teacher" "other" "home" "yes" "yes" "father" 3 1 0 "no" "yes" "yes" "yes" "yes" "no" 3 3 4 3 5 3 12 10 10 11 4 TRUE FALSE 0.366469319001781
+"200" "GP" "F" 17 "U" "GT3" "T" 4 4 "services" "teacher" "home" "yes" "yes" "mother" 2 1 1 "no" "yes" "no" "no" "yes" "no" 4 2 4 2 3 2 27 16 16 17 2.5 TRUE FALSE 0.293474063584148
+"201" "GP" "F" 16 "U" "LE3" "T" 4 4 "teacher" "teacher" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 5 2 1 2 3 0 10 10 10 1.5 FALSE FALSE 0.202581020664484
+"202" "GP" "F" 16 "U" "GT3" "T" 4 3 "health" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 4 3 5 1 5 2 2 15 15 16 3 TRUE FALSE 0.202581020664484
+"203" "GP" "F" 16 "U" "GT3" "T" 2 3 "other" "other" "reputation" "yes" "no" "mother" 1 2 0 "yes" "yes" "yes" "yes" "yes" "no" 4 4 3 1 3 4 5 10 11 11 2 FALSE FALSE 0.202581020664484
+"204" "GP" "F" 17 "U" "GT3" "T" 1 1 "other" "other" "course" "no" "no" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 4 4 1 3 1 2 12 12 12 2 FALSE FALSE 0.202581020664484
+"205" "GP" "F" 17 "R" "GT3" "T" 2 2 "other" "other" "reputation" "yes" "yes" "mother" 1 1 0 "no" "yes" "no" "no" "yes" "no" 5 3 2 1 2 3 20 10 10 10 1.5 FALSE FALSE 0.202581020664484
+"206" "GP" "F" 16 "R" "GT3" "T" 2 2 "services" "services" "reputation" "no" "yes" "mother" 2 4 0 "no" "yes" "yes" "yes" "yes" "no" 5 3 5 1 1 5 6 12 12 12 1 FALSE FALSE 0.202581020664484
+"207" "GP" "F" 17 "U" "GT3" "T" 3 4 "at_home" "services" "home" "yes" "yes" "mother" 1 3 1 "no" "yes" "yes" "no" "yes" "yes" 4 4 3 3 4 5 21 9 9 8 3.5 TRUE FALSE 0.264848290442272
+"208" "GP" "F" 16 "U" "GT3" "A" 3 1 "services" "other" "course" "yes" "yes" "mother" 1 2 2 "no" "yes" "yes" "no" "yes" "no" 2 3 3 2 2 4 4 9 9 10 2 FALSE FALSE 0.4446978643293
+"209" "GP" "F" 16 "U" "GT3" "T" 4 3 "teacher" "other" "other" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "yes" "yes" "yes" 1 3 2 1 1 1 7 12 14 14 1 FALSE FALSE 0.180555362195864
+"210" "GP" "F" 16 "U" "GT3" "T" 1 1 "at_home" "other" "home" "yes" "no" "mother" 2 1 0 "no" "yes" "yes" "no" "yes" "no" 4 3 2 1 4 5 4 10 11 12 2.5 TRUE FALSE 0.202581020664484
+"211" "GP" "F" 17 "R" "GT3" "T" 4 3 "teacher" "other" "reputation" "yes" "yes" "mother" 2 3 0 "no" "yes" "yes" "yes" "yes" "yes" 4 4 2 1 1 4 3 9 10 10 1 FALSE FALSE 0.180555362195864
+"212" "GP" "F" 19 "U" "GT3" "T" 3 3 "other" "other" "reputation" "yes" "yes" "other" 1 4 0 "no" "yes" "yes" "yes" "yes" "no" 4 3 3 1 2 3 7 10 10 10 1.5 FALSE FALSE 0.202581020664484
+"213" "GP" "M" 17 "U" "LE3" "T" 4 4 "services" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "yes" 5 3 5 4 5 3 14 12 12 12 4.5 TRUE FALSE 0.334090315379865
+"214" "GP" "F" 16 "U" "GT3" "A" 2 2 "other" "other" "reputation" "yes" "yes" "mother" 1 2 0 "yes" "yes" "yes" "no" "yes" "no" 3 3 4 1 1 4 0 12 13 14 1 FALSE FALSE 0.230505936552646
+"215" "GP" "M" 18 "U" "GT3" "T" 2 2 "services" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 4 4 2 4 5 12 9 9 10 3 TRUE FALSE 0.366469319001781
+"216" "GP" "F" 17 "R" "LE3" "T" 4 4 "services" "other" "other" "yes" "no" "mother" 1 1 0 "no" "yes" "yes" "no" "yes" "no" 5 2 1 1 2 3 9 10 10 10 1.5 FALSE FALSE 0.202581020664484
+"217" "GP" "F" 17 "U" "LE3" "T" 3 2 "other" "other" "reputation" "yes" "yes" "mother" 2 2 0 "no" "no" "yes" "no" "yes" "no" 4 4 4 1 3 1 2 14 16 15 2 FALSE FALSE 0.202581020664484
+"218" "GP" "F" 17 "U" "GT3" "T" 4 3 "other" "other" "reputation" "yes" "yes" "mother" 1 2 1 "no" "no" "yes" "no" "yes" "yes" 3 4 5 2 4 1 19 8 8 7 3 TRUE FALSE 0.264848290442272
+"219" "GP" "M" 18 "U" "LE3" "T" 3 3 "services" "health" "home" "yes" "yes" "father" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 3 2 4 2 4 4 12 8 8 9 3 TRUE FALSE 0.366469319001781
+"220" "GP" "F" 17 "U" "GT3" "T" 2 3 "at_home" "other" "home" "yes" "no" "father" 2 1 0 "no" "yes" "yes" "no" "yes" "no" 3 3 3 1 4 3 4 10 10 10 2.5 TRUE FALSE 0.202581020664484
+"221" "GP" "F" 17 "U" "GT3" "T" 2 2 "at_home" "at_home" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "no" 4 3 3 1 1 4 2 10 11 12 1 FALSE FALSE 0.202581020664484
+"222" "GP" "F" 17 "R" "GT3" "T" 2 1 "at_home" "services" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "no" "yes" "yes" "no" 4 2 5 1 2 5 1 8 8 8 1.5 FALSE FALSE 0.202581020664484
+"223" "GP" "F" 17 "U" "GT3" "T" 1 1 "at_home" "other" "reputation" "yes" "no" "mother" 1 3 0 "no" "yes" "no" "yes" "yes" "yes" 4 3 4 1 1 5 6 9 8 6 1 FALSE FALSE 0.180555362195864
+"224" "GP" "F" 16 "U" "GT3" "T" 2 3 "services" "teacher" "other" "yes" "yes" "mother" 1 2 0 "yes" "no" "no" "no" "yes" "no" 2 3 1 1 1 3 1 14 14 16 1 FALSE FALSE 0.202581020664484
+"225" "GP" "M" 18 "U" "GT3" "T" 2 2 "other" "other" "home" "yes" "yes" "mother" 2 2 2 "no" "yes" "yes" "no" "yes" "no" 3 3 3 5 5 4 4 11 11 12 5 TRUE TRUE 0.607292558112848
+"226" "GP" "F" 16 "U" "GT3" "T" 4 4 "teacher" "services" "home" "no" "yes" "mother" 1 3 0 "no" "yes" "no" "yes" "yes" "no" 5 3 2 1 1 5 2 14 14 15 1 FALSE FALSE 0.202581020664484
+"227" "GP" "F" 18 "R" "GT3" "T" 3 1 "other" "other" "reputation" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "yes" 5 3 3 1 1 4 10 8 8 8 1 FALSE FALSE 0.180555362195864
+"228" "GP" "F" 17 "U" "GT3" "T" 3 2 "other" "other" "course" "no" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "no" 5 3 4 1 3 3 6 16 16 16 2 FALSE FALSE 0.202581020664484
+"229" "GP" "M" 17 "U" "LE3" "T" 2 3 "services" "services" "reputation" "no" "yes" "father" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 5 3 3 1 3 3 1 11 11 12 2 FALSE FALSE 0.366469319001781
+"230" "GP" "M" 18 "U" "LE3" "T" 2 1 "at_home" "other" "course" "yes" "yes" "mother" 4 2 0 "yes" "yes" "yes" "yes" "yes" "yes" 4 3 2 4 5 3 8 10 9 10 4.5 TRUE FALSE 0.334090315379865
+"231" "GP" "F" 17 "U" "GT3" "A" 2 1 "other" "other" "course" "yes" "yes" "mother" 2 3 0 "no" "no" "no" "yes" "yes" "yes" 3 2 3 1 2 3 5 14 12 14 1.5 FALSE FALSE 0.206229346676854
+"232" "GP" "F" 17 "U" "LE3" "T" 4 3 "health" "other" "reputation" "yes" "yes" "father" 1 2 0 "no" "no" "no" "yes" "yes" "yes" 3 2 3 1 2 3 7 14 12 13 1.5 FALSE FALSE 0.180555362195864
+"233" "GP" "M" 17 "R" "GT3" "T" 2 2 "other" "other" "course" "yes" "yes" "father" 2 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 5 2 1 1 1 2 12 12 12 1 FALSE FALSE 0.366469319001781
+"234" "GP" "M" 17 "U" "GT3" "T" 4 4 "teacher" "teacher" "reputation" "yes" "yes" "mother" 1 2 0 "yes" "yes" "no" "yes" "yes" "yes" 4 5 5 1 3 2 7 12 11 11 2 FALSE FALSE 0.334090315379865
+"235" "GP" "M" 16 "U" "GT3" "T" 4 4 "health" "other" "reputation" "yes" "yes" "father" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 2 4 2 4 1 1 14 13 14 3 TRUE FALSE 0.366469319001781
+"236" "GP" "M" 16 "U" "LE3" "T" 1 1 "other" "other" "home" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "no" "yes" "no" 3 4 2 1 1 5 10 9 8 8 1 FALSE FALSE 0.366469319001781
+"237" "GP" "M" 16 "U" "GT3" "T" 3 2 "at_home" "other" "reputation" "yes" "yes" "mother" 2 3 0 "no" "no" "no" "yes" "yes" "yes" 5 3 3 1 3 2 5 12 10 11 2 FALSE FALSE 0.334090315379865
+"238" "GP" "M" 17 "U" "LE3" "T" 2 2 "other" "other" "home" "no" "yes" "father" 1 2 0 "no" "no" "yes" "yes" "yes" "yes" 4 4 2 5 5 4 2 15 14 14 5 TRUE FALSE 0.334090315379865
+"239" "GP" "F" 16 "U" "GT3" "T" 2 1 "other" "other" "home" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "no" "yes" "yes" 4 5 2 1 1 5 12 11 11 11 1 FALSE FALSE 0.180555362195864
+"240" "GP" "F" 17 "R" "GT3" "T" 2 1 "at_home" "services" "course" "yes" "no" "mother" 3 2 0 "no" "no" "no" "yes" "yes" "no" 2 1 1 1 1 3 2 13 12 12 1 FALSE FALSE 0.202581020664484
+"241" "GP" "M" 18 "U" "GT3" "T" 2 2 "other" "services" "reputation" "yes" "yes" "father" 1 2 0 "no" "no" "no" "no" "no" "no" 5 5 4 3 5 2 8 8 7 4 4 TRUE FALSE 0.366469319001781
+"242" "GP" "M" 17 "U" "LE3" "T" 4 3 "health" "other" "course" "yes" "yes" "mother" 2 2 0 "no" "no" "no" "yes" "yes" "yes" 2 5 5 1 4 5 11 14 14 14 2.5 TRUE FALSE 0.334090315379865
+"243" "GP" "M" 17 "R" "LE3" "A" 4 4 "teacher" "other" "course" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "no" "yes" "no" 3 3 3 2 3 4 1 11 12 12 2.5 TRUE FALSE 0.405497570927916
+"244" "GP" "M" 16 "U" "LE3" "T" 4 3 "teacher" "other" "course" "no" "yes" "mother" 1 1 0 "no" "no" "no" "yes" "yes" "no" 5 4 5 1 1 3 4 10 7 8 1 FALSE FALSE 0.366469319001781
+"245" "GP" "M" 16 "U" "GT3" "T" 4 4 "services" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "no" 5 3 2 1 2 5 0 14 12 12 1.5 FALSE FALSE 0.366469319001781
+"246" "GP" "M" 16 "U" "GT3" "T" 4 4 "services" "services" "course" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "yes" "yes" "no" 5 3 2 1 2 5 2 14 14 14 1.5 FALSE FALSE 0.366469319001781
+"247" "GP" "F" 18 "U" "GT3" "T" 2 1 "other" "other" "course" "no" "yes" "other" 2 3 0 "no" "yes" "yes" "no" "yes" "yes" 4 4 4 1 1 3 5 10 5 6 1 FALSE FALSE 0.180555362195864
+"248" "GP" "M" 16 "U" "GT3" "T" 2 1 "other" "other" "course" "yes" "yes" "mother" 3 1 0 "no" "no" "no" "no" "yes" "no" 4 3 3 1 1 4 6 16 17 17 1 FALSE FALSE 0.366469319001781
+"249" "GP" "M" 17 "U" "GT3" "T" 2 3 "other" "other" "course" "yes" "yes" "father" 2 1 0 "no" "no" "no" "no" "yes" "no" 5 2 2 1 1 2 3 10 12 13 1 FALSE FALSE 0.366469319001781
+"250" "GP" "M" 22 "U" "GT3" "T" 3 1 "services" "services" "other" "no" "yes" "mother" 1 1 3 "no" "no" "no" "no" "no" "yes" 5 4 5 5 5 1 14 6 8 6 5 TRUE TRUE 0.686814021969587
+"251" "GP" "M" 18 "R" "LE3" "T" 3 3 "other" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "yes" 4 3 3 1 3 5 8 6 7 8 2 FALSE FALSE 0.334090315379865
+"252" "GP" "M" 16 "U" "GT3" "T" 0 2 "other" "other" "other" "no" "yes" "mother" 1 1 0 "no" "no" "yes" "no" "yes" "no" 4 3 2 2 4 5 0 12 14 13 3 TRUE FALSE 0.366469319001781
+"253" "GP" "M" 18 "U" "GT3" "T" 3 2 "services" "other" "course" "yes" "yes" "mother" 2 1 0 "no" "no" "no" "no" "no" "no" 4 4 5 2 4 5 4 6 8 8 3 TRUE FALSE 0.366469319001781
+"254" "GP" "M" 16 "U" "GT3" "T" 3 3 "at_home" "other" "reputation" "no" "yes" "other" 3 2 0 "yes" "yes" "no" "no" "yes" "no" 5 3 3 1 3 2 5 8 10 10 2 FALSE FALSE 0.366469319001781
+"255" "GP" "M" 18 "U" "GT3" "T" 2 1 "services" "services" "other" "no" "yes" "mother" 1 1 2 "no" "no" "no" "no" "no" "no" 3 2 5 2 5 5 4 6 8 7 3.5 TRUE TRUE 0.607292558112848
+"256" "GP" "M" 16 "R" "GT3" "T" 2 1 "other" "other" "course" "no" "no" "mother" 2 1 0 "no" "no" "no" "yes" "yes" "no" 3 3 2 1 3 3 1 11 11 10 2 FALSE FALSE 0.366469319001781
+"257" "GP" "M" 17 "R" "GT3" "T" 2 1 "other" "other" "course" "no" "yes" "mother" 1 1 0 "no" "no" "no" "no" "yes" "no" 4 4 2 2 4 5 0 10 12 12 3 TRUE FALSE 0.366469319001781
+"258" "GP" "M" 17 "U" "LE3" "T" 1 1 "health" "other" "course" "yes" "yes" "mother" 2 1 1 "no" "yes" "no" "yes" "yes" "no" 4 4 4 1 2 5 1 8 10 9 1.5 FALSE FALSE 0.48607261765707
+"259" "GP" "F" 17 "U" "LE3" "T" 4 2 "teacher" "services" "reputation" "yes" "yes" "mother" 1 4 0 "no" "yes" "yes" "yes" "yes" "no" 4 2 3 1 1 4 4 14 14 15 1 FALSE FALSE 0.202581020664484
+"260" "GP" "M" 19 "U" "LE3" "A" 4 3 "services" "at_home" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "no" 4 3 1 1 1 1 8 11 12 12 1 FALSE FALSE 0.405497570927916
+"261" "GP" "M" 18 "U" "GT3" "T" 2 1 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "no" 5 2 4 1 2 4 5 16 15 15 1.5 FALSE FALSE 0.366469319001781
+"262" "GP" "F" 17 "U" "LE3" "T" 2 2 "services" "services" "course" "yes" "yes" "father" 1 4 0 "no" "no" "yes" "yes" "yes" "yes" 3 4 1 1 1 2 1 10 10 6 1 FALSE FALSE 0.180555362195864
+"263" "GP" "F" 18 "U" "GT3" "T" 4 3 "services" "other" "home" "yes" "yes" "father" 1 2 0 "no" "yes" "yes" "no" "yes" "yes" 3 1 2 1 3 2 12 16 16 16 2 FALSE FALSE 0.180555362195864
+"264" "GP" "M" 18 "U" "GT3" "T" 4 3 "teacher" "other" "course" "no" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 2 1 1 3 2 9 9 10 1 FALSE FALSE 0.366469319001781
+"265" "GP" "M" 18 "R" "GT3" "T" 3 2 "other" "other" "course" "no" "no" "mother" 1 3 0 "no" "no" "no" "yes" "yes" "no" 5 3 2 1 1 3 2 12 12 12 1 FALSE FALSE 0.366469319001781
+"266" "GP" "F" 17 "U" "GT3" "T" 3 3 "other" "other" "home" "no" "no" "mother" 1 3 0 "no" "no" "no" "yes" "yes" "no" 3 2 3 1 1 4 3 12 10 11 1 FALSE FALSE 0.202581020664484
+"267" "GP" "F" 18 "U" "GT3" "T" 2 2 "at_home" "services" "home" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "yes" 4 3 3 1 1 3 0 10 11 6 1 FALSE FALSE 0.180555362195864
+"268" "GP" "M" 18 "R" "LE3" "A" 3 4 "other" "other" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 2 5 3 4 1 10 16 16 16 3.5 TRUE FALSE 0.405497570927916
+"269" "GP" "M" 17 "U" "GT3" "T" 3 1 "services" "other" "other" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "yes" "yes" "yes" 5 4 4 3 4 5 1 10 10 12 3.5 TRUE FALSE 0.334090315379865
+"270" "GP" "F" 18 "R" "GT3" "T" 4 4 "teacher" "other" "reputation" "yes" "yes" "mother" 2 2 0 "no" "no" "yes" "yes" "yes" "no" 4 3 4 2 2 4 8 11 10 12 2 FALSE FALSE 0.202581020664484
+"271" "GP" "M" 18 "U" "GT3" "T" 4 2 "health" "other" "reputation" "yes" "yes" "father" 1 2 0 "no" "yes" "yes" "yes" "yes" "yes" 5 4 5 1 3 5 7 10 10 12 2 FALSE FALSE 0.334090315379865
+"272" "GP" "F" 18 "R" "GT3" "T" 2 1 "other" "other" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "no" "no" "no" "yes" 4 3 5 1 2 3 6 7 4 5 1.5 FALSE FALSE 0.180555362195864
+"273" "GP" "F" 19 "U" "GT3" "T" 3 3 "other" "services" "home" "yes" "yes" "other" 1 2 1 "no" "yes" "yes" "yes" "yes" "no" 4 3 5 3 3 5 16 10 10 10 3 TRUE FALSE 0.293474063584148
+"274" "GP" "F" 18 "U" "GT3" "T" 2 3 "other" "services" "reputation" "yes" "yes" "father" 1 4 0 "no" "yes" "yes" "yes" "yes" "yes" 4 5 5 1 3 2 7 16 15 15 2 FALSE FALSE 0.180555362195864
+"275" "GP" "F" 18 "U" "LE3" "T" 1 1 "other" "other" "home" "no" "no" "mother" 2 2 0 "no" "yes" "yes" "no" "yes" "no" 4 4 3 1 1 3 2 12 12 12 1 FALSE FALSE 0.202581020664484
+"276" "GP" "M" 17 "R" "GT3" "T" 1 2 "at_home" "at_home" "home" "no" "no" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "yes" 3 5 2 2 2 1 2 16 16 16 2 FALSE FALSE 0.334090315379865
+"277" "GP" "F" 17 "U" "GT3" "T" 2 4 "at_home" "health" "reputation" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "no" "yes" "yes" 4 3 3 1 1 1 4 12 13 13 1 FALSE FALSE 0.180555362195864
+"278" "GP" "F" 17 "U" "LE3" "T" 2 2 "services" "other" "course" "yes" "yes" "mother" 2 2 0 "yes" "yes" "yes" "no" "yes" "yes" 4 4 4 2 3 5 6 12 12 12 2.5 TRUE FALSE 0.180555362195864
+"279" "GP" "F" 18 "R" "GT3" "A" 3 2 "other" "services" "home" "no" "yes" "mother" 2 2 0 "no" "no" "no" "no" "no" "yes" 4 1 1 1 1 5 45 11 9 10 1 FALSE FALSE 0.206229346676854
+"280" "GP" "M" 18 "U" "GT3" "T" 4 4 "teacher" "services" "home" "yes" "yes" "mother" 2 1 0 "no" "no" "yes" "yes" "yes" "no" 3 2 4 1 4 3 14 10 10 10 2.5 TRUE FALSE 0.366469319001781
+"281" "GP" "M" 18 "U" "GT3" "T" 4 4 "teacher" "services" "home" "yes" "yes" "mother" 2 2 0 "no" "no" "yes" "yes" "yes" "no" 4 2 4 2 3 2 11 10 10 11 2.5 TRUE FALSE 0.366469319001781
+"282" "GP" "F" 18 "U" "GT3" "T" 4 4 "health" "health" "reputation" "yes" "yes" "father" 1 2 1 "yes" "yes" "no" "yes" "yes" "yes" 2 4 4 1 1 4 8 12 10 10 1 FALSE FALSE 0.264848290442272
+"283" "GP" "M" 18 "U" "LE3" "T" 4 3 "teacher" "services" "course" "yes" "yes" "mother" 2 1 0 "no" "no" "yes" "yes" "yes" "no" 4 2 3 1 2 1 4 10 10 10 1.5 FALSE FALSE 0.366469319001781
+"284" "GP" "M" 17 "U" "LE3" "A" 4 1 "services" "other" "home" "yes" "yes" "mother" 2 1 0 "no" "no" "yes" "yes" "yes" "yes" 4 5 4 2 4 5 26 10 10 9 3 TRUE FALSE 0.371693390304312
+"285" "GP" "M" 17 "U" "LE3" "A" 3 2 "teacher" "services" "home" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "no" "yes" "no" 4 4 4 3 4 3 18 12 11 12 3.5 TRUE FALSE 0.405497570927916
+"286" "GP" "F" 18 "R" "LE3" "T" 1 1 "at_home" "other" "reputation" "yes" "no" "mother" 2 4 0 "no" "yes" "yes" "yes" "yes" "no" 5 2 2 1 1 3 2 14 14 15 1 FALSE FALSE 0.202581020664484
+"287" "GP" "F" 18 "U" "GT3" "T" 1 1 "other" "other" "home" "yes" "yes" "mother" 2 2 0 "yes" "no" "no" "yes" "yes" "no" 5 4 4 1 1 4 2 10 11 12 1 FALSE FALSE 0.202581020664484
+"288" "GP" "F" 18 "U" "GT3" "T" 1 1 "other" "other" "home" "yes" "yes" "mother" 2 2 0 "yes" "no" "no" "yes" "yes" "no" 4 4 4 1 2 3 2 11 12 12 1.5 FALSE FALSE 0.202581020664484
+"289" "GP" "F" 17 "U" "GT3" "T" 2 2 "other" "other" "course" "no" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "no" 5 4 5 1 2 5 8 11 10 12 1.5 FALSE FALSE 0.202581020664484
+"290" "GP" "M" 17 "U" "GT3" "T" 1 1 "other" "other" "reputation" "no" "yes" "father" 1 2 0 "no" "no" "yes" "no" "yes" "no" 4 3 3 1 2 4 1 12 11 12 1.5 FALSE FALSE 0.366469319001781
+"291" "GP" "F" 18 "U" "GT3" "T" 2 2 "at_home" "at_home" "other" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 1 2 2 2 18 18 18 1.5 FALSE FALSE 0.202581020664484
+"292" "GP" "F" 17 "U" "GT3" "T" 1 1 "services" "teacher" "reputation" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 1 1 3 3 13 12 13 1 FALSE FALSE 0.202581020664484
+"293" "GP" "M" 18 "U" "GT3" "T" 2 1 "services" "services" "reputation" "yes" "yes" "mother" 1 3 0 "no" "no" "yes" "yes" "yes" "no" 4 2 4 1 3 2 3 14 14 14 2 FALSE FALSE 0.366469319001781
+"294" "GP" "M" 18 "U" "LE3" "A" 4 4 "teacher" "teacher" "reputation" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 5 4 3 1 1 2 4 16 15 16 1 FALSE FALSE 0.405497570927916
+"295" "GP" "M" 18 "U" "GT3" "T" 4 2 "teacher" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "yes" 4 3 2 1 4 5 6 14 14 14 2.5 TRUE FALSE 0.334090315379865
+"296" "GP" "F" 17 "U" "GT3" "T" 4 3 "health" "services" "reputation" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "no" "yes" "no" 4 2 2 1 2 3 0 16 16 16 1.5 FALSE FALSE 0.202581020664484
+"297" "GP" "F" 17 "R" "LE3" "T" 3 1 "services" "other" "reputation" "yes" "no" "mother" 2 4 0 "no" "yes" "yes" "no" "yes" "no" 3 1 2 1 1 3 3 18 18 18 1 FALSE FALSE 0.202581020664484
+"298" "GP" "M" 18 "R" "LE3" "T" 3 2 "services" "other" "reputation" "yes" "yes" "mother" 2 3 0 "no" "yes" "yes" "yes" "yes" "no" 5 4 2 1 1 4 4 14 14 14 1 FALSE FALSE 0.366469319001781
+"299" "GP" "M" 17 "U" "GT3" "T" 3 3 "health" "other" "home" "yes" "yes" "mother" 1 1 0 "no" "yes" "yes" "no" "yes" "no" 4 4 3 1 3 5 2 14 14 13 2 FALSE FALSE 0.366469319001781
+"300" "GP" "F" 19 "U" "GT3" "T" 4 4 "health" "other" "reputation" "yes" "yes" "other" 2 2 0 "no" "yes" "yes" "yes" "yes" "no" 2 3 4 2 3 2 1 12 11 6 2.5 TRUE FALSE 0.202581020664484
+"301" "GP" "F" 18 "U" "LE3" "T" 4 3 "other" "other" "home" "yes" "yes" "other" 2 2 0 "no" "yes" "yes" "no" "yes" "yes" 4 4 5 1 2 2 5 12 11 11 1.5 FALSE FALSE 0.180555362195864
+"302" "GP" "F" 18 "U" "GT3" "T" 4 3 "other" "other" "reputation" "yes" "yes" "father" 1 4 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 1 1 3 0 15 15 16 1 FALSE FALSE 0.202581020664484
+"303" "GP" "M" 18 "U" "LE3" "T" 4 4 "teacher" "teacher" "home" "yes" "yes" "mother" 1 1 0 "no" "yes" "yes" "no" "yes" "yes" 1 4 2 2 2 1 2 17 16 16 2 FALSE FALSE 0.334090315379865
+"304" "GP" "F" 18 "U" "LE3" "A" 4 4 "health" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "yes" 4 2 4 1 1 4 7 13 12 13 1 FALSE FALSE 0.206229346676854
+"305" "GP" "M" 17 "U" "LE3" "T" 4 4 "other" "teacher" "home" "yes" "yes" "father" 2 1 0 "no" "no" "yes" "no" "yes" "no" 4 1 1 2 2 5 0 12 12 12 2 FALSE FALSE 0.366469319001781
+"306" "GP" "F" 17 "U" "GT3" "T" 4 2 "other" "other" "reputation" "yes" "yes" "mother" 2 3 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 1 1 3 0 16 14 15 1 FALSE FALSE 0.202581020664484
+"307" "GP" "F" 17 "U" "GT3" "T" 3 2 "health" "health" "reputation" "no" "yes" "father" 1 4 0 "no" "yes" "yes" "yes" "yes" "no" 5 2 2 1 2 5 0 18 18 18 1.5 FALSE FALSE 0.202581020664484
+"308" "GP" "M" 20 "U" "GT3" "A" 3 2 "services" "other" "course" "yes" "no" "other" 1 1 1 "no" "no" "no" "yes" "yes" "no" 5 5 3 1 1 5 0 16 16 16 1 FALSE TRUE 0.527237948481125
+"309" "GP" "M" 19 "R" "GT3" "T" 3 3 "other" "services" "reputation" "yes" "no" "father" 1 2 0 "no" "no" "no" "yes" "yes" "yes" 4 5 3 1 2 5 0 12 11 12 1.5 FALSE FALSE 0.334090315379865
+"310" "GP" "F" 18 "U" "GT3" "T" 2 1 "services" "other" "course" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "yes" "yes" "no" 5 3 3 1 2 1 1 10 10 8 1.5 FALSE FALSE 0.202581020664484
+"311" "GP" "F" 18 "U" "GT3" "T" 4 3 "other" "other" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "yes" 4 3 4 1 1 5 6 12 12 13 1 FALSE FALSE 0.180555362195864
+"312" "GP" "F" 17 "R" "GT3" "T" 3 4 "at_home" "services" "course" "no" "yes" "father" 1 3 0 "no" "yes" "yes" "yes" "yes" "no" 4 3 4 2 5 5 1 13 13 14 3.5 TRUE FALSE 0.202581020664484
+"313" "GP" "F" 18 "U" "GT3" "T" 4 4 "teacher" "other" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 4 4 3 3 5 1 12 11 12 3 TRUE FALSE 0.202581020664484
+"314" "GP" "F" 17 "U" "GT3" "A" 4 3 "services" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "yes" 5 2 2 1 2 5 18 14 14 15 1.5 FALSE FALSE 0.206229346676854
+"315" "GP" "F" 17 "U" "GT3" "T" 2 2 "other" "other" "course" "yes" "no" "mother" 1 2 0 "no" "yes" "no" "no" "yes" "yes" 4 2 2 1 1 3 8 12 11 11 1 FALSE FALSE 0.180555362195864
+"316" "GP" "F" 17 "R" "LE3" "T" 2 2 "services" "services" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "no" 3 3 2 2 2 3 2 11 11 10 2 FALSE FALSE 0.202581020664484
+"317" "GP" "F" 17 "U" "GT3" "T" 3 1 "services" "services" "course" "no" "yes" "father" 1 3 0 "no" "yes" "no" "no" "yes" "no" 3 4 3 2 3 5 0 14 16 16 2.5 TRUE FALSE 0.202581020664484
+"318" "GP" "F" 17 "U" "LE3" "T" 0 2 "at_home" "at_home" "home" "yes" "yes" "father" 2 3 0 "no" "no" "no" "no" "yes" "no" 3 3 3 2 3 2 0 15 14 15 2.5 TRUE FALSE 0.202581020664484
+"319" "GP" "M" 18 "U" "GT3" "T" 4 4 "other" "other" "course" "yes" "yes" "mother" 1 3 0 "no" "no" "no" "yes" "yes" "no" 4 3 3 2 2 3 2 11 13 12 2 FALSE FALSE 0.366469319001781
+"320" "GP" "M" 17 "U" "GT3" "T" 3 3 "other" "services" "reputation" "no" "yes" "mother" 1 1 0 "no" "no" "no" "yes" "yes" "no" 4 3 5 3 5 5 2 16 16 16 4 TRUE FALSE 0.366469319001781
+"321" "GP" "M" 17 "R" "GT3" "T" 2 2 "services" "other" "course" "yes" "yes" "mother" 4 1 0 "no" "yes" "no" "no" "yes" "no" 4 4 5 5 5 4 5 11 10 10 5 TRUE FALSE 0.366469319001781
+"322" "GP" "F" 17 "U" "GT3" "T" 4 4 "teacher" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 5 4 2 1 4 4 4 10 10 10 2.5 TRUE FALSE 0.202581020664484
+"323" "GP" "F" 17 "U" "GT3" "T" 4 4 "teacher" "services" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "no" 5 4 4 1 3 4 4 12 10 11 2 FALSE FALSE 0.202581020664484
+"324" "GP" "F" 17 "U" "GT3" "T" 4 4 "teacher" "teacher" "course" "no" "yes" "mother" 2 3 0 "no" "yes" "yes" "no" "yes" "yes" 4 3 3 1 2 4 4 14 14 14 1.5 FALSE FALSE 0.180555362195864
+"325" "GP" "M" 18 "U" "LE3" "T" 2 2 "other" "other" "course" "yes" "yes" "mother" 1 4 0 "no" "yes" "no" "yes" "yes" "no" 4 5 5 2 4 5 1 10 10 10 3 TRUE FALSE 0.366469319001781
+"326" "GP" "F" 17 "R" "GT3" "T" 2 4 "at_home" "other" "course" "yes" "yes" "father" 1 3 0 "no" "yes" "no" "no" "yes" "yes" 4 4 3 1 1 5 4 14 14 14 1 FALSE FALSE 0.180555362195864
+"327" "GP" "F" 18 "U" "GT3" "T" 3 3 "services" "services" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "no" 5 3 4 1 1 4 4 8 6 6 1 FALSE FALSE 0.202581020664484
+"328" "GP" "F" 18 "U" "LE3" "T" 2 2 "other" "other" "home" "no" "yes" "other" 1 2 0 "no" "no" "no" "yes" "yes" "yes" 4 3 3 1 1 2 0 9 8 6 1 FALSE FALSE 0.180555362195864
+"329" "GP" "F" 18 "R" "GT3" "T" 2 2 "at_home" "other" "course" "yes" "no" "mother" 2 4 0 "no" "no" "no" "yes" "yes" "no" 4 4 4 1 1 4 3 12 11 7 1 FALSE FALSE 0.202581020664484
+"330" "GP" "F" 17 "U" "GT3" "T" 3 4 "services" "other" "course" "yes" "yes" "mother" 1 3 0 "no" "no" "no" "no" "yes" "no" 4 4 5 1 3 5 12 14 14 14 2 FALSE FALSE 0.202581020664484
+"331" "GP" "F" 17 "U" "GT3" "T" 3 2 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "yes" 4 3 2 2 3 2 0 10 10 8 2.5 TRUE FALSE 0.180555362195864
+"332" "GP" "F" 18 "U" "LE3" "T" 3 3 "services" "services" "home" "yes" "yes" "mother" 1 4 0 "no" "yes" "no" "no" "yes" "no" 5 3 3 1 1 1 6 15 14 16 1 FALSE FALSE 0.202581020664484
+"333" "GP" "F" 17 "R" "GT3" "A" 3 2 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 3 2 3 2 2 12 12 13 2.5 TRUE FALSE 0.230505936552646
+"334" "GP" "M" 18 "U" "GT3" "T" 4 4 "teacher" "services" "home" "yes" "yes" "father" 2 2 0 "no" "yes" "no" "yes" "yes" "no" 4 2 4 2 3 2 3 10 11 6 2.5 TRUE FALSE 0.366469319001781
+"335" "GP" "M" 18 "U" "GT3" "T" 4 4 "teacher" "services" "home" "yes" "yes" "father" 1 2 0 "no" "yes" "no" "yes" "yes" "no" 4 3 3 2 2 2 0 11 11 6 2 FALSE FALSE 0.366469319001781
+"336" "GP" "M" 18 "U" "LE3" "T" 3 4 "services" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "no" "yes" "yes" "yes" 4 3 3 1 3 5 8 16 16 16 2 FALSE FALSE 0.334090315379865
+"337" "GP" "F" 17 "U" "GT3" "A" 2 2 "at_home" "at_home" "home" "yes" "yes" "father" 1 2 0 "no" "yes" "no" "no" "yes" "yes" 3 3 1 1 2 4 9 10 10 7 1.5 FALSE FALSE 0.206229346676854
+"338" "GP" "F" 18 "U" "GT3" "T" 2 3 "at_home" "other" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "no" "no" "yes" "no" 4 3 3 1 2 3 2 11 11 12 1.5 FALSE FALSE 0.202581020664484
+"339" "GP" "F" 18 "U" "GT3" "T" 3 2 "other" "services" "other" "yes" "yes" "mother" 1 3 0 "no" "no" "no" "no" "yes" "yes" 5 4 3 2 3 1 6 14 14 16 2.5 TRUE FALSE 0.180555362195864
+"340" "GP" "M" 18 "R" "GT3" "T" 4 3 "teacher" "services" "course" "yes" "yes" "mother" 1 3 0 "no" "no" "no" "no" "yes" "yes" 5 3 2 1 2 4 6 16 14 16 1.5 FALSE FALSE 0.334090315379865
+"341" "GP" "M" 18 "U" "GT3" "T" 4 3 "teacher" "other" "course" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "no" "yes" "yes" 5 4 5 2 3 5 0 12 12 12 2.5 TRUE FALSE 0.334090315379865
+"342" "GP" "F" 17 "U" "GT3" "T" 4 3 "health" "other" "reputation" "yes" "yes" "mother" 1 3 0 "no" "yes" "yes" "yes" "yes" "yes" 4 4 3 1 3 4 0 12 14 14 2 FALSE FALSE 0.180555362195864
+"343" "MS" "M" 18 "R" "GT3" "T" 3 2 "other" "other" "course" "no" "yes" "mother" 2 1 0 "no" "yes" "no" "no" "yes" "no" 2 5 5 5 5 5 9 10 12 12 5 TRUE FALSE 0.366469319001781
+"344" "MS" "M" 19 "R" "GT3" "T" 1 1 "other" "services" "home" "yes" "yes" "other" 3 2 2 "no" "no" "no" "no" "yes" "no" 5 4 4 3 3 2 8 9 8 10 3 TRUE TRUE 0.607292558112848
+"345" "MS" "M" 17 "U" "GT3" "T" 3 3 "health" "other" "course" "yes" "yes" "mother" 2 2 0 "no" "yes" "yes" "no" "yes" "no" 4 5 4 2 3 3 3 10 11 12 2.5 TRUE FALSE 0.366469319001781
+"346" "MS" "M" 18 "U" "LE3" "T" 1 3 "at_home" "services" "course" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "no" "no" "yes" 4 3 3 2 3 3 4 8 8 8 2.5 TRUE FALSE 0.334090315379865
+"347" "MS" "M" 19 "R" "GT3" "T" 1 1 "other" "other" "home" "yes" "yes" "other" 3 1 1 "no" "yes" "no" "no" "yes" "no" 4 4 4 3 3 5 4 8 8 9 3 TRUE FALSE 0.48607261765707
+"348" "MS" "M" 17 "R" "GT3" "T" 4 3 "services" "other" "home" "no" "yes" "mother" 2 2 0 "no" "yes" "yes" "yes" "yes" "yes" 4 5 5 1 3 2 4 12 11 11 2 FALSE FALSE 0.334090315379865
+"349" "MS" "F" 18 "U" "GT3" "T" 3 3 "services" "services" "course" "yes" "no" "father" 1 2 0 "no" "yes" "no" "no" "yes" "yes" 5 3 4 1 1 5 0 10 10 10 1 FALSE FALSE 0.180555362195864
+"350" "MS" "F" 17 "R" "GT3" "T" 4 4 "teacher" "services" "other" "yes" "yes" "father" 2 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 3 3 1 2 5 3 12 12 12 1.5 FALSE FALSE 0.202581020664484
+"351" "MS" "F" 17 "U" "LE3" "A" 3 2 "services" "other" "reputation" "yes" "no" "mother" 2 2 0 "no" "no" "no" "no" "yes" "yes" 1 2 3 1 2 5 1 14 13 13 1.5 FALSE FALSE 0.206229346676854
+"352" "MS" "M" 18 "U" "LE3" "T" 1 1 "other" "services" "home" "no" "yes" "father" 2 1 0 "no" "no" "no" "no" "yes" "yes" 3 3 2 1 2 3 3 12 12 12 1.5 FALSE FALSE 0.334090315379865
+"353" "MS" "F" 18 "U" "LE3" "T" 1 1 "at_home" "services" "course" "yes" "yes" "father" 2 3 0 "no" "no" "no" "no" "yes" "no" 5 3 2 1 1 4 0 18 16 17 1 FALSE FALSE 0.202581020664484
+"354" "MS" "F" 18 "U" "GT3" "T" 3 3 "services" "services" "other" "yes" "yes" "mother" 2 2 0 "no" "yes" "no" "no" "yes" "yes" 4 3 2 1 3 3 3 12 12 12 2 FALSE FALSE 0.180555362195864
+"355" "MS" "F" 17 "U" "LE3" "T" 4 4 "at_home" "at_home" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "yes" 2 3 4 1 1 1 2 16 14 15 1 FALSE FALSE 0.180555362195864
+"356" "MS" "F" 17 "R" "GT3" "T" 1 2 "other" "services" "course" "no" "no" "father" 2 2 0 "no" "no" "no" "no" "yes" "no" 3 2 2 1 2 3 0 12 12 12 1.5 FALSE FALSE 0.202581020664484
+"357" "MS" "M" 18 "R" "GT3" "T" 1 3 "at_home" "other" "course" "yes" "no" "mother" 2 2 0 "no" "yes" "yes" "no" "yes" "no" 3 3 4 2 4 3 2 9 10 10 3 TRUE FALSE 0.366469319001781
+"358" "MS" "M" 18 "U" "LE3" "T" 4 4 "teacher" "services" "other" "yes" "yes" "mother" 2 3 0 "no" "no" "yes" "no" "yes" "yes" 4 2 2 2 2 5 0 14 14 14 2 FALSE FALSE 0.334090315379865
+"359" "MS" "F" 17 "R" "GT3" "T" 1 1 "other" "services" "reputation" "yes" "yes" "mother" 3 1 1 "no" "yes" "yes" "no" "yes" "yes" 5 2 1 1 2 1 0 8 7 4 1.5 FALSE FALSE 0.264848290442272
+"360" "MS" "F" 18 "U" "GT3" "T" 2 3 "at_home" "services" "course" "yes" "yes" "father" 2 1 0 "no" "yes" "yes" "no" "yes" "yes" 5 2 3 1 2 4 0 10 10 10 1.5 FALSE FALSE 0.180555362195864
+"361" "MS" "F" 18 "R" "GT3" "T" 4 4 "other" "teacher" "other" "no" "yes" "father" 3 2 0 "no" "yes" "yes" "no" "yes" "yes" 3 2 2 4 2 5 5 10 8 6 3 TRUE FALSE 0.180555362195864
+"362" "MS" "M" 18 "R" "LE3" "T" 1 2 "at_home" "services" "other" "yes" "yes" "father" 3 1 0 "no" "yes" "yes" "yes" "no" "yes" 4 3 3 2 3 3 3 12 11 11 2.5 TRUE FALSE 0.334090315379865
+"363" "MS" "F" 17 "U" "GT3" "T" 2 2 "other" "at_home" "home" "yes" "no" "mother" 1 3 0 "no" "no" "no" "yes" "yes" "yes" 3 4 3 1 1 3 8 12 11 12 1 FALSE FALSE 0.180555362195864
+"364" "MS" "F" 17 "R" "GT3" "T" 1 2 "other" "other" "course" "yes" "yes" "mother" 1 1 0 "no" "no" "no" "yes" "yes" "no" 3 5 5 1 3 1 9 6 6 7 2 FALSE FALSE 0.202581020664484
+"365" "MS" "F" 18 "R" "LE3" "T" 4 4 "other" "other" "reputation" "yes" "yes" "mother" 2 3 0 "no" "no" "no" "no" "yes" "no" 5 4 4 1 1 1 0 17 18 18 1 FALSE FALSE 0.202581020664484
+"366" "MS" "F" 18 "R" "GT3" "T" 1 1 "other" "other" "home" "yes" "yes" "mother" 4 3 0 "no" "no" "no" "no" "yes" "no" 4 3 2 1 2 4 3 9 10 11 1.5 FALSE FALSE 0.202581020664484
+"367" "MS" "F" 18 "R" "LE3" "T" 4 4 "teacher" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "yes" "yes" "no" 5 4 3 3 4 2 2 10 12 12 3.5 TRUE FALSE 0.202581020664484
+"368" "MS" "F" 18 "U" "GT3" "T" 3 3 "other" "other" "home" "yes" "yes" "mother" 1 2 0 "no" "no" "yes" "no" "yes" "yes" 4 1 3 1 2 1 0 16 16 16 1.5 FALSE FALSE 0.180555362195864
+"369" "MS" "F" 17 "R" "GT3" "T" 3 1 "at_home" "other" "reputation" "no" "yes" "mother" 1 2 0 "no" "yes" "yes" "yes" "yes" "no" 4 5 4 2 3 1 14 9 10 10 2.5 TRUE FALSE 0.202581020664484
+"370" "MS" "M" 18 "U" "GT3" "T" 4 4 "teacher" "teacher" "home" "no" "yes" "father" 1 2 0 "no" "no" "yes" "yes" "yes" "no" 3 2 4 1 4 2 4 16 16 16 2.5 TRUE FALSE 0.366469319001781
+"371" "MS" "M" 18 "R" "GT3" "T" 2 1 "other" "other" "other" "no" "yes" "mother" 2 1 0 "no" "no" "no" "yes" "yes" "yes" 4 4 3 1 3 5 2 7 6 4 2 FALSE FALSE 0.334090315379865
+"372" "MS" "M" 17 "U" "GT3" "T" 2 3 "other" "services" "home" "yes" "yes" "father" 2 2 0 "no" "no" "no" "yes" "yes" "no" 4 4 3 1 1 3 3 12 13 13 1 FALSE FALSE 0.366469319001781
+"373" "MS" "M" 19 "R" "GT3" "T" 1 1 "other" "services" "other" "yes" "no" "mother" 2 1 1 "no" "no" "no" "no" "yes" "no" 4 3 2 1 3 5 0 6 6 0 2 FALSE FALSE 0.48607261765707
+"374" "MS" "M" 18 "R" "GT3" "T" 4 2 "other" "other" "home" "yes" "no" "father" 2 1 1 "no" "no" "yes" "no" "yes" "no" 5 4 3 4 3 3 7 6 6 2 3.5 TRUE FALSE 0.48607261765707
+"375" "MS" "F" 18 "R" "GT3" "T" 2 2 "at_home" "other" "other" "yes" "no" "mother" 2 3 0 "no" "no" "yes" "no" "yes" "no" 5 3 3 1 3 4 1 12 13 12 2 FALSE FALSE 0.202581020664484
+"376" "MS" "F" 18 "R" "GT3" "T" 4 4 "teacher" "at_home" "reputation" "yes" "yes" "mother" 3 1 0 "no" "yes" "yes" "yes" "yes" "yes" 4 4 3 2 2 5 6 6 7 8 2 FALSE FALSE 0.180555362195864
+"377" "MS" "F" 19 "R" "GT3" "T" 2 3 "services" "other" "course" "no" "yes" "mother" 1 3 1 "no" "no" "no" "yes" "yes" "no" 5 4 2 1 2 5 2 8 8 5 1.5 FALSE FALSE 0.293474063584148
+"378" "MS" "F" 18 "U" "LE3" "T" 3 1 "teacher" "services" "course" "yes" "yes" "mother" 1 2 0 "no" "yes" "yes" "no" "yes" "no" 4 3 4 1 1 1 2 11 12 12 1 FALSE FALSE 0.202581020664484
+"379" "MS" "F" 18 "U" "GT3" "T" 1 1 "other" "other" "course" "yes" "no" "mother" 2 2 2 "no" "no" "no" "yes" "yes" "no" 2 2 2 2 2 5 2 6 6 4 2 FALSE FALSE 0.404463552214493
+"380" "MS" "F" 18 "U" "GT3" "T" 1 1 "other" "other" "course" "yes" "no" "mother" 2 2 0 "no" "no" "no" "yes" "yes" "no" 1 1 1 1 1 5 3 8 8 4 1 FALSE FALSE 0.202581020664484
+"381" "MS" "M" 17 "U" "LE3" "T" 3 1 "services" "services" "course" "no" "yes" "mother" 2 1 0 "no" "no" "no" "no" "yes" "no" 2 4 5 3 4 2 4 12 13 13 3.5 TRUE FALSE 0.366469319001781
+"382" "MS" "M" 18 "R" "LE3" "T" 3 2 "services" "other" "course" "no" "yes" "mother" 3 1 0 "no" "no" "no" "no" "yes" "no" 4 4 1 3 4 5 2 10 12 10 3.5 TRUE FALSE 0.366469319001781
