@@ -1,0 +1,128 @@
+---
+title: "Chapter 5"
+author: "ville"
+date: "01/12/2019"
+output: html_document
+---
+
+# Excercise 5
+
+
+## 1) Graphical overview and summary of the data
+
+```{r}
+install.packages("ggplot2", repos="http://cran.us.r-project.org")
+install.packages("GGally", repos="http://cran.us.r-project.org")
+install.packages("dplyr", repos="http://cran.us.r-project.org")
+install.packages("corrplot", repos="http://cran.us.r-project.org")
+install.packages("MASS", repos="http://cran.us.r-project.org")
+install.packages("stringr", repos="http://cran.us.r-project.org")
+
+
+library(ggplot2)
+library(GGally)
+library(dplyr)
+library(corrplot)
+library(MASS)
+library(stringr)
+
+install.packages("tidyr", repos="http://cran.us.r-project.org")
+
+library(tidyr)
+
+url <- "/Users/ville/Documents/IODS-project/data/human_"
+
+
+human <- read.table(url, header=TRUE)
+str(human)
+
+
+human$GNI <- str_replace(human$GNI, pattern=",", replace ="") %>% as.numeric()
+
+str(human$GNI)
+
+ggpairs(human)
+
+cor(human) %>% corrplot()
+```
+From the above corrplot picture we can see the correlations between the variables. There seems to be strong positive correlation between Average years of education and life expectancy at birth. Also theres a negative correlation between maternal mortality and average years of education. GNI also has positive correlation with life expectancy and average years of education and negative correlation with maternal mortality rate and birth rate.
+
+## 2) PCA analysis on not standardized data
+
+```{r}
+pca_human <- prcomp(human)
+
+s <- summary(pca_human)
+s
+pca_pr <- round(100*s$importance[2, ], digits = 1)
+pc_lab <- paste0(names(pca_pr), " (", pca_pr, "%)")
+
+biplot(pca_human, cex = c(0.8, 1), col = c("grey40", "deeppink2"), xlab = pc_lab[1], ylab = pc_lab[2])
+
+
+```
+
+From the unstandardized PCA we can see that the Principal components cannot be separated as all the components are in PC1 and it explains the variance completely. 
+
+
+## 3 PCA with standardized variables
+
+```{r}
+human_std <- scale(human)
+pca_human_std <- prcomp(human_std)
+
+s2 <- summary(pca_human_std)
+s2
+pca_pr <- round(100*s2$importance[2, ], digits = 1)
+
+pca_pr
+
+pc_lab <- paste0(names(pca_pr), " (", pca_pr, "%)")
+
+biplot(pca_human_std, cex = c(0.8, 1), col = c("grey40", "deeppink2"), xlab = pc_lab[1], ylab = pc_lab[2])
+
+
+```
+
+
+
+
+## 4 Intepretation of the standardized PCA
+
+In the standardized model the first components explain 53,6 % of the variance and the second dimension (PC2) explaints 16,2 % of the variance. 
+PC3 has 9,5 % of the variance and 4 has 7,5 %. So the First dimension explains over half of the variance.
+
+## 5 Tea dataset analysis
+
+```{r}
+install.packages("FactoMineR", repos="http://cran.us.r-project.org")
+library(FactoMineR)
+
+data(tea)
+
+str(tea)
+
+keep_columns <- c("Tea", "How", "how", "sugar", "where", "lunch")
+
+tea_time <- dplyr::select(tea, one_of(keep_columns))
+
+summary(tea_time)
+str(tea_time)
+
+gather(tea_time) %>% ggplot(aes(value)) + facet_wrap("key", scales = "free") + geom_bar() + theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 8))
+
+
+```
+
+After the restructuration the data has 300 observations with the selected 6 variables. On the visualisation we can see how the participants drink their tee. For example we can see that most of them do not drink tee at lunch. Earl Grey is the most common label and these participants like to drink their tee plain withoutlemon, or milk. Only thing almost half of the participants like to add is sugar.
+
+### MCA on tea data
+
+```{r}
+mca <- MCA(tea_time, graph = FALSE)
+summary(mca)
+
+plot(mca, invisible=c("ind"), habillage = "quali")
+
+```
+From the MCA visualisation we can see how the participants are put into different dimensions. For example participants who take their tea fro tea shops like to drink their tea unpackaged and like to drink geen tea. Aslo we can see that milk is more ofen with Earl grey than black or green tea.
