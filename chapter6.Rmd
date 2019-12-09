@@ -1,0 +1,173 @@
+---
+title: "Chapter 6"
+author: "ville"
+date: "06/12/2019"
+output: html_document
+---
+
+
+```{r}
+install.packages("ggplot2", repos="http://cran.us.r-project.org")
+install.packages("GGally", repos="http://cran.us.r-project.org")
+install.packages("dplyr", repos="http://cran.us.r-project.org")
+install.packages("stringr", repos="http://cran.us.r-project.org")
+install.packages("tidyr", repos="http://cran.us.r-project.org")
+install.packages("lme4", repos="http://cran.us.r-project.org")
+
+library(ggplot2)
+library(GGally)
+library(dplyr)
+library(stringr)
+library(tidyr)
+library(lme4)
+
+```
+
+
+
+
+
+# Excercise 6
+
+## Reading the data
+```{r}
+url <- "/Users/ville/Documents/IODS-project/data/BPRSL"
+
+BPRSL <- read.table(url, header=TRUE)
+
+url2 <- "/Users/ville/Documents/IODS-project/data/RATSL"
+
+RATSL <- read.table(url2, header=TRUE)
+
+str(BPRSL)
+str(RATSL)
+
+```
+
+
+## 1) Analysis on RATSL data (chapter 8)
+
+```{r}
+RATSL$ID <- factor(RATSL$ID)
+RATSL$Group <- factor(RATSL$Group)
+
+BPRSL$treatment <- factor(BPRSL$treatment)
+BPRSL$subject <- factor(BPRSL$subject)
+```
+
+Needed to change again as factors as the variables were transformed to int
+
+### Plotting the RATSL data
+
+```{r}
+
+ggplot(RATSL, aes(x = Time, y = Weight, linetype = ID)) +
+  geom_line() +   scale_linetype_manual(values = rep(1:10, times=4)) +
+  facet_grid(. ~ Group, labeller = label_both) +
+  theme(legend.position = "none") + 
+  scale_y_continuous(limits = c(min(RATSL$Weight), max(RATSL$Weight)))
+```
+
+In this picture we can see the three groups and how their weight has changed over the 64 days.
+
+### Standardizing the data
+
+```{r}
+RATSL <- RATSL %>%
+  group_by(Time) %>%
+  mutate(stdweight = (Weight - mean(Weight))/sd(Weight)) %>%
+  ungroup()
+
+glimpse(RATSL)
+
+```
+
+### Plotting again with standardized weight
+
+```{r}
+ggplot(RATSL, aes(x = Time, y = stdweight, linetype = ID)) +
+  geom_line() +
+  scale_linetype_manual(values = rep(1:10, times=4)) +
+  facet_grid(. ~ Group, labeller = label_both) +
+  scale_y_continuous(name = "standardized weight")
+```
+Here in the scaled plots we can see how the mean weights differs between groups. Group 1 differs drastically from the two other groups.
+
+
+### Summary graphs
+
+```{r}
+n <- RATSL$Time %>% unique() %>% length()
+
+RATSS <- RATSL %>%
+  group_by(Group, Time) %>%
+  summarise( mean = mean(Weight), se = (sd(Weight)/sqrt(n)) ) %>%
+  ungroup()
+
+ggplot(RATSS, aes(x = Time, y = mean, linetype = Group, shape = Group)) +
+  geom_line() +
+  scale_linetype_manual(values = c(1,2, 3)) +
+  geom_point(size=3) +
+  scale_shape_manual(values = c(1,2 ,3)) +
+  #geom_errorbar(aes(ymin=mean-se, ymax=mean+se, linetype="1"), width=0.3) +
+  theme(legend.position = c(0.8,0.8)) +
+  scale_y_continuous(name = "mean(Weight) +/- se(Weight)")
+
+```
+
+The boxplot above gives us a bit different view and makes it easier to compare different time points.We can see that all groups have some weight gain in the 64 days.
+
+
+```{r}
+ggplot(RATSS, aes(x = Group, y = mean)) +
+  geom_boxplot() +
+  stat_summary(fun.y = "mean", geom = "point", shape=23, size=4, fill = "white") + scale_y_continuous(name = "mean(Weight), days 1-64")
+```
+The outliers can be seen in this graph and it can be seen that the group 2 has the biggest outlier values that we could also see from the previous graphs. 
+
+
+## Assignment 2 - using the BPRS
+
+```{r}
+str(BPRSL)
+
+ggplot(BPRSL, aes(x = week, y = bprs, group = subject)) + geom_line() + facet_grid(. ~ treatment, labeller = label_both) 
+```
+
+Here we can see how the different subjects in the treatment groups have changed in their bprs (brief psychiatric rating scale) scores.
+
+
+### Using the linear regression model
+
+```{r}
+BPRS_reg <- lm(bprs ~ week + treatment, data=BPRSL)
+
+summary(BPRS_reg)
+```
+Here we can see that time has statistical significance with the week variable and it is negative. Meaning the bprs scores have dropepd over time. Treatment on the other hand doesnt seem to have significant correlance with the bprs scores 
+
+### random intercept model
+
+```{r}
+
+BPRS_ref <- lmer(bprs ~ week + treatment + (1 | subject), data = BPRSL, REML = FALSE)
+
+summary(BPRS_ref)
+
+```
+
+Still the week variable has the significant correlation in the random intercept model. Which tekaes into account the non-independence of the repeated measures.
+
+
+```{r}
+
+BPRS_ref1 <- lmer(bprs ~ week + treatment + (week | subject), data = BPRSL, REML = FALSE)
+
+
+anova(BPRS_ref1, BPRS_ref)
+```
+
+
+Only the latter model is somewhat sifgnificant. Theres not a huge difference in the log likelyhood. Meaning the interaction model is not significantly better at explaining the phenomenom than the random intercept mmodel.
+
+
